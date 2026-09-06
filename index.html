@@ -222,19 +222,18 @@ th.n2{color:var(--violeta)}
 .vert p{line-height:1.4}
 .vert .por,.vert .conv{font-size:12px}
 /* impacto */
-.impactos{display:flex; flex-direction:column; gap:13px}
-.imp{display:grid; grid-template-columns:44px 1fr; gap:0 18px; align-items:start;
-  border:1px solid var(--regla); border-radius:14px; padding:18px 22px; background:var(--panel)}
-.imp .num{font-size:26px; font-weight:600; color:var(--violeta); line-height:1;
-  letter-spacing:-.04em}
-.imp .it{font-size:clamp(18px,2.1vw,23px); font-weight:600; letter-spacing:-.026em;
-  margin-bottom:6px; line-height:1.14}
-.imp p{font-size:14px; margin:0; max-width:66ch}
+.impactos{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:clamp(13px,2vw,20px); align-items:stretch}
+.imp{display:flex; flex-direction:column; border:1px solid var(--regla); border-radius:16px;
+  padding:clamp(20px,2.6vh,28px) clamp(19px,2.2vw,26px); background:var(--panel)}
+.imp .num{font-size:34px; font-weight:600; color:var(--violeta); line-height:1;
+  letter-spacing:-.05em; margin-bottom:14px}
+.imp .it{font-size:clamp(19px,2.2vw,24px); font-weight:600; letter-spacing:-.028em;
+  margin-bottom:10px; line-height:1.12}
+.imp p{font-size:14px; margin:0; max-width:none; line-height:1.45}
 .imp.eje{background:var(--hondo2); border-color:var(--hondo2)}
 .imp.eje .num{color:var(--claro)} .imp.eje .it{color:#fff} .imp.eje p{color:#DBCDF3}
-.imp.vacia{border-style:dashed; border-color:var(--violeta); background:transparent;
-  opacity:.55; grid-template-columns:1fr; text-align:center; color:var(--violeta);
-  font-size:12.5px; font-weight:500; padding:15px}
+.imp.eje p b{color:#fff}
 .vert{border:1px solid var(--regla); border-radius:13px; padding:15px 17px; background:var(--panel)}
 .vert .vn{font-size:clamp(16px,1.85vw,19px); font-weight:600; letter-spacing:-.024em; margin-bottom:5px}
 .vert p{font-size:13px; margin:0; max-width:none}
@@ -647,46 +646,52 @@ th.n2{color:var(--violeta)}
   </div>
 </section>
 
-<!-- IMPACTO -->
+<!-- IMPACTO 1 -->
 <section class="s" data-t="El impacto">
   <div class="in">
     <div class="rot"><span class="p">13</span><span class="n">El impacto</span></div>
     <h2>Qué cambia si las nueve verticales funcionan.</h2>
-
-    <div class="impactos" style="margin-top:20px">
+    <div class="impactos" style="margin-top:22px">
       <div class="imp eje">
         <div class="num">01</div>
-        <div>
-          <div class="it">Podemos entrar a cualquier evento</div>
-          <p>Con nueve verticales cubiertas dejamos de depender de un solo tema. Entramos a un evento
-          de comercio, a una cámara inmobiliaria, a una mesa de economía o a un panel de tecnología,
-          con el mismo material y sin forzar nada. <b>Esa flexibilidad es lo que consigue el volumen
-          de escenarios, y el volumen de escenarios es lo que consigue el material.</b></p>
-        </div>
+        <div class="it">Podemos entrar a cualquier evento</div>
+        <p>Con nueve verticales cubiertas dejamos de depender de un solo tema. Entramos a un evento de comercio, a una cámara inmobiliaria, a una mesa de economía o a un panel de tecnología, con el mismo material y sin forzar nada. <b>Esa flexibilidad es lo que consigue el volumen de escenarios, y el volumen de escenarios es lo que consigue el material.</b></p>
       </div>
-
       <div class="imp eje">
         <div class="num">02</div>
-        <div>
-          <div class="it">Las empresas se acercan solas a resolver su problema</div>
-          <p>El que tiene el problema busca al que habla del problema. Deja de ser prospección y pasa
-          a ser una conversación que arranca el otro. <b>Es exactamente el indicador que hoy está en
-          cero: invitaciones y consultas entrantes que nadie gestionó.</b></p>
-        </div>
+        <div class="it">Las empresas se acercan solas</div>
+        <p>El que tiene el problema busca al que habla del problema. Deja de ser prospección y pasa a ser una conversación que arranca el otro. <b>Es exactamente el indicador que hoy está en cero: invitaciones y consultas entrantes que nadie gestionó.</b></p>
       </div>
-
       <div class="imp">
         <div class="num">03</div>
-        <div>
-          <div class="it">El lugar está vacío</div>
-          <p>Hoy no hay alguien serio hablando de aplicar tecnología de verdad en empresas que no son
-          tecnológicas. Hay vendedores de software y hay motivadores. <b>No hay un empresario que
-          opere, que construya, y que además lo explique.</b> Ese lugar no está disputado: está
-          libre.</p>
-        </div>
+        <div class="it">El lugar está vacío</div>
+        <p>Hoy no hay alguien serio hablando de aplicar tecnología de verdad en empresas que no son tecnológicas. Hay vendedores de software y hay motivadores. <b>No hay un empresario que opere, que construya, y que además lo explique.</b> Ese lugar no está disputado: está libre.</p>
       </div>
+    </div>
+  </div>
+</section>
 
-      <div class="imp vacia">+ agregar el siguiente</div>
+<!-- IMPACTO 2 -->
+<section class="s" data-t="El impacto">
+  <div class="in">
+    <div class="rot"><span class="p">14</span><span class="n">El impacto</span></div>
+    <h2>Y lo que queda después de cada aparición.</h2>
+    <div class="impactos" style="margin-top:22px">
+      <div class="imp eje">
+        <div class="num">04</div>
+        <div class="it">Contactos</div>
+        <p>Cada escenario deja gente, y no hablo de seguidores: nombres con los que se puede hablar al día siguiente. <b>De un solo evento salen más contactos útiles que de un mes de prospección</b>, y llegan predispuestos, porque me vieron hablar antes de darme la mano.</p>
+      </div>
+      <div class="imp eje">
+        <div class="num">05</div>
+        <div class="it">Credibilidad y confianza</div>
+        <p>Es lo que hace que la reunión empiece resuelta. El que me vio en un escenario ya decidió que puede confiar antes de sentarse. <b>Eso no se compra con publicidad y no se consigue explicándolo: se consigue mostrándolo.</b></p>
+      </div>
+      <div class="imp">
+        <div class="num">06</div>
+        <div class="it">Apertura</div>
+        <p>Puertas que hoy están cerradas y se abren solas: cámaras, colegios, medios y eventos que no me invitan porque todavía no saben que existo. <b>Cada aparición hace más barata la siguiente</b>, y en algún punto dejo de pedirlas.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -694,7 +699,7 @@ th.n2{color:var(--violeta)}
 <!-- 07 · LA INVERSION -->
 <section class="s" data-t="La inversión">
   <div class="in">
-    <div class="rot"><span class="p">14</span><span class="n">La inversión</span></div>
+    <div class="rot"><span class="p">15</span><span class="n">La inversión</span></div>
     <h2 class="lig" style="max-width:26ch">Un millón por mes hasta diciembre. <span class="viol">Cuatro millones, de mi bolsillo.</span></h2>
 
     <div class="dos">
@@ -735,7 +740,7 @@ th.n2{color:var(--violeta)}
 <!-- 09 · DONDE QUIERO HABLAR -->
 <section class="s" data-t="Puerta abierta">
   <div class="in">
-    <div class="rot"><span class="p">15</span><span class="n">Puerta abierta</span></div>
+    <div class="rot"><span class="p">16</span><span class="n">Puerta abierta</span></div>
     <h2>Donde actualmente tenemos puerta abierta.</h2>
     <div class="salas">
       <div class="sala"><div class="n2b">CUCICBA</div>
@@ -755,7 +760,7 @@ th.n2{color:var(--violeta)}
 <!-- 08 · EL PLAN -->
 <section class="s osc" data-t="El plan">
   <div class="in">
-    <div class="rot"><span class="p">16</span><span class="n">El plan</span></div>
+    <div class="rot"><span class="p">17</span><span class="n">El plan</span></div>
     <h2>Tres movimientos, y un filtro.</h2>
 
     <div class="fases">
@@ -808,7 +813,7 @@ th.n2{color:var(--violeta)}
   <div class="pieb">
     <span class="nom">Alan Tapia</span>
     <span class="don" id="don">Portada</span>
-    <span class="cta" id="cta">01 / 17</span>
+    <span class="cta" id="cta">01 / 18</span>
   </div>
 </div>
 
