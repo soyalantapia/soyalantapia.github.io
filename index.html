@@ -218,8 +218,13 @@ th.n2{color:var(--violeta)}
 .vert{border:1px solid var(--regla); border-radius:13px; padding:15px 17px; background:var(--panel)}
 .vert .vn{font-size:clamp(16px,1.85vw,19px); font-weight:600; letter-spacing:-.024em; margin-bottom:5px}
 .vert p{font-size:13px; margin:0; max-width:none}
+.vert .por{font-size:12.5px; margin:9px 0 0; padding-top:9px; border-top:1px solid var(--regla);
+  color:var(--tinta); line-height:1.4}
+.vert .por b{font-weight:600; color:var(--violeta)}
 .vert.eje{background:var(--hondo2); border-color:var(--hondo2)}
 .vert.eje .vn{color:#fff} .vert.eje p{color:#DBCDF3}
+.vert.eje .por{border-top-color:#6B37A8; color:#F0E8FF}
+.vert.eje .por b{color:var(--claro)}
 
 /* la historia: relato a la izquierda, fotos a la derecha */
 .hist{display:grid; grid-template-columns:1.25fr 1fr; gap:clamp(24px,3.6vw,52px); align-items:start}
@@ -464,7 +469,7 @@ th.n2{color:var(--violeta)}
 <!-- CONTENIDO -->
 <section class="s" data-t="Contenido">
   <div class="in">
-    <div class="rot"><span class="p">09</span><span class="n">Contenido</span></div>
+    <div class="rot"><span class="p">08</span><span class="n">Contenido</span></div>
     <h2>La estrategia de contenido.</h2>
 
     <p class="abre" style="font-size:clamp(17px,2vw,22px); font-weight:400; color:var(--tinta);
@@ -563,32 +568,49 @@ th.n2{color:var(--violeta)}
   </div>
 </section>
 
-<!-- VERTICALES -->
+<!-- VERTICALES 1 -->
 <section class="s" data-t="Verticales">
   <div class="in">
     <div class="rot"><span class="p">10</span><span class="n">Verticales</span></div>
     <h2>Verticales de contenido: de qué hablo.</h2>
-
-    <div class="verts" style="margin-top:22px">
+    <div class="verts" style="margin-top:20px">
       <div class="vert eje"><div class="vn">Comercio</div>
-        <p>Cómo se vende hoy, y qué dejó de funcionar.</p></div>
+        <p>Cómo se vende hoy, y qué dejó de funcionar.</p>
+        <p class="por"><b>Por qué me escucharían.</b> Porque vendo desde los 13 y no paré. Empecé puerta a puerta con cien paños y hoy vendo tecnología a empresas. No lo estudié: lo hice.</p></div>
       <div class="vert eje"><div class="vn">Gastronomía</div>
-        <p>La vertical donde mi palabra tiene peso comprobable.</p></div>
+        <p>La vertical donde mi palabra tiene peso comprobable.</p>
+        <p class="por"><b>Por qué me escucharían.</b> Porque trece marcas de gastronomía dependen todos los días de que lo que construí funcione. No opino del rubro desde afuera.</p></div>
       <div class="vert eje"><div class="vn">Resolver problemas en empresas con tecnología</div>
-        <p>El problema concreto primero y la herramienta después, que es el orden que casi nadie
-        respeta.</p></div>
+        <p>El problema concreto primero, la herramienta después.</p>
+        <p class="por"><b>Por qué me escucharían.</b> Porque es literalmente por lo que me pagan. Veinte empresas me contrataron para eso, y de cada una aprendí dónde se traba.</p></div>
       <div class="vert"><div class="vn">Tecnología</div>
-        <p>El eje que cruza a todas las demás.</p></div>
+        <p>El eje que cruza a todas las demás.</p>
+        <p class="por"><b>Por qué me escucharían.</b> Porque todavía escribo el código. No dirijo a los que construyen: construyo, y hace cuatro años que no paro.</p></div>
       <div class="vert"><div class="vn">Empresas</div>
-        <p>Cómo se opera de verdad, no cómo se cuenta en un caso de éxito.</p></div>
+        <p>Cómo se opera de verdad, no cómo se cuenta en un caso de éxito.</p>
+        <p class="por"><b>Por qué me escucharían.</b> Porque opero dos y lidero setenta personas, a los 25. Hablo de operar, que es lo aburrido y lo que nadie cuenta, no de fundar.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- VERTICALES 2 -->
+<section class="s" data-t="Verticales">
+  <div class="in">
+    <div class="rot"><span class="p">11</span><span class="n">Verticales</span></div>
+    <h2>Y las cuatro que cruzan a todas.</h2>
+    <div class="verts" style="margin-top:20px">
       <div class="vert"><div class="vn">Economía</div>
-        <p>Lo que hace la macro adentro de un negocio chico.</p></div>
+        <p>Lo que hace la macro adentro de un negocio chico.</p>
+        <p class="por"><b>Por qué me escucharían.</b> Porque veo el efecto de cada movimiento en la caja de veinte negocios al mismo tiempo, todos los meses. No leo el dato: lo veo pasar.</p></div>
       <div class="vert"><div class="vn">Situación del país con la tecnología</div>
-        <p>Dónde estamos parados de verdad, contra dónde decimos que estamos.</p></div>
+        <p>Dónde estamos parados de verdad, contra dónde decimos que estamos.</p>
+        <p class="por"><b>Por qué me escucharían.</b> Porque trabajo con empresas que no son tecnológicas y tienen que volverse una. Ahí se ve el país real, no el de las notas.</p></div>
       <div class="vert"><div class="vn">Innovación</div>
-        <p>Qué cambia algo, y qué es sólo comprar una herramienta nueva.</p></div>
+        <p>Qué cambia algo, y qué es sólo comprar una herramienta nueva.</p>
+        <p class="por"><b>Por qué me escucharían.</b> Porque vi de cerca qué se adopta y qué se abandona a los tres meses. La mayoría se abandona, y sé por qué.</p></div>
       <div class="vert"><div class="vn">Innovación en tiempos de crisis</div>
-        <p>Cuando no hay plata para experimentar. Es el que más le sirve al que me escucha.</p></div>
+        <p>Cuando no hay plata para experimentar.</p>
+        <p class="por"><b>Por qué me escucharían.</b> Porque construí todo lo que tengo acá, sin capital de afuera, en los últimos cuatro años. Es el único contexto que conozco.</p></div>
     </div>
   </div>
 </section>
@@ -596,7 +618,7 @@ th.n2{color:var(--violeta)}
 <!-- 07 · LA INVERSION -->
 <section class="s" data-t="La inversión">
   <div class="in">
-    <div class="rot"><span class="p">11</span><span class="n">La inversión</span></div>
+    <div class="rot"><span class="p">12</span><span class="n">La inversión</span></div>
     <h2 class="lig" style="max-width:26ch">Un millón por mes hasta diciembre. <span class="viol">Cuatro millones, de mi bolsillo.</span></h2>
 
     <div class="dos">
@@ -637,7 +659,7 @@ th.n2{color:var(--violeta)}
 <!-- 09 · DONDE QUIERO HABLAR -->
 <section class="s" data-t="Puerta abierta">
   <div class="in">
-    <div class="rot"><span class="p">12</span><span class="n">Puerta abierta</span></div>
+    <div class="rot"><span class="p">13</span><span class="n">Puerta abierta</span></div>
     <h2>Donde actualmente tenemos puerta abierta.</h2>
     <div class="salas">
       <div class="sala"><div class="n2b">CUCICBA</div>
@@ -657,7 +679,7 @@ th.n2{color:var(--violeta)}
 <!-- 08 · EL PLAN -->
 <section class="s osc" data-t="El plan">
   <div class="in">
-    <div class="rot"><span class="p">13</span><span class="n">El plan</span></div>
+    <div class="rot"><span class="p">14</span><span class="n">El plan</span></div>
     <h2>Tres movimientos, y un filtro.</h2>
 
     <div class="fases">
@@ -710,7 +732,7 @@ th.n2{color:var(--violeta)}
   <div class="pieb">
     <span class="nom">Alan Tapia</span>
     <span class="don" id="don">Portada</span>
-    <span class="cta" id="cta">01 / 14</span>
+    <span class="cta" id="cta">01 / 15</span>
   </div>
 </div>
 
