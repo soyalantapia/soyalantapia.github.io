@@ -1,0 +1,593 @@
+<title>Alan Tapia · Posicionamiento</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300&display=swap">
+
+<style>
+:root{
+  --fondo:#FBF9FF; --panel:#F3EFFE; --panel2:#ECE4FD;
+  --tinta:#20112F; --tinta2:#4C3F63; --tinta3:#7C7194;
+  --violeta:#6D28D9; --hondo:#33095A; --hondo2:#4A1685; --claro:#B79CF5;
+  --ambar:#A25E0C; --ambar-t:#FBF2E3; --ambar-b:#EBD7B4;
+  --regla:#E3DAF8;
+  --f:"Poppins","Segoe UI",system-ui,-apple-system,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --fondo:#130920; --panel:#1D1030; --panel2:#271740;
+  --tinta:#F0EAFA; --tinta2:#C3B7D8; --tinta3:#8E82A9;
+  --violeta:#B394F5; --hondo:#25073F; --hondo2:#3A1268; --claro:#CDBBFB;
+  --ambar:#E2AB5C; --ambar-t:#291C0B; --ambar-b:#4C3516;
+  --regla:#34244C;
+}}
+:root[data-theme="dark"]{
+  --fondo:#130920; --panel:#1D1030; --panel2:#271740;
+  --tinta:#F0EAFA; --tinta2:#C3B7D8; --tinta3:#8E82A9;
+  --violeta:#B394F5; --hondo:#25073F; --hondo2:#3A1268; --claro:#CDBBFB;
+  --ambar:#E2AB5C; --ambar-t:#291C0B; --ambar-b:#4C3516;
+  --regla:#34244C;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0; background:var(--fondo); color:var(--tinta); font-family:var(--f);
+  font-size:16px; font-weight:400; line-height:1.5; font-variant-numeric:tabular-nums;
+  -webkit-font-smoothing:antialiased}
+
+.deck{height:100svh; overflow-y:auto; scroll-snap-type:y mandatory; scrollbar-width:none}
+.deck::-webkit-scrollbar{display:none}
+.s{min-height:100svh; scroll-snap-align:start; scroll-snap-stop:always; display:flex;
+  flex-direction:column; justify-content:center; overflow-y:auto; background:var(--fondo);
+  padding:clamp(42px,6vh,72px) clamp(22px,5.5vw,80px) clamp(74px,10vh,100px)}
+.s.osc{background:var(--hondo); color:#F4EEFF}
+.in{width:100%; max-width:1060px; margin:0 auto}
+
+.rot{display:flex; align-items:center; gap:11px; margin-bottom:clamp(14px,2.2vh,22px)}
+.rot .p{width:25px; height:25px; border-radius:50%; background:var(--violeta); color:#fff;
+  display:grid; place-items:center; font-size:10px; font-weight:600; flex:none}
+.osc .rot .p{background:var(--claro); color:var(--hondo)}
+.rot .n{font-size:10.5px; font-weight:600; letter-spacing:.19em; text-transform:uppercase;
+  color:var(--tinta3)}
+.osc .rot .n{color:var(--claro)}
+
+h1{font-size:clamp(52px,12vw,116px); font-weight:600; line-height:.9; letter-spacing:-.048em;
+  margin:0 0 24px; color:#fff}
+h2{font-size:clamp(27px,4.4vw,48px); font-weight:600; line-height:1.04; letter-spacing:-.036em;
+  margin:0 0 clamp(14px,2.2vh,22px); text-wrap:balance; max-width:22ch}
+.osc h2{color:#fff}
+h3{font-size:10.5px; font-weight:600; letter-spacing:.15em; text-transform:uppercase;
+  color:var(--violeta); margin:0 0 12px}
+.osc h3{color:var(--claro)}
+.lig{font-weight:300}
+.viol{color:var(--violeta); font-weight:600} .osc .viol{color:var(--claro)}
+
+p{margin:0 0 13px; max-width:58ch; font-size:clamp(14.5px,1.55vw,16.5px); font-weight:300;
+  line-height:1.5; color:var(--tinta2)}
+.osc p{color:#DCD1F3}
+p b,li b,td b{font-weight:600; color:var(--tinta)}
+.osc p b,.osc li b{color:#fff}
+p:last-child{margin-bottom:0}
+
+.cita{font-size:clamp(17px,2.2vw,25px); font-weight:300; font-style:italic; line-height:1.28;
+  letter-spacing:-.018em; max-width:26ch; margin:0 0 10px; color:var(--tinta)}
+.osc .cita{color:#fff}
+.fuente{font-size:10.5px; font-weight:500; letter-spacing:.12em; text-transform:uppercase;
+  color:var(--tinta3); margin:0}
+.chip{display:inline-block; font-size:9px; font-weight:600; letter-spacing:.1em;
+  text-transform:uppercase; padding:2px 7px; border-radius:20px; margin-left:7px;
+  background:var(--ambar-t); color:var(--ambar); border:1px solid var(--ambar-b)}
+
+ul{list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:9px}
+li{display:grid; grid-template-columns:auto 1fr; gap:11px; font-size:clamp(14px,1.5vw,16px);
+  font-weight:300; line-height:1.42; color:var(--tinta2)}
+.osc li{color:#DCD1F3}
+li::before{content:""; width:5px; height:5px; border-radius:50%; background:var(--violeta);
+  margin-top:8px}
+.osc li::before{background:var(--claro)}
+.no li::before{background:var(--ambar)}
+
+.dos{display:grid; grid-template-columns:repeat(auto-fit,minmax(310px,1fr));
+  gap:clamp(20px,3vw,40px); align-items:start}
+.par{display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:14px}
+
+.cifras{display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+  gap:16px clamp(14px,2.2vw,28px); margin-bottom:22px}
+.cifras .c{font-size:clamp(34px,4.6vw,54px); font-weight:600; line-height:.95; letter-spacing:-.05em;
+  color:var(--violeta); margin-bottom:6px}
+.cifras .q{font-size:12px; font-weight:400; color:var(--tinta3); line-height:1.32}
+.cifras .cero .c,.cifras .cero .q{color:var(--ambar)}
+
+.caja{background:var(--panel); border:1px solid var(--regla); border-radius:14px;
+  padding:clamp(16px,2vh,22px) clamp(17px,2vw,24px)}
+.caja.am{background:var(--ambar-t); border-color:var(--ambar-b)}
+.caja.hd{background:var(--hondo2); border-color:var(--hondo2)}
+.caja .k{font-size:10px; font-weight:600; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--violeta); margin-bottom:11px}
+.caja.am .k{color:var(--ambar)} .caja.hd .k{color:var(--claro)}
+.caja .big{font-size:clamp(38px,5vw,58px); font-weight:600; line-height:.92; letter-spacing:-.05em;
+  color:var(--violeta); margin-bottom:2px}
+.caja.am .big{color:var(--ambar)}
+.caja .un{font-size:12.5px; font-weight:500; color:var(--tinta2); margin-bottom:12px}
+.caja .v{font-size:clamp(15px,1.75vw,18px); font-weight:500; line-height:1.24; color:var(--tinta);
+  margin:0 0 8px; max-width:27ch}
+.caja.hd .v{color:#fff}
+.caja p{font-size:13.5px; margin:0; max-width:44ch}
+.caja.hd p{color:#DBCDF3}
+.caja li{font-size:14px}
+
+.linea{border-top:1px solid var(--regla)}
+.linea > div{display:grid; grid-template-columns:112px 1fr; gap:3px 16px; padding:10px 0;
+  border-bottom:1px solid var(--regla)}
+.linea .c{font-size:12px; font-weight:600; color:var(--violeta)}
+.linea .q{font-size:14px; font-weight:300; color:var(--tinta2); line-height:1.4}
+.linea .q b{font-weight:600; color:var(--tinta)}
+@media (max-width:560px){.linea > div{grid-template-columns:1fr}}
+
+.tres{display:grid; grid-template-columns:repeat(auto-fit,minmax(215px,1fr)); gap:clamp(18px,2.6vw,34px)}
+.tres .b{width:30px; height:30px; border-radius:50%; background:var(--violeta); color:#fff;
+  display:grid; place-items:center; font-size:12px; font-weight:600; margin-bottom:11px}
+.tres .t{font-size:clamp(19px,2.2vw,23px); font-weight:600; letter-spacing:-.026em; margin-bottom:7px}
+.tres p{font-size:14px; margin:0}
+
+.sup{display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:0;
+  border-top:2px solid var(--tinta)}
+.sup > div{padding:13px 22px 17px 0; border-bottom:1px solid var(--regla)}
+.sup .d{font-size:clamp(20px,2.3vw,25px); font-weight:600; letter-spacing:-.026em; margin-bottom:3px}
+.sup .r{font-size:9.5px; font-weight:600; letter-spacing:.15em; text-transform:uppercase;
+  color:var(--violeta); margin-bottom:9px}
+.sup p{font-size:13.5px; margin:0}
+
+.fases{display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:clamp(20px,3vw,38px)}
+.fases > div{border-top:2px solid var(--claro); padding-top:13px}
+.fases .w{font-size:9.5px; font-weight:600; letter-spacing:.16em; text-transform:uppercase;
+  color:var(--claro); margin-bottom:6px}
+.fases .t{font-size:clamp(19px,2.2vw,24px); font-weight:600; letter-spacing:-.028em; line-height:1.1;
+  margin-bottom:13px; color:#fff}
+.fases li{font-size:13.5px}
+
+table{border-collapse:collapse; width:100%; font-size:14.5px; font-weight:300}
+th,td{text-align:left; padding:10px 18px 10px 0; border-bottom:1px solid var(--regla)}
+th{font-size:9.5px; font-weight:600; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--violeta); border-bottom:1px solid var(--tinta)}
+td.n2,th.n2{text-align:right; white-space:nowrap; padding-right:0; font-weight:600; color:var(--tinta)}
+th.n2{color:var(--violeta)}
+
+.chk{display:flex; flex-direction:column}
+.chk > div{display:grid; grid-template-columns:19px 1fr; gap:0 13px; padding:10px 0;
+  border-bottom:1px solid var(--regla)}
+.chk > div:first-child{border-top:1px solid var(--regla)}
+.chk .box{width:13px; height:13px; border:1.5px solid var(--tinta3); border-radius:3px; margin-top:5px}
+.chk .rompe .box{border-color:var(--ambar); border-width:2px}
+.chk b{font-size:15px; font-weight:500; color:var(--tinta)}
+.sello{display:inline-block; font-size:9px; font-weight:600; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--ambar); border:1px solid var(--ambar); border-radius:20px;
+  padding:1px 7px; margin-left:8px; vertical-align:2px}
+
+.pie{position:fixed; left:0; right:0; bottom:0; z-index:30; background:var(--fondo);
+  border-top:1px solid var(--regla)}
+.barra{height:2px; background:var(--regla)}
+.barra i{display:block; height:2px; background:var(--violeta); width:0; transition:width .25s ease}
+@media (prefers-reduced-motion:reduce){.barra i{transition:none}}
+.pieb{display:flex; align-items:center; justify-content:space-between; gap:16px;
+  padding:10px clamp(20px,5vw,36px)}
+.pie .nom{font-size:11px; font-weight:700; letter-spacing:.2em; text-transform:uppercase;
+  color:var(--violeta); white-space:nowrap}
+.pie .don{font-size:11.5px; font-weight:500; color:var(--tinta3); text-align:center;
+  overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.pie .cta{font-size:11px; font-weight:600; color:var(--tinta3); white-space:nowrap}
+
+/* clientes */
+.marcas{display:flex; flex-wrap:wrap; gap:8px; margin-top:11px}
+.marcas span{font-size:13px; font-weight:500; color:var(--tinta); background:var(--panel2);
+  border-radius:20px; padding:5px 13px; line-height:1.2}
+.osc .marcas span{background:#4E2482; color:#F0E8FF}
+.rol{border-top:2px solid var(--tinta); padding-top:14px}
+.rol .cargo{font-size:clamp(20px,2.5vw,27px); font-weight:600; letter-spacing:-.028em; margin-bottom:4px}
+.rol .que{font-size:14px; font-weight:300; color:var(--tinta2); margin:0 0 4px; max-width:44ch}
+.rol .k2{font-size:9.5px; font-weight:600; letter-spacing:.15em; text-transform:uppercase;
+  color:var(--violeta); margin-top:14px}
+
+/* huecos para fotos y logos */
+.fotos{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin-top:6px}
+.hueco{aspect-ratio:4/3; border:1.5px dashed var(--violeta); border-radius:12px; display:grid;
+  place-items:center; color:var(--violeta); font-size:11px; font-weight:500; letter-spacing:.08em;
+  text-transform:uppercase; opacity:.55; text-align:center; padding:8px}
+.osc .hueco{border-color:var(--claro); color:var(--claro)}
+
+/* salas */
+.salas{display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:12px}
+.sala{border:1px solid var(--regla); border-radius:13px; padding:15px 17px; background:var(--panel)}
+.sala .n2b{font-size:clamp(17px,2vw,21px); font-weight:600; letter-spacing:-.024em; margin-bottom:3px}
+.sala p{font-size:13px; margin:0; max-width:none}
+.sala.vacia{border-style:dashed; border-color:var(--violeta); background:transparent; opacity:.6;
+  display:grid; place-items:center; min-height:84px; color:var(--violeta); font-size:11.5px;
+  font-weight:500; text-align:center}
+:focus-visible{outline:2px solid var(--violeta); outline-offset:3px}
+</style>
+
+<div class="deck" id="deck">
+
+<!-- PORTADA -->
+<section class="s osc" data-t="Portada">
+  <div class="in">
+    <p style="font-size:11.5px; font-weight:600; letter-spacing:.19em; text-transform:uppercase;
+      color:var(--claro); margin-bottom:26px">Posicionamiento personal · Septiembre 2026 a marzo 2027</p>
+    <h1>Alan Tapia</h1>
+    <div style="width:88px; height:3px; background:var(--claro); margin:0 0 28px"></div>
+    <p style="font-size:clamp(18px,2.5vw,26px); max-width:42ch; color:#E4D9F8">No estoy construyendo
+    seguidores. Estoy construyendo <b>la sensación que la otra persona ya tiene antes de sentarse
+    enfrente</b>.</p>
+  </div>
+</section>
+
+<!-- 01 · LA HISTORIA -->
+<section class="s" data-t="La historia">
+  <div class="in">
+    <div class="rot"><span class="p">01</span><span class="n">La historia</span></div>
+    <h2 class="lig" style="max-width:24ch">Empecé a vender <span class="viol">a los 13</span>, con
+    cien paños multiuso, puerta a puerta.</h2>
+    <div class="dos">
+      <div>
+        <p style="font-size:clamp(15px,1.75vw,18px)">Distribuidora Innamorati. Con lo que tenía
+        ahorrado compré la primera bolsa y salí a tocar timbres.</p>
+      </div>
+      <div class="caja">
+        <p class="cita" style="margin-bottom:8px">Dormía rodeado de productos de limpieza en mi
+        cuarto.</p>
+        <p class="fuente">Alan Tapia<span class="chip">pendiente de firmar</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 02 · DONDE ESTOY -->
+<section class="s" data-t="Dónde estoy">
+  <div class="in">
+    <div class="rot"><span class="p">02</span><span class="n">Dónde estoy</span></div>
+    <h2>Dos empresas en operación, y los clientes que las eligieron.</h2>
+
+    <div class="dos">
+      <div class="rol">
+        <div class="cargo">CEO de <span class="viol">Deenex</span></div>
+        <p class="que">Tecnología para cadenas que operan muchos locales a la vez: integra los
+        sistemas que ya usan y los deja funcionando como uno solo.<span class="chip">confirmá la
+        línea</span></p>
+        <div class="k2">Clientes</div>
+        <div class="marcas">
+          <span>Nucha</span><span>Hatsu</span><span>Tostado Club</span><span>Konex</span>
+          <span>Palta</span><span>Pannus</span><span>Coquitos</span><span>Eneldo</span>
+          <span>Papanato</span><span>Quem</span><span>Monti</span><span>La Fábrica</span>
+          <span>Club Glorias</span>
+        </div>
+      </div>
+
+      <div class="rol">
+        <div class="cargo">Fundador de <span class="viol">Xnod</span></div>
+        <p class="que">Software a medida para empresas que necesitan una pieza que no existe en el
+        mercado, de punta a punta.<span class="chip">confirmá la línea</span></p>
+        <div class="k2">Clientes</div>
+        <div class="marcas">
+          <span>Speed</span><span>Piatto</span><span>GDL</span><span>Edifiseco</span>
+          <span>CCM</span><span>MyAlquiler</span><span>Trade Point</span><span>Fanrace</span>
+          <span>Okinoi</span><span>Momerie</span><span>Farfalina</span><span>CDE</span>
+          <span>Ancestral Seed</span><span>ST Producciones</span>
+        </div>
+      </div>
+    </div>
+
+    <p style="margin-top:22px; max-width:none; font-size:15px"><b>25 años, dos empresas en operación
+    y alrededor de 70 personas.</b> Los clientes de arriba no son referencias: son las empresas que
+    hoy dependen de que esto funcione.</p>
+  </div>
+</section>
+
+<!-- 03 · CONFERENCIAS -->
+<section class="s" data-t="Conferencias">
+  <div class="in">
+    <div class="rot"><span class="p">03</span><span class="n">Conferencias</span></div>
+    <h2 class="lig">He hablado en <span class="viol">10 conferencias</span>.</h2>
+    <p style="margin-bottom:20px">Escenarios, paneles y medios donde ya me subí. No es teoría: es lo
+    que pasa cuando me dan el micrófono.<span class="chip">confirmá el número</span></p>
+    <div class="fotos">
+      <div class="hueco">Foto 1</div>
+      <div class="hueco">Foto 2</div>
+      <div class="hueco">Foto 3</div>
+      <div class="hueco">Foto 4</div>
+      <div class="hueco">Foto 5</div>
+      <div class="hueco">Foto 6</div>
+    </div>
+  </div>
+</section>
+
+<!-- 03 · A DONDE QUIERO ESTAR -->
+<section class="s" data-t="A dónde quiero estar">
+  <div class="in">
+    <div class="rot"><span class="p">04</span><span class="n">A dónde quiero estar</span></div>
+    <div class="dos">
+      <div>
+        <h2 class="lig" style="font-size:clamp(28px,4.6vw,52px)">En marzo soy <span class="viol">referente como empresario tecnológico</span>.</h2>
+        <p style="font-size:clamp(15px,1.75vw,18px)">Y eso se nota en una sola cosa: cuando entro a
+        una reunión, el otro ya sabe quién soy. No tiene que ser un lead caliente. <b>Cuando llego,
+        ya soy alguien de confianza.</b></p>
+      </div>
+      <div class="caja">
+        <div class="k">Qué tiene que ser cierto en diciembre</div>
+        <ul>
+          <li><b>Al menos una puerta propia abierta:</b> una invitación que llegó a mi nombre, sin
+          que ninguna de mis empresas esté en el medio</li>
+          <li>El material de enero a marzo <b>ya está grabado</b></li>
+          <li>La charla <b>tiene precio</b>, y es cualquier número mayor a cero</li>
+          <li>La primera página de Google al buscar mi nombre <b>la controlo yo</b></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 04 · OBJETIVO -->
+<section class="s" data-t="Objetivo">
+  <div class="in">
+    <div class="rot"><span class="p">05</span><span class="n">Objetivo</span></div>
+    <h2>Dos números, y sólo dos.</h2>
+    <div class="dos">
+      <div class="caja">
+        <div class="k">El que decide</div>
+        <div class="big">3</div>
+        <div class="un">casos hoy, contados a mano</div>
+        <p class="v">Reuniones donde el otro ya sabía quién era yo antes de entrar.</p>
+        <p>Se anota después de cada reunión, en una línea. Es el único que conecta esto con la
+        facturación.</p>
+      </div>
+      <div class="caja am">
+        <div class="k">El que anticipa</div>
+        <div class="big">0</div>
+        <div class="un">invitaciones entrantes hoy</div>
+        <p class="v">Invitaciones que llegan a mi nombre y que nadie gestionó.</p>
+        <p>Se mueve primero cuando el posicionamiento funciona, y es el único que no se puede fingir
+        con presupuesto.</p>
+      </div>
+    </div>
+    <p style="margin-top:20px; max-width:none"><b>Si en marzo estos dos no se movieron, la inversión
+    no funcionó.</b> Seguidores, visualizaciones y alcance son diagnóstico, no objetivo.</p>
+  </div>
+</section>
+
+<!-- 05 · CONTENIDO -->
+<section class="s" data-t="Contenido">
+  <div class="in">
+    <div class="rot"><span class="p">06</span><span class="n">Contenido</span></div>
+    <h2 class="lig">Nunca le hablo <span class="viol">a la cámara</span>.</h2>
+
+    <ul style="margin-bottom:26px">
+      <li><b>El formato ES el posicionamiento.</b> A un tipo que le habla a la cámara lo leen como
+      creador de contenido. A uno al que entrevistan, como alguien a quien vale la pena entrevistar</li>
+      <li><b>Elimina el guion</b>, que es lo que mata estos planes en el mes dos. Dirijo tres
+      empresas: sentarme a escribir guiones no va a pasar</li>
+      <li><b>Traslada el costo de producción:</b> el evento graba y edita</li>
+    </ul>
+
+    <h3>La misma persona a tres distancias</h3>
+    <div class="sup">
+      <div><div class="d">Feed</div><div class="r">Inalcanzable</div>
+        <p>100% escenario: charlas, entrevistas, paneles, medios. Es lo que ve el que me busca.</p></div>
+      <div><div class="d">Historias</div><div class="r">Cercano</div>
+        <p>El día a día. Acá vive el personaje. Desaparece a las 24 horas.</p></div>
+      <div><div class="d">Google</div><div class="r">Institucional</div>
+        <p>Notas, menciones, la bio unificada. Es la antesala literal.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 06 · A QUIEN LE HABLO -->
+<section class="s" data-t="A quién le hablo">
+  <div class="in">
+    <div class="rot"><span class="p">07</span><span class="n">A quién le hablo</span></div>
+    <h2 class="lig">A <span class="viol">emprendedores y empresarios pymes</span>.</h2>
+    <p style="font-size:clamp(15px,1.75vw,18px); margin-bottom:26px">Escucharme es poder ver a un
+    empresario tecnológico. Y de ahí sale lo único que busco: <b>que quieran armar negocios
+    conmigo</b>.</p>
+
+    <div class="tres">
+      <div><div class="b">1</div><div class="t">Confianza</div>
+        <p>Que cuando llego a la mesa, el otro ya decidió que puede contar conmigo.</p></div>
+      <div><div class="b">2</div><div class="t">Credibilidad</div>
+        <p>Que lo que digo se sostenga porque opero, no porque lo cuento bien.</p></div>
+      <div><div class="b">3</div><div class="t">Referente de opinión</div>
+        <p>Que me busquen para saber qué pienso, y no sólo para saber qué vendo.</p></div>
+    </div>
+
+    <div class="caja am" style="margin-top:24px">
+      <div class="k">Lo que no soy</div>
+      <p style="color:var(--tinta); max-width:none; font-size:14.5px">Emprendedor, motivador ni coach.
+      Creador de contenido hablándole a la cámara. Aspiracional vacío, lujo sin empresa detrás.
+      <b>Emprendedor describe a alguien que está intentando. Empresario describe a alguien que ya
+      tiene, y esa diferencia se lee en dos segundos.</b></p>
+    </div>
+  </div>
+</section>
+
+<!-- 07 · LA INVERSION -->
+<section class="s" data-t="La inversión">
+  <div class="in">
+    <div class="rot"><span class="p">08</span><span class="n">La inversión</span></div>
+    <h2 class="lig" style="max-width:26ch">Un millón por mes hasta diciembre. <span class="viol">Cuatro millones, de mi bolsillo.</span></h2>
+
+    <div class="dos">
+      <div>
+        <table>
+          <thead><tr><th>Las tres cifras a conciliar</th><th>Cuándo</th><th class="n2">Por mes</th></tr></thead>
+          <tbody>
+            <tr><td>Solo anuncios</td><td>30 ago</td><td class="n2">$500.000</td></tr>
+            <tr><td>Community más anuncios</td><td>5 sep</td><td class="n2">$1.000.000</td></tr>
+            <tr><td>Community compartido</td><td>5 sep</td><td class="n2">$200.000</td></tr>
+          </tbody>
+        </table>
+        <p style="font-size:13px; font-style:italic; margin-top:12px">Llegar a la reunión sin haber
+        elegido una es negociar contra un presupuesto que todavía no existe.</p>
+      </div>
+
+      <div style="display:flex; flex-direction:column; gap:14px">
+        <div class="caja hd">
+          <div class="k">La pregunta que hay que contestar hoy</div>
+          <p class="v">Si de una charla sale una venta, ¿la factura la empresa o la facturo yo?</p>
+          <p>Tiene respuesta por defecto: la rama empresa no requiere ningún acto y la mía requiere
+          cinco. Si no la contesto, se contesta sola.</p>
+        </div>
+        <div class="caja">
+          <div class="k">De dónde vuelve, y las tres me vuelven a mí</div>
+          <ul>
+            <li><b>Patrocinio de mi marca personal</b>, no del evento. Se vende antes de tener
+            audiencia</li>
+            <li><b>Cobrar la charla.</b> Hoy vale cero</li>
+            <li><b>Eventos propios</b> encima de viajes ya pagos</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 09 · DONDE QUIERO HABLAR -->
+<section class="s" data-t="Dónde quiero hablar">
+  <div class="in">
+    <div class="rot"><span class="p">09</span><span class="n">Dónde quiero hablar</span></div>
+    <h2>Las salas que quiero, y todavía no son mías.</h2>
+    <div class="salas">
+      <div class="sala"><div class="n2b">CUCICBA</div>
+        <p>Colegio Único de Corredores Inmobiliarios de la Ciudad de Buenos Aires.</p></div>
+      <div class="sala"><div class="n2b">CPI</div>
+        <p>Colegio Profesional Inmobiliario.</p></div>
+      <div class="sala"><div class="n2b">AAMF</div>
+        <p>Asociación Argentina de Marcas y Franquicias.</p></div>
+      <div class="sala"><div class="n2b">Cámara Fintech</div>
+        <p>Cámara Argentina de Fintech.</p></div>
+      <div class="sala vacia">+ agregar sala</div>
+      <div class="sala vacia">+ agregar sala</div>
+    </div>
+    <p style="margin-top:20px; max-width:none; font-size:15px"><b>Ninguna de estas es hoy una puerta
+    propia.</b> Todas las salas a las que entro llegan por alguna de mis empresas, y esta lista es
+    exactamente lo que hay que dar vuelta de acá a marzo.</p>
+  </div>
+</section>
+
+<!-- 08 · EL PLAN -->
+<section class="s osc" data-t="El plan">
+  <div class="in">
+    <div class="rot"><span class="p">10</span><span class="n">El plan</span></div>
+    <h2>Tres movimientos, y un filtro.</h2>
+
+    <div class="fases">
+      <div>
+        <div class="w">Septiembre</div>
+        <div class="t">Ordenar la casa</div>
+        <ul>
+          <li>Contrato por escrito, con base y vencimiento</li>
+          <li>Un solo presupuesto mensual</li>
+          <li>Contestar quién factura</li>
+          <li>Sacar «emprendedor» de la bio</li>
+          <li>Tomar la primera página de Google con las notas que ya existen</li>
+        </ul>
+      </div>
+      <div>
+        <div class="w">Octubre y noviembre</div>
+        <div class="t">Producir el material</div>
+        <ul>
+          <li>Un evento cada diez días, con el filtro aplicado</li>
+          <li><b>De cada escenario salgo con un contacto que me conozca a mí</b></li>
+          <li>Primeros dos patrocinadores</li>
+          <li>Empezar a cobrar la charla</li>
+        </ul>
+      </div>
+      <div>
+        <div class="w">Diciembre a marzo</div>
+        <div class="t">Convertir presencia en posición</div>
+        <ul>
+          <li>Publicar lo grabado en temporada baja</li>
+          <li><b>Poner al aire el formato propio:</b> la puerta que no depende de nadie</li>
+          <li>Si el indicador no se movió, cambia la estrategia y no el presupuesto</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="caja hd" style="margin-top:24px">
+      <div class="k">El filtro de escenario</div>
+      <p style="color:#F4EEFF; max-width:none; font-size:14.5px"><b>Subo si cumple al menos dos de
+      tres:</b> hay un empresario en la sala con quien valga la foto · genera material publicable,
+      hay cámara · tiene respaldo institucional o de medios. <b>Si cumple uno solo voy igual pero sin
+      cámara: eso es networking, no contenido. Si no cumple ninguno, no voy.</b></p>
+    </div>
+  </div>
+</section>
+
+<!-- 09 · LO QUE CERRAMOS HOY -->
+<section class="s" data-t="Lo que cerramos hoy">
+  <div class="in">
+    <div class="rot"><span class="p">11</span><span class="n">Lo que cerramos hoy</span></div>
+    <h2>Ocho decisiones. Siete se arreglan hablando.</h2>
+    <div class="chk">
+      <div class="rompe"><div class="box"></div><b>Base y vencimiento del 30%<span class="sello">rompe la sociedad</span></b></div>
+      <div><div class="box"></div><b>Quién factura lo que sale de una charla</b></div>
+      <div><div class="box"></div><b>Fee mensual y qué incluye</b></div>
+      <div><div class="box"></div><b>El presupuesto mensual único</b></div>
+      <div><div class="box"></div><b>La capacitación del secundario</b></div>
+      <div><div class="box"></div><b>Multicuentas: sí o no, y cuándo</b></div>
+      <div><div class="box"></div><b>Precio de la charla a partir de octubre</b></div>
+      <div><div class="box"></div><b>Los dos indicadores, y quién los anota cada semana</b></div>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<div class="pie">
+  <div class="barra"><i id="fill"></i></div>
+  <div class="pieb">
+    <span class="nom">Alan Tapia</span>
+    <span class="don" id="don">Portada</span>
+    <span class="cta" id="cta">01 / 12</span>
+  </div>
+</div>
+
+<script>
+(function(){
+  var deck = document.getElementById('deck');
+  var slides = Array.prototype.slice.call(deck.querySelectorAll('.s'));
+  var don = document.getElementById('don');
+  var cta = document.getElementById('cta');
+  var fill = document.getElementById('fill');
+  var total = slides.length, actual = 0;
+
+  function dd(n){ return ('0' + n).slice(-2); }
+  function pinta(i){
+    actual = i;
+    don.textContent = slides[i].getAttribute('data-t') || '';
+    cta.textContent = dd(i + 1) + ' / ' + dd(total);
+    fill.style.width = ((i + 1) / total * 100) + '%';
+  }
+  function ir(i){
+    i = Math.max(0, Math.min(total - 1, i));
+    slides[i].scrollIntoView({behavior:'smooth', block:'start'});
+    pinta(i);
+  }
+
+  if ('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(es){
+      es.forEach(function(e){ if (e.isIntersecting) pinta(slides.indexOf(e.target)); });
+    }, {root: deck, threshold: 0.55});
+    slides.forEach(function(s){ io.observe(s); });
+  }
+
+  document.addEventListener('keydown', function(e){
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+    var k = e.key;
+    if (k === 'ArrowRight' || k === 'ArrowDown' || k === 'PageDown' || k === ' '){
+      e.preventDefault(); ir(actual + 1);
+    } else if (k === 'ArrowLeft' || k === 'ArrowUp' || k === 'PageUp'){
+      e.preventDefault(); ir(actual - 1);
+    } else if (k === 'Home'){ e.preventDefault(); ir(0); }
+    else if (k === 'End'){ e.preventDefault(); ir(total - 1); }
+  });
+
+  pinta(0);
+})();
+</script>
