@@ -190,10 +190,14 @@ th.n2{color:var(--violeta)}
   color:var(--violeta); margin-top:14px}
 
 /* de donde sale el contenido */
-.origenes{display:grid; grid-template-columns:repeat(auto-fit,minmax(168px,1fr)); gap:11px}
+.origenes{display:grid; grid-template-columns:repeat(auto-fit,minmax(158px,1fr)); gap:10px}
 .orig{border:1px solid var(--regla); border-radius:12px; padding:13px 15px; background:var(--panel)}
 .orig .on{font-size:15px; font-weight:600; letter-spacing:-.02em; margin-bottom:4px}
 .orig p{font-size:12.5px; margin:0; max-width:none; line-height:1.38}
+.orig.eje{background:var(--hondo2); border-color:var(--hondo2); grid-column:span 2}
+.orig.eje .on{color:#fff} .orig.eje p{color:#DBCDF3}
+.orig.eje p b{color:var(--claro); font-weight:600}
+@media (max-width:520px){.orig.eje{grid-column:span 1}}
 
 /* razones numeradas, en fila */
 .razones{display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
@@ -531,41 +535,41 @@ th.n2{color:var(--violeta)}
 <!-- DE DONDE SALE -->
 <section class="s" data-t="De dónde sale">
   <div class="in">
-    <div class="rot"><span class="p">09</span><span class="n">De dónde sale</span></div>
+    <div class="rot"><span class="p">10</span><span class="n">De dónde sale</span></div>
     <h2 class="lig">El contenido ya existe. <span class="viol">Hay que ir a buscarlo.</span></h2>
-
-    <div class="origenes" style="margin:22px 0 24px">
+    <div class="origenes" style="margin:20px 0 22px">
+      <div class="orig eje"><div class="on">Espacio conversación</div>
+        <p>El podcast que vamos a hacer en CCM. Montamos el espacio adentro del evento y <b>se lo vendemos al organizador</b>: él se lleva contenido, yo me llevo escenario y material.</p></div>
+      <div class="orig"><div class="on">Conferencias</div>
+        <p>Charla ante público. Video entero, cortes, citas y fotos del mismo día.</p></div>
       <div class="orig"><div class="on">Medios</div>
-        <p>Radio, streaming, TV y prensa escrita. Una nota deja audio, recorte y link para Google.</p></div>
-      <div class="orig"><div class="on">Expos y ferias</div>
-        <p>Stand, pasillo y escenario. Es donde está el que decide, y donde se sacan las fotos con
-        empresarios.</p></div>
-      <div class="orig"><div class="on">Eventos y charlas</div>
-        <p>El activo más rico: video entero, cortes, citas y fotos, todo del mismo día.</p></div>
-      <div class="orig"><div class="on">Paneles y mesas</div>
-        <p>Hablar con otros en escena. Sirve más que una charla solo, porque muestra simetría.</p></div>
-      <div class="orig"><div class="on">Podcasts</div>
+        <p>Radio, streaming, TV y prensa. Deja audio, recorte y link para Google.</p></div>
+      <div class="orig"><div class="on">Paneles</div>
+        <p>Con otros en escena. Muestra simetría, que una charla solo no muestra.</p></div>
+      <div class="orig"><div class="on">Mesas de mentoría</div>
+        <p>Grupo chico y problema concreto. El material es útil, no es escena.</p></div>
+      <div class="orig"><div class="on">Podcast</div>
         <p>Como invitado. El formato entrevista es el que más se parece a lo que quiero mostrar.</p></div>
-      <div class="orig"><div class="on">Cámaras y colegios</div>
-        <p>CUCICBA, CPI, AAMF, Cámara Fintech. Traen respaldo institucional, que es lo que Google
-        indexa mejor.</p></div>
-      <div class="orig"><div class="on">Capacitaciones</div>
-        <p>Talleres y cursos. Público que va a aprender, no a mirar. Deja material y deja alumnos.</p></div>
-      <div class="orig"><div class="on">Mi propio formato</div>
-        <p>Un podcast o un informe del sector. Es la única fuente que no depende de que me
-        inviten.</p></div>
+      <div class="orig"><div class="on">Entrevista</div>
+        <p>Uno a uno, con un periodista o un colega. Sale nota y sale recorte.</p></div>
+      <div class="orig"><div class="on">Colegios</div>
+        <p>CUCICBA y CPI. Respaldo institucional, que es lo que Google indexa mejor.</p></div>
+      <div class="orig"><div class="on">Municipio</div>
+        <p>Eventos y programas públicos. Traen prensa local y foto institucional.</p></div>
+      <div class="orig"><div class="on">Podcast gastronómico propio</div>
+        <p>El formato que no depende de que me inviten. Es la puerta propia.</p></div>
+      <div class="orig"><div class="on">Entrevistas preparadas</div>
+        <p>Yo entrevisto a un empresario. Controlo el invitado, el tema y el corte.</p></div>
     </div>
-
-    <h3>Y de cada una salen entre veinte y treinta piezas</h3>
     <div class="cadena">
       <div class="paso"><div class="pn">Paso 1 · Capturar</div>
-        <p>Cámara y fotógrafo en la sala. Video entero, audio limpio, fotos de escenario y fotos con
-        la gente. Una vez, el día del evento.</p></div>
+        <p>Cámara y fotógrafo en la sala. Video entero, audio limpio, fotos de escenario y
+        fotos con la gente. Una vez, el día del evento.</p></div>
       <div class="paso"><div class="pn">Paso 2 · Cortar</div>
-        <p>El editor saca los cortes, las citas y las fotos elegidas. <b>Es el único paso que no
-        puedo hacer yo, y hoy no tiene dueño.</b></p></div>
+        <p>El editor saca los cortes, las citas y las fotos elegidas. <b>Es el único paso
+        que no puedo hacer yo, y hoy no tiene dueño.</b></p></div>
       <div class="paso"><div class="pn">Paso 3 · Publicar</div>
-        <p>La charla entera, 6 a 10 cortes verticales, 3 a 5 citas, las fotos, el audio, la nota
+        <p>La charla entera, los cortes verticales, las citas, las fotos, el audio, la nota
         escrita, el backstage y la gacetilla.</p></div>
     </div>
   </div>
