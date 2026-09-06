@@ -189,6 +189,12 @@ th.n2{color:var(--violeta)}
 .rol .k2{font-size:9.5px; font-weight:600; letter-spacing:.15em; text-transform:uppercase;
   color:var(--violeta); margin-top:14px}
 
+/* de donde sale el contenido */
+.origenes{display:grid; grid-template-columns:repeat(auto-fit,minmax(168px,1fr)); gap:11px}
+.orig{border:1px solid var(--regla); border-radius:12px; padding:13px 15px; background:var(--panel)}
+.orig .on{font-size:15px; font-weight:600; letter-spacing:-.02em; margin-bottom:4px}
+.orig p{font-size:12.5px; margin:0; max-width:none; line-height:1.38}
+
 /* razones numeradas, en fila */
 .razones{display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
   gap:clamp(18px,2.6vw,34px)}
@@ -434,32 +440,55 @@ th.n2{color:var(--violeta)}
   </div>
 </section>
 
+<!-- A QUIEN LE HABLO -->
+<section class="s" data-t="A quién le hablo">
+  <div class="in">
+    <div class="rot"><span class="p">07</span><span class="n">A quién le hablo</span></div>
+    <h2 class="lig">A <span class="viol">emprendedores y empresarios pymes</span>.</h2>
+    <p style="font-size:clamp(15px,1.75vw,18px); margin-bottom:26px">Escucharme es poder ver a un
+    empresario tecnológico. Y de ahí sale lo único que busco: <b>que quieran armar negocios
+    conmigo</b>.</p>
+
+    <div class="tres">
+      <div><div class="b">1</div><div class="t">Confianza</div>
+        <p>Que cuando llego a la mesa, el otro ya decidió que puede contar conmigo.</p></div>
+      <div><div class="b">2</div><div class="t">Credibilidad</div>
+        <p>Que lo que digo se sostenga porque opero, no porque lo cuento bien.</p></div>
+      <div><div class="b">3</div><div class="t">Referente de opinión</div>
+        <p>Que me busquen para saber qué pienso, y no sólo para saber qué vendo.</p></div>
+    </div>
+
+  </div>
+</section>
+
 <!-- CONTENIDO -->
 <section class="s" data-t="Contenido">
   <div class="in">
-    <div class="rot"><span class="p">07</span><span class="n">Contenido</span></div>
-    <h2 class="lig" style="max-width:26ch">Nunca le hablo <span class="viol">a la cámara</span>.
-    Todo sale de una conversación con otro.</h2>
+    <div class="rot"><span class="p">08</span><span class="n">Contenido</span></div>
+    <h2>La estrategia, en una regla y tres decisiones.</h2>
 
-    <div class="razones" style="margin:26px 0 30px">
+    <p class="abre" style="font-size:clamp(17px,2vw,22px); font-weight:400; color:var(--tinta);
+      max-width:44ch; margin-bottom:26px"><b style="color:var(--violeta)">Nunca le hablo a la
+      cámara.</b> Todo el contenido sale de una conversación con otro, y de ahí se corta.</p>
+
+    <div class="razones" style="margin-bottom:28px">
       <div>
         <div class="rn">01</div>
         <div class="rt">El formato es el posicionamiento</div>
         <p>A un tipo que le habla a la cámara lo leen como creador de contenido. A uno al que
-        entrevistan, como alguien a quien vale la pena entrevistar. No hace falta que yo afirme nada:
-        la escena lo afirma sola.</p>
+        entrevistan, como alguien a quien vale la pena entrevistar. La escena lo afirma sola.</p>
       </div>
       <div>
         <div class="rn">02</div>
-        <div class="rt">No hay guion que escribir</div>
-        <p>Es lo que mata estos planes en el mes dos. Dirijo dos empresas: sentarme a escribir
-        guiones no va a pasar. Una charla ya tiene su contenido adentro.</p>
+        <div class="rt">Volumen de producción, no de escenarios</div>
+        <p>No es publicar poco para parecer exclusivo ni subirse a todo. Es elegir bien dónde me
+        subo, y de cada lugar sacar todo lo que se pueda.</p>
       </div>
       <div>
         <div class="rn">03</div>
-        <div class="rt">El evento paga la producción</div>
-        <p>La organización graba y edita, y hay fotógrafos que trabajan por reconocimiento. Salgo con
-        material sin poner una cámara.</p>
+        <div class="rt">Grabo en temporada alta, publico todo el año</div>
+        <p>Lo que se capture hasta octubre es el material de enero a marzo. Grabar de más ahora no es
+        exceso, es reserva.</p>
       </div>
     </div>
 
@@ -475,61 +504,66 @@ th.n2{color:var(--violeta)}
   </div>
 </section>
 
-<!-- COMO SE EXTRAE -->
-<section class="s" data-t="Cómo se extrae">
+<!-- DE DONDE SALE -->
+<section class="s" data-t="De dónde sale">
   <div class="in">
-    <div class="rot"><span class="p">08</span><span class="n">Cómo se extrae</span></div>
-    <h2 class="lig">De <span class="viol">un solo escenario</span> salen veinte piezas.</h2>
+    <div class="rot"><span class="p">09</span><span class="n">De dónde sale</span></div>
+    <h2 class="lig">El contenido ya existe. <span class="viol">Hay que ir a buscarlo.</span></h2>
 
-    <div class="cadena" style="margin:24px 0 26px">
-      <div class="paso"><div class="pn">Paso 1</div><div class="pt">Capturar</div>
-        <p>Cámara y fotógrafo en la sala. Video entero, audio limpio, fotos de escenario y fotos con
-        la gente. Una vez, el día del evento.</p></div>
-      <div class="paso"><div class="pn">Paso 2</div><div class="pt">Cortar</div>
-        <p>El editor saca los cortes, las citas y las fotos elegidas. Es el único paso que no puedo
-        hacer yo, y hoy no tiene dueño.</p></div>
-      <div class="paso"><div class="pn">Paso 3</div><div class="pt">Publicar</div>
-        <p>Cada pieza va a la superficie que le toca. Lo grabado en temporada alta se publica en la
-        baja.</p></div>
+    <div class="origenes" style="margin:22px 0 24px">
+      <div class="orig"><div class="on">Medios</div>
+        <p>Radio, streaming, TV y prensa escrita. Una nota deja audio, recorte y link para Google.</p></div>
+      <div class="orig"><div class="on">Expos y ferias</div>
+        <p>Stand, pasillo y escenario. Es donde está el que decide, y donde se sacan las fotos con
+        empresarios.</p></div>
+      <div class="orig"><div class="on">Eventos y charlas</div>
+        <p>El activo más rico: video entero, cortes, citas y fotos, todo del mismo día.</p></div>
+      <div class="orig"><div class="on">Paneles y mesas</div>
+        <p>Hablar con otros en escena. Sirve más que una charla solo, porque muestra simetría.</p></div>
+      <div class="orig"><div class="on">Podcasts</div>
+        <p>Como invitado. El formato entrevista es el que más se parece a lo que quiero mostrar.</p></div>
+      <div class="orig"><div class="on">Cámaras y colegios</div>
+        <p>CUCICBA, CPI, AAMF, Cámara Fintech. Traen respaldo institucional, que es lo que Google
+        indexa mejor.</p></div>
+      <div class="orig"><div class="on">Capacitaciones</div>
+        <p>Talleres y cursos. Público que va a aprender, no a mirar. Deja material y deja alumnos.</p></div>
+      <div class="orig"><div class="on">Mi propio formato</div>
+        <p>Un podcast o un informe del sector. Es la única fuente que no depende de que me
+        inviten.</p></div>
     </div>
 
-    <h3>Los medios que salen de una sola aparición</h3>
-    <div class="tw"><table>
-      <thead><tr><th>La pieza</th><th>Qué es</th><th>Dónde va</th><th class="n2">Por evento</th></tr></thead>
-      <tbody>
-        <tr><td><b>La charla entera</b></td><td>Video largo, sin cortar. Es el activo madre: de acá
-          sale todo lo demás</td><td>YouTube, LinkedIn</td><td class="n2">1</td></tr>
-        <tr><td><b>Los cortes</b></td><td>Verticales de 30 a 60 segundos, una idea cada uno</td>
-          <td>Reels, TikTok, Shorts</td><td class="n2">6 a 10</td></tr>
-        <tr><td><b>Las citas</b></td><td>Una frase escrita sobre fondo, o carrusel de tres</td>
-          <td>Feed, LinkedIn</td><td class="n2">3 a 5</td></tr>
-        <tr><td><b>Fotos de escenario</b></td><td>La prueba de que estuve ahí</td><td>Feed</td>
-          <td class="n2">2 a 3</td></tr>
-        <tr><td><b>Fotos con empresarios</b></td><td>La prueba de con quién. Vale más que la de
-          arriba</td><td>Feed</td><td class="n2">1 a 3</td></tr>
-        <tr><td><b>El audio</b></td><td>La charla en audio, para el que escucha y no mira</td>
-          <td>Spotify, podcast</td><td class="n2">1</td></tr>
-        <tr><td><b>La nota escrita</b></td><td>Un artículo con lo que planteé. Es lo que indexa
-          Google</td><td>Web propia, medios</td><td class="n2">1</td></tr>
-        <tr><td><b>El backstage</b></td><td>Antes, durante y después. Acá vive el personaje</td>
-          <td>Historias</td><td class="n2">4 a 8</td></tr>
-        <tr><td><b>La gacetilla</b></td><td>Qué dije y por qué importa, para que lo levante un
-          medio</td><td>Prensa</td><td class="n2">1</td></tr>
-      </tbody>
-    </table></div>
+    <h3>Y de cada una salen entre veinte y treinta piezas</h3>
+    <div class="cadena">
+      <div class="paso"><div class="pn">Paso 1 · Capturar</div>
+        <p>Cámara y fotógrafo en la sala. Video entero, audio limpio, fotos de escenario y fotos con
+        la gente. Una vez, el día del evento.</p></div>
+      <div class="paso"><div class="pn">Paso 2 · Cortar</div>
+        <p>El editor saca los cortes, las citas y las fotos elegidas. <b>Es el único paso que no
+        puedo hacer yo, y hoy no tiene dueño.</b></p></div>
+      <div class="paso"><div class="pn">Paso 3 · Publicar</div>
+        <p>La charla entera, 6 a 10 cortes verticales, 3 a 5 citas, las fotos, el audio, la nota
+        escrita, el backstage y la gacetilla.</p></div>
+    </div>
   </div>
 </section>
 
 <!-- VERTICALES -->
 <section class="s" data-t="Verticales">
   <div class="in">
-    <div class="rot"><span class="p">09</span><span class="n">Verticales</span></div>
-    <h2>De qué hablo.</h2>
+    <div class="rot"><span class="p">10</span><span class="n">Verticales</span></div>
+    <h2>Verticales de contenido: de qué hablo.</h2>
 
     <div class="verts" style="margin-top:22px">
-      <div class="vert eje"><div class="vn">Tecnología</div>
-        <p>El eje. Todo lo demás se cruza con esto o no es mío.</p></div>
-      <div class="vert eje"><div class="vn">Empresas</div>
+      <div class="vert eje"><div class="vn">Comercio</div>
+        <p>Cómo se vende hoy, y qué dejó de funcionar.</p></div>
+      <div class="vert eje"><div class="vn">Gastronomía</div>
+        <p>La vertical donde mi palabra tiene peso comprobable.</p></div>
+      <div class="vert eje"><div class="vn">Resolver problemas en empresas con tecnología</div>
+        <p>El problema concreto primero y la herramienta después, que es el orden que casi nadie
+        respeta.</p></div>
+      <div class="vert"><div class="vn">Tecnología</div>
+        <p>El eje que cruza a todas las demás.</p></div>
+      <div class="vert"><div class="vn">Empresas</div>
         <p>Cómo se opera de verdad, no cómo se cuenta en un caso de éxito.</p></div>
       <div class="vert"><div class="vn">Economía</div>
         <p>Lo que hace la macro adentro de un negocio chico.</p></div>
@@ -539,32 +573,7 @@ th.n2{color:var(--violeta)}
         <p>Qué cambia algo, y qué es sólo comprar una herramienta nueva.</p></div>
       <div class="vert"><div class="vn">Innovación en tiempos de crisis</div>
         <p>Cuando no hay plata para experimentar. Es el que más le sirve al que me escucha.</p></div>
-      <div class="vert"><div class="vn">Gastronomía</div>
-        <p>La vertical donde mi palabra tiene peso comprobable.</p></div>
-      <div class="vert"><div class="vn">Comercio</div>
-        <p>Cómo se vende hoy, y qué dejó de funcionar.</p></div>
     </div>
-  </div>
-</section>
-
-<!-- 06 · A QUIEN LE HABLO -->
-<section class="s" data-t="A quién le hablo">
-  <div class="in">
-    <div class="rot"><span class="p">10</span><span class="n">A quién le hablo</span></div>
-    <h2 class="lig">A <span class="viol">emprendedores y empresarios pymes</span>.</h2>
-    <p style="font-size:clamp(15px,1.75vw,18px); margin-bottom:26px">Escucharme es poder ver a un
-    empresario tecnológico. Y de ahí sale lo único que busco: <b>que quieran armar negocios
-    conmigo</b>.</p>
-
-    <div class="tres">
-      <div><div class="b">1</div><div class="t">Confianza</div>
-        <p>Que cuando llego a la mesa, el otro ya decidió que puede contar conmigo.</p></div>
-      <div><div class="b">2</div><div class="t">Credibilidad</div>
-        <p>Que lo que digo se sostenga porque opero, no porque lo cuento bien.</p></div>
-      <div><div class="b">3</div><div class="t">Referente de opinión</div>
-        <p>Que me busquen para saber qué pienso, y no sólo para saber qué vendo.</p></div>
-    </div>
-
   </div>
 </section>
 
