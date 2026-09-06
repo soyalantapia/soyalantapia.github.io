@@ -218,9 +218,12 @@ th.n2{color:var(--violeta)}
 .vert{border:1px solid var(--regla); border-radius:13px; padding:15px 17px; background:var(--panel)}
 .vert .vn{font-size:clamp(16px,1.85vw,19px); font-weight:600; letter-spacing:-.024em; margin-bottom:5px}
 .vert p{font-size:13px; margin:0; max-width:none}
-.vert .por{font-size:12.5px; margin:9px 0 0; padding-top:9px; border-top:1px solid var(--regla);
-  color:var(--tinta); line-height:1.4}
+.vert .por,.vert .conv{font-size:12.5px; margin:9px 0 0; padding-top:9px;
+  border-top:1px solid var(--regla); color:var(--tinta); line-height:1.4}
 .vert .por b{font-weight:600; color:var(--violeta)}
+.vert .conv b{font-weight:600; color:var(--ambar)}
+.vert.eje .conv{border-top-color:#6B37A8; color:#F0E8FF}
+.vert.eje .conv b{color:#F0BE7A}
 .vert.eje{background:var(--hondo2); border-color:var(--hondo2)}
 .vert.eje .vn{color:#fff} .vert.eje p{color:#DBCDF3}
 .vert.eje .por{border-top-color:#6B37A8; color:#F0E8FF}
@@ -572,23 +575,20 @@ th.n2{color:var(--violeta)}
 <section class="s" data-t="Verticales">
   <div class="in">
     <div class="rot"><span class="p">10</span><span class="n">Verticales</span></div>
-    <h2>Verticales de contenido: de qué hablo.</h2>
+    <h2>Verticales de contenido: donde ya tengo la prueba.</h2>
     <div class="verts" style="margin-top:20px">
       <div class="vert eje"><div class="vn">Comercio</div>
         <p>Cómo se vende hoy, y qué dejó de funcionar.</p>
-        <p class="por"><b>Por qué me escucharían.</b> Porque vendo desde los 13 y no paré. Empecé puerta a puerta con cien paños y hoy vendo tecnología a empresas. No lo estudié: lo hice.</p></div>
+        <p class="por"><b>Por qué me escucharían.</b> Porque vendo desde los 13 y no paré. Empecé puerta a puerta con cien paños y hoy vendo tecnología a empresas. No lo estudié: lo hice.</p>
+        <p class="conv"><b>Por qué nos conviene hablarle.</b> Porque el comerciante que quiere crecer es el que más rápido entiende que necesita tecnología. Es una audiencia enorme y nadie le habla en serio.</p></div>
       <div class="vert eje"><div class="vn">Gastronomía</div>
         <p>La vertical donde mi palabra tiene peso comprobable.</p>
-        <p class="por"><b>Por qué me escucharían.</b> Porque trece marcas de gastronomía dependen todos los días de que lo que construí funcione. No opino del rubro desde afuera.</p></div>
+        <p class="por"><b>Por qué me escucharían.</b> Porque trece marcas dependen todos los días de que lo que construí funcione. No opino del rubro desde afuera.</p>
+        <p class="conv"><b>Por qué nos conviene hablarle.</b> Porque es donde el costo de convencer es más bajo: un cliente nuevo puede llamar a trece que ya trabajan conmigo.</p></div>
       <div class="vert eje"><div class="vn">Resolver problemas en empresas con tecnología</div>
         <p>El problema concreto primero, la herramienta después.</p>
-        <p class="por"><b>Por qué me escucharían.</b> Porque es literalmente por lo que me pagan. Veinte empresas me contrataron para eso, y de cada una aprendí dónde se traba.</p></div>
-      <div class="vert"><div class="vn">Tecnología</div>
-        <p>El eje que cruza a todas las demás.</p>
-        <p class="por"><b>Por qué me escucharían.</b> Porque todavía escribo el código. No dirijo a los que construyen: construyo, y hace cuatro años que no paro.</p></div>
-      <div class="vert"><div class="vn">Empresas</div>
-        <p>Cómo se opera de verdad, no cómo se cuenta en un caso de éxito.</p>
-        <p class="por"><b>Por qué me escucharían.</b> Porque opero dos y lidero setenta personas, a los 25. Hablo de operar, que es lo aburrido y lo que nadie cuenta, no de fundar.</p></div>
+        <p class="por"><b>Por qué me escucharían.</b> Porque es literalmente por lo que me pagan. Veinte empresas me contrataron para eso, y de cada una aprendí dónde se traba.</p>
+        <p class="conv"><b>Por qué nos conviene hablarle.</b> Porque es la única conversación que termina en una reunión comercial sin que yo la empuje. El que tiene el problema me busca.</p></div>
     </div>
   </div>
 </section>
@@ -597,20 +597,42 @@ th.n2{color:var(--violeta)}
 <section class="s" data-t="Verticales">
   <div class="in">
     <div class="rot"><span class="p">11</span><span class="n">Verticales</span></div>
-    <h2>Y las cuatro que cruzan a todas.</h2>
+    <h2>Las que sostienen la categoría.</h2>
     <div class="verts" style="margin-top:20px">
+      <div class="vert"><div class="vn">Tecnología</div>
+        <p>El eje que cruza a todas las demás.</p>
+        <p class="por"><b>Por qué me escucharían.</b> Porque todavía escribo el código. No dirijo a los que construyen: construyo, y hace cuatro años que no paro.</p>
+        <p class="conv"><b>Por qué nos conviene hablarle.</b> Porque es lo que me da la categoría. Sin este tema soy un comerciante que opina; con este soy un empresario tecnológico.</p></div>
+      <div class="vert"><div class="vn">Empresas</div>
+        <p>Cómo se opera de verdad, no cómo se cuenta en un caso de éxito.</p>
+        <p class="por"><b>Por qué me escucharían.</b> Porque opero dos y lidero setenta personas, a los 25. Hablo de operar, que es lo aburrido y lo que nadie cuenta.</p>
+        <p class="conv"><b>Por qué nos conviene hablarle.</b> Porque acá está el que decide. El dueño de pyme no consume contenido de tecnología: consume contenido de cómo manejar su empresa.</p></div>
       <div class="vert"><div class="vn">Economía</div>
         <p>Lo que hace la macro adentro de un negocio chico.</p>
-        <p class="por"><b>Por qué me escucharían.</b> Porque veo el efecto de cada movimiento en la caja de veinte negocios al mismo tiempo, todos los meses. No leo el dato: lo veo pasar.</p></div>
+        <p class="por"><b>Por qué me escucharían.</b> Porque veo el efecto de cada movimiento en la caja de veinte negocios al mismo tiempo, todos los meses. No leo el dato: lo veo pasar.</p>
+        <p class="conv"><b>Por qué nos conviene hablarle.</b> Porque es lo que todos miran todos los días. Es la puerta de entrada más ancha, y desde ahí se baja a lo mío.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- VERTICALES 3 -->
+<section class="s" data-t="Verticales">
+  <div class="in">
+    <div class="rot"><span class="p">12</span><span class="n">Verticales</span></div>
+    <h2>Las que abren puertas.</h2>
+    <div class="verts" style="margin-top:20px">
       <div class="vert"><div class="vn">Situación del país con la tecnología</div>
         <p>Dónde estamos parados de verdad, contra dónde decimos que estamos.</p>
-        <p class="por"><b>Por qué me escucharían.</b> Porque trabajo con empresas que no son tecnológicas y tienen que volverse una. Ahí se ve el país real, no el de las notas.</p></div>
+        <p class="por"><b>Por qué me escucharían.</b> Porque trabajo con empresas que no son tecnológicas y tienen que volverse una. Ahí se ve el país real, no el de las notas.</p>
+        <p class="conv"><b>Por qué nos conviene hablarle.</b> Porque es el tema que levantan los medios. Es la vertical que más rápido consigue prensa y lugar en un panel.</p></div>
       <div class="vert"><div class="vn">Innovación</div>
         <p>Qué cambia algo, y qué es sólo comprar una herramienta nueva.</p>
-        <p class="por"><b>Por qué me escucharían.</b> Porque vi de cerca qué se adopta y qué se abandona a los tres meses. La mayoría se abandona, y sé por qué.</p></div>
+        <p class="por"><b>Por qué me escucharían.</b> Porque vi de cerca qué se adopta y qué se abandona a los tres meses. La mayoría se abandona, y sé por qué.</p>
+        <p class="conv"><b>Por qué nos conviene hablarle.</b> Porque es el tema de las cámaras y los colegios. Es con lo que se entra a CUCICBA, CPI, AAMF o Cámara Fintech.</p></div>
       <div class="vert"><div class="vn">Innovación en tiempos de crisis</div>
         <p>Cuando no hay plata para experimentar.</p>
-        <p class="por"><b>Por qué me escucharían.</b> Porque construí todo lo que tengo acá, sin capital de afuera, en los últimos cuatro años. Es el único contexto que conozco.</p></div>
+        <p class="por"><b>Por qué me escucharían.</b> Porque construí todo lo que tengo, sin capital de afuera, en los últimos cuatro años. Es el único contexto que conozco.</p>
+        <p class="conv"><b>Por qué nos conviene hablarle.</b> Porque es lo único que un dueño con la caja ajustada tiene tiempo de escuchar. Es el ángulo que hace que el resto entre.</p></div>
     </div>
   </div>
 </section>
@@ -618,7 +640,7 @@ th.n2{color:var(--violeta)}
 <!-- 07 · LA INVERSION -->
 <section class="s" data-t="La inversión">
   <div class="in">
-    <div class="rot"><span class="p">12</span><span class="n">La inversión</span></div>
+    <div class="rot"><span class="p">13</span><span class="n">La inversión</span></div>
     <h2 class="lig" style="max-width:26ch">Un millón por mes hasta diciembre. <span class="viol">Cuatro millones, de mi bolsillo.</span></h2>
 
     <div class="dos">
@@ -659,7 +681,7 @@ th.n2{color:var(--violeta)}
 <!-- 09 · DONDE QUIERO HABLAR -->
 <section class="s" data-t="Puerta abierta">
   <div class="in">
-    <div class="rot"><span class="p">13</span><span class="n">Puerta abierta</span></div>
+    <div class="rot"><span class="p">14</span><span class="n">Puerta abierta</span></div>
     <h2>Donde actualmente tenemos puerta abierta.</h2>
     <div class="salas">
       <div class="sala"><div class="n2b">CUCICBA</div>
@@ -679,7 +701,7 @@ th.n2{color:var(--violeta)}
 <!-- 08 · EL PLAN -->
 <section class="s osc" data-t="El plan">
   <div class="in">
-    <div class="rot"><span class="p">14</span><span class="n">El plan</span></div>
+    <div class="rot"><span class="p">15</span><span class="n">El plan</span></div>
     <h2>Tres movimientos, y un filtro.</h2>
 
     <div class="fases">
@@ -732,7 +754,7 @@ th.n2{color:var(--violeta)}
   <div class="pieb">
     <span class="nom">Alan Tapia</span>
     <span class="don" id="don">Portada</span>
-    <span class="cta" id="cta">01 / 15</span>
+    <span class="cta" id="cta">01 / 16</span>
   </div>
 </div>
 
