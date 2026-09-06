@@ -189,6 +189,21 @@ th.n2{color:var(--violeta)}
 .rol .k2{font-size:9.5px; font-weight:600; letter-spacing:.15em; text-transform:uppercase;
   color:var(--violeta); margin-top:14px}
 
+/* la historia: relato a la izquierda, fotos a la derecha */
+.hist{display:grid; grid-template-columns:1.25fr 1fr; gap:clamp(24px,3.6vw,52px); align-items:start}
+@media (max-width:820px){.hist{grid-template-columns:1fr}}
+.relato p{font-size:clamp(15px,1.7vw,18px); font-weight:300; line-height:1.62; max-width:46ch;
+  margin:0 0 15px; color:var(--tinta2)}
+.relato p b{font-weight:600; color:var(--tinta)}
+.relato .abre{font-size:clamp(18px,2.1vw,23px); font-weight:400; line-height:1.42; color:var(--tinta)}
+.relato .abre b{font-weight:600; color:var(--violeta)}
+.nota{font-size:11.5px; font-weight:400; color:var(--tinta3); line-height:1.45; margin-top:18px;
+  padding-top:13px; border-top:1px solid var(--regla); max-width:46ch}
+.retratos{display:grid; gap:12px}
+.retrato{aspect-ratio:4/5; border:1.5px dashed var(--violeta); border-radius:14px; display:grid;
+  place-items:center; color:var(--violeta); font-size:11px; font-weight:500; letter-spacing:.09em;
+  text-transform:uppercase; opacity:.55; text-align:center; padding:10px}
+
 /* huecos para fotos y logos */
 .fotos{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin-top:6px}
 .hueco{aspect-ratio:4/3; border:1.5px dashed var(--violeta); border-radius:12px; display:grid;
@@ -226,17 +241,33 @@ th.n2{color:var(--violeta)}
 <section class="s" data-t="La historia">
   <div class="in">
     <div class="rot"><span class="p">01</span><span class="n">La historia</span></div>
-    <h2 class="lig" style="max-width:24ch">Empecé a vender <span class="viol">a los 13</span>, con
-    cien paños multiuso, puerta a puerta.</h2>
-    <div class="dos">
-      <div>
-        <p style="font-size:clamp(15px,1.75vw,18px)">Distribuidora Innamorati. Con lo que tenía
-        ahorrado compré la primera bolsa y salí a tocar timbres.</p>
+
+    <div class="hist">
+      <div class="relato">
+        <p class="abre">Empecé a vender <b>a los 13</b>. Compré cien paños multiuso con lo que tenía
+        ahorrado, les puse un nombre, Distribuidora Innamorati, y salí a tocar timbres.</p>
+
+        <p>Dormía rodeado de productos de limpieza en mi cuarto. Antes de eso había trabajado en una
+        verdulería y en una joyería.</p>
+
+        <p><b>A los 14 me enseñé a programar solo.</b> No tengo título ni carrera. A los 17 me fui a
+        Paraguay, y después viví dos años en Brasil.</p>
+
+        <p>En <b>2022</b> escribí la primera línea del sistema que hoy sostiene todo lo que opero. En
+        <b>2024</b> constituí la primera sociedad.</p>
+
+        <p><b>Hoy tengo 25 años, dos empresas en operación y unas setenta personas.</b> Sigo
+        escribiendo en el mismo sistema que arranqué hace cuatro años.</p>
+
+        <p class="nota">Lo de los paños, los años en Paraguay y Brasil, y haber aprendido a programar
+        a los 14 salen de mis propios audios y no están verificados contra otra fuente. El archivo
+        tiene dos versiones de algunos: <b>13 y 12 años</b>, y <b>100 y 1.000 paños</b>. Hay que
+        elegir una antes de contarla en público.</p>
       </div>
-      <div class="caja">
-        <p class="cita" style="margin-bottom:8px">Dormía rodeado de productos de limpieza en mi
-        cuarto.</p>
-        <p class="fuente">Alan Tapia<span class="chip">pendiente de firmar</span></p>
+
+      <div class="retratos">
+        <div class="retrato">Foto 1</div>
+        <div class="retrato">Foto 2</div>
       </div>
     </div>
   </div>
