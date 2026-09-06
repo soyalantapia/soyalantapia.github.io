@@ -189,6 +189,32 @@ th.n2{color:var(--violeta)}
 .rol .k2{font-size:9.5px; font-weight:600; letter-spacing:.15em; text-transform:uppercase;
   color:var(--violeta); margin-top:14px}
 
+/* razones numeradas, en fila */
+.razones{display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+  gap:clamp(18px,2.6vw,34px)}
+.razones > div{border-top:2px solid var(--violeta); padding-top:13px}
+.razones .rn{font-size:11px; font-weight:600; letter-spacing:.16em; color:var(--violeta);
+  margin-bottom:7px}
+.razones .rt{font-size:clamp(17px,2vw,21px); font-weight:600; letter-spacing:-.024em;
+  line-height:1.16; margin-bottom:8px}
+.razones p{font-size:14px; margin:0; max-width:none}
+
+/* la cadena de extraccion */
+.cadena{display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:12px}
+.paso{background:var(--panel); border:1px solid var(--regla); border-radius:13px; padding:15px 17px}
+.paso .pn{font-size:10px; font-weight:600; letter-spacing:.15em; text-transform:uppercase;
+  color:var(--violeta); margin-bottom:6px}
+.paso .pt{font-size:clamp(16px,1.9vw,19px); font-weight:600; letter-spacing:-.022em; margin-bottom:5px}
+.paso p{font-size:13px; margin:0; max-width:none}
+
+/* verticales */
+.verts{display:grid; grid-template-columns:repeat(auto-fit,minmax(215px,1fr)); gap:12px}
+.vert{border:1px solid var(--regla); border-radius:13px; padding:15px 17px; background:var(--panel)}
+.vert .vn{font-size:clamp(16px,1.85vw,19px); font-weight:600; letter-spacing:-.024em; margin-bottom:5px}
+.vert p{font-size:13px; margin:0; max-width:none}
+.vert.eje{background:var(--hondo2); border-color:var(--hondo2)}
+.vert.eje .vn{color:#fff} .vert.eje p{color:#DBCDF3}
+
 /* la historia: relato a la izquierda, fotos a la derecha */
 .hist{display:grid; grid-template-columns:1.25fr 1fr; gap:clamp(24px,3.6vw,52px); align-items:start}
 @media (max-width:820px){.hist{grid-template-columns:1fr}}
@@ -238,7 +264,7 @@ th.n2{color:var(--violeta)}
 <!-- 01 · LA HISTORIA -->
 <section class="s" data-t="La historia">
   <div class="in">
-    <div class="rot"><span class="p">02</span><span class="n">La historia</span></div>
+    <div class="rot"><span class="p">01</span><span class="n">La historia</span></div>
 
     <div class="hist">
       <div class="relato">
@@ -269,7 +295,7 @@ th.n2{color:var(--violeta)}
 <!-- 02 · DONDE ESTOY -->
 <section class="s" data-t="Dónde estoy">
   <div class="in">
-    <div class="rot"><span class="p">03</span><span class="n">Dónde estoy</span></div>
+    <div class="rot"><span class="p">02</span><span class="n">Dónde estoy</span></div>
     <h2>Dos empresas en operación, y los clientes que las eligieron.</h2>
 
     <div class="dos">
@@ -305,7 +331,7 @@ th.n2{color:var(--violeta)}
 <!-- 03 · DONDE ESTOY, hoja 2 -->
 <section class="s" data-t="Dónde estoy">
   <div class="in">
-    <div class="rot"><span class="p">04</span><span class="n">Dónde estoy</span></div>
+    <div class="rot"><span class="p">03</span><span class="n">Dónde estoy</span></div>
     <h2>Emprendiendo.</h2>
 
     <div class="dos">
@@ -342,7 +368,7 @@ th.n2{color:var(--violeta)}
 <!-- 03 · CONFERENCIAS -->
 <section class="s" data-t="Conferencias">
   <div class="in">
-    <div class="rot"><span class="p">05</span><span class="n">Conferencias</span></div>
+    <div class="rot"><span class="p">04</span><span class="n">Conferencias</span></div>
     <h2 class="lig">He hablado en <span class="viol">10 conferencias</span>.</h2>
     <p style="margin-bottom:20px">Escenarios, paneles y medios donde ya me subí. No es teoría: es lo
     que pasa cuando me dan el micrófono.<span class="chip">confirmá el número</span></p>
@@ -360,7 +386,7 @@ th.n2{color:var(--violeta)}
 <!-- 03 · A DONDE QUIERO ESTAR -->
 <section class="s" data-t="A dónde quiero estar">
   <div class="in">
-    <div class="rot"><span class="p">06</span><span class="n">A dónde quiero estar</span></div>
+    <div class="rot"><span class="p">05</span><span class="n">A dónde quiero estar</span></div>
     <div class="dos">
       <div>
         <h2 class="lig" style="font-size:clamp(28px,4.6vw,52px)">En marzo soy <span class="viol">referente como empresario tecnológico</span>.</h2>
@@ -385,7 +411,7 @@ th.n2{color:var(--violeta)}
 <!-- 04 · OBJETIVO -->
 <section class="s" data-t="Objetivo">
   <div class="in">
-    <div class="rot"><span class="p">07</span><span class="n">Objetivo</span></div>
+    <div class="rot"><span class="p">06</span><span class="n">Objetivo</span></div>
     <h2>Dos números, y sólo dos.</h2>
     <div class="dos">
       <div class="caja">
@@ -408,19 +434,34 @@ th.n2{color:var(--violeta)}
   </div>
 </section>
 
-<!-- 05 · CONTENIDO -->
+<!-- CONTENIDO -->
 <section class="s" data-t="Contenido">
   <div class="in">
-    <div class="rot"><span class="p">08</span><span class="n">Contenido</span></div>
-    <h2 class="lig">Nunca le hablo <span class="viol">a la cámara</span>.</h2>
+    <div class="rot"><span class="p">07</span><span class="n">Contenido</span></div>
+    <h2 class="lig" style="max-width:26ch">Nunca le hablo <span class="viol">a la cámara</span>.
+    Todo sale de una conversación con otro.</h2>
 
-    <ul style="margin-bottom:26px">
-      <li><b>El formato ES el posicionamiento.</b> A un tipo que le habla a la cámara lo leen como
-      creador de contenido. A uno al que entrevistan, como alguien a quien vale la pena entrevistar</li>
-      <li><b>Elimina el guion</b>, que es lo que mata estos planes en el mes dos. Dirijo tres
-      empresas: sentarme a escribir guiones no va a pasar</li>
-      <li><b>Traslada el costo de producción:</b> el evento graba y edita</li>
-    </ul>
+    <div class="razones" style="margin:26px 0 30px">
+      <div>
+        <div class="rn">01</div>
+        <div class="rt">El formato es el posicionamiento</div>
+        <p>A un tipo que le habla a la cámara lo leen como creador de contenido. A uno al que
+        entrevistan, como alguien a quien vale la pena entrevistar. No hace falta que yo afirme nada:
+        la escena lo afirma sola.</p>
+      </div>
+      <div>
+        <div class="rn">02</div>
+        <div class="rt">No hay guion que escribir</div>
+        <p>Es lo que mata estos planes en el mes dos. Dirijo dos empresas: sentarme a escribir
+        guiones no va a pasar. Una charla ya tiene su contenido adentro.</p>
+      </div>
+      <div>
+        <div class="rn">03</div>
+        <div class="rt">El evento paga la producción</div>
+        <p>La organización graba y edita, y hay fotógrafos que trabajan por reconocimiento. Salgo con
+        material sin poner una cámara.</p>
+      </div>
+    </div>
 
     <h3>La misma persona a tres distancias</h3>
     <div class="sup">
@@ -434,10 +475,82 @@ th.n2{color:var(--violeta)}
   </div>
 </section>
 
+<!-- COMO SE EXTRAE -->
+<section class="s" data-t="Cómo se extrae">
+  <div class="in">
+    <div class="rot"><span class="p">08</span><span class="n">Cómo se extrae</span></div>
+    <h2 class="lig">De <span class="viol">un solo escenario</span> salen veinte piezas.</h2>
+
+    <div class="cadena" style="margin:24px 0 26px">
+      <div class="paso"><div class="pn">Paso 1</div><div class="pt">Capturar</div>
+        <p>Cámara y fotógrafo en la sala. Video entero, audio limpio, fotos de escenario y fotos con
+        la gente. Una vez, el día del evento.</p></div>
+      <div class="paso"><div class="pn">Paso 2</div><div class="pt">Cortar</div>
+        <p>El editor saca los cortes, las citas y las fotos elegidas. Es el único paso que no puedo
+        hacer yo, y hoy no tiene dueño.</p></div>
+      <div class="paso"><div class="pn">Paso 3</div><div class="pt">Publicar</div>
+        <p>Cada pieza va a la superficie que le toca. Lo grabado en temporada alta se publica en la
+        baja.</p></div>
+    </div>
+
+    <h3>Los medios que salen de una sola aparición</h3>
+    <div class="tw"><table>
+      <thead><tr><th>La pieza</th><th>Qué es</th><th>Dónde va</th><th class="n2">Por evento</th></tr></thead>
+      <tbody>
+        <tr><td><b>La charla entera</b></td><td>Video largo, sin cortar. Es el activo madre: de acá
+          sale todo lo demás</td><td>YouTube, LinkedIn</td><td class="n2">1</td></tr>
+        <tr><td><b>Los cortes</b></td><td>Verticales de 30 a 60 segundos, una idea cada uno</td>
+          <td>Reels, TikTok, Shorts</td><td class="n2">6 a 10</td></tr>
+        <tr><td><b>Las citas</b></td><td>Una frase escrita sobre fondo, o carrusel de tres</td>
+          <td>Feed, LinkedIn</td><td class="n2">3 a 5</td></tr>
+        <tr><td><b>Fotos de escenario</b></td><td>La prueba de que estuve ahí</td><td>Feed</td>
+          <td class="n2">2 a 3</td></tr>
+        <tr><td><b>Fotos con empresarios</b></td><td>La prueba de con quién. Vale más que la de
+          arriba</td><td>Feed</td><td class="n2">1 a 3</td></tr>
+        <tr><td><b>El audio</b></td><td>La charla en audio, para el que escucha y no mira</td>
+          <td>Spotify, podcast</td><td class="n2">1</td></tr>
+        <tr><td><b>La nota escrita</b></td><td>Un artículo con lo que planteé. Es lo que indexa
+          Google</td><td>Web propia, medios</td><td class="n2">1</td></tr>
+        <tr><td><b>El backstage</b></td><td>Antes, durante y después. Acá vive el personaje</td>
+          <td>Historias</td><td class="n2">4 a 8</td></tr>
+        <tr><td><b>La gacetilla</b></td><td>Qué dije y por qué importa, para que lo levante un
+          medio</td><td>Prensa</td><td class="n2">1</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<!-- VERTICALES -->
+<section class="s" data-t="Verticales">
+  <div class="in">
+    <div class="rot"><span class="p">09</span><span class="n">Verticales</span></div>
+    <h2>De qué hablo.</h2>
+
+    <div class="verts" style="margin-top:22px">
+      <div class="vert eje"><div class="vn">Tecnología</div>
+        <p>El eje. Todo lo demás se cruza con esto o no es mío.</p></div>
+      <div class="vert eje"><div class="vn">Empresas</div>
+        <p>Cómo se opera de verdad, no cómo se cuenta en un caso de éxito.</p></div>
+      <div class="vert"><div class="vn">Economía</div>
+        <p>Lo que hace la macro adentro de un negocio chico.</p></div>
+      <div class="vert"><div class="vn">Situación del país con la tecnología</div>
+        <p>Dónde estamos parados de verdad, contra dónde decimos que estamos.</p></div>
+      <div class="vert"><div class="vn">Innovación</div>
+        <p>Qué cambia algo, y qué es sólo comprar una herramienta nueva.</p></div>
+      <div class="vert"><div class="vn">Innovación en tiempos de crisis</div>
+        <p>Cuando no hay plata para experimentar. Es el que más le sirve al que me escucha.</p></div>
+      <div class="vert"><div class="vn">Gastronomía</div>
+        <p>La vertical donde mi palabra tiene peso comprobable.</p></div>
+      <div class="vert"><div class="vn">Comercio</div>
+        <p>Cómo se vende hoy, y qué dejó de funcionar.</p></div>
+    </div>
+  </div>
+</section>
+
 <!-- 06 · A QUIEN LE HABLO -->
 <section class="s" data-t="A quién le hablo">
   <div class="in">
-    <div class="rot"><span class="p">09</span><span class="n">A quién le hablo</span></div>
+    <div class="rot"><span class="p">10</span><span class="n">A quién le hablo</span></div>
     <h2 class="lig">A <span class="viol">emprendedores y empresarios pymes</span>.</h2>
     <p style="font-size:clamp(15px,1.75vw,18px); margin-bottom:26px">Escucharme es poder ver a un
     empresario tecnológico. Y de ahí sale lo único que busco: <b>que quieran armar negocios
@@ -458,7 +571,7 @@ th.n2{color:var(--violeta)}
 <!-- 07 · LA INVERSION -->
 <section class="s" data-t="La inversión">
   <div class="in">
-    <div class="rot"><span class="p">10</span><span class="n">La inversión</span></div>
+    <div class="rot"><span class="p">11</span><span class="n">La inversión</span></div>
     <h2 class="lig" style="max-width:26ch">Un millón por mes hasta diciembre. <span class="viol">Cuatro millones, de mi bolsillo.</span></h2>
 
     <div class="dos">
@@ -499,7 +612,7 @@ th.n2{color:var(--violeta)}
 <!-- 09 · DONDE QUIERO HABLAR -->
 <section class="s" data-t="Puerta abierta">
   <div class="in">
-    <div class="rot"><span class="p">11</span><span class="n">Puerta abierta</span></div>
+    <div class="rot"><span class="p">12</span><span class="n">Puerta abierta</span></div>
     <h2>Donde actualmente tenemos puerta abierta.</h2>
     <div class="salas">
       <div class="sala"><div class="n2b">CUCICBA</div>
@@ -519,7 +632,7 @@ th.n2{color:var(--violeta)}
 <!-- 08 · EL PLAN -->
 <section class="s osc" data-t="El plan">
   <div class="in">
-    <div class="rot"><span class="p">12</span><span class="n">El plan</span></div>
+    <div class="rot"><span class="p">13</span><span class="n">El plan</span></div>
     <h2>Tres movimientos, y un filtro.</h2>
 
     <div class="fases">
@@ -572,7 +685,7 @@ th.n2{color:var(--violeta)}
   <div class="pieb">
     <span class="nom">Alan Tapia</span>
     <span class="don" id="don">Portada</span>
-    <span class="cta" id="cta">01 / 12</span>
+    <span class="cta" id="cta">01 / 14</span>
   </div>
 </div>
 
