@@ -78,11 +78,13 @@ p:last-child{margin-bottom:0}
   background:var(--ambar-t); color:var(--ambar); border:1px solid var(--ambar-b)}
 
 ul{list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:9px}
-li{display:grid; grid-template-columns:auto 1fr; gap:11px; font-size:clamp(14px,1.5vw,16px);
+/* 🔴 El punto va POSICIONADO, no como celda de grid. Con `display:grid` en el li, cada <b> del
+   texto se convertia en su propia celda y el negrita saltaba a la derecha. */
+li{position:relative; padding-left:17px; font-size:clamp(14px,1.5vw,16px);
   font-weight:300; line-height:1.42; color:var(--tinta2)}
 .osc li{color:#DCD1F3}
-li::before{content:""; width:5px; height:5px; border-radius:50%; background:var(--violeta);
-  margin-top:8px}
+li::before{content:""; position:absolute; left:0; top:.62em; width:5px; height:5px;
+  border-radius:50%; background:var(--violeta)}
 .osc li::before{background:var(--claro)}
 .no li::before{background:var(--ambar)}
 
