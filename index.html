@@ -349,6 +349,16 @@ th.n2{color:var(--violeta)}
 .noes{margin:22px 0 0; padding:13px 16px; border-radius:13px; background:var(--panel2);
   font-size:clamp(13px,1.55vw,15.5px); color:var(--tinta2); max-width:none; line-height:1.45}
 .noes b{color:var(--tinta)}
+
+/* en telefono el snap estorba: pasa a documento normal */
+@media (max-width:760px){
+  .deck{height:auto; overflow:visible; scroll-snap-type:none}
+  .s{min-height:0; overflow:visible; scroll-snap-align:none; scroll-snap-stop:normal;
+    justify-content:flex-start; padding:32px 20px 36px; border-bottom:1px solid var(--regla)}
+  .s.osc{border-bottom-color:var(--hondo2)}
+  .s:last-of-type{border-bottom:0; padding-bottom:64px}
+  .in{max-width:none}
+}
 </style>
 </head>
 <body>
@@ -887,9 +897,10 @@ th.n2{color:var(--violeta)}
   }
 
   if ('IntersectionObserver' in window){
+    var propio = getComputedStyle(deck).overflowY !== 'visible';
     var io = new IntersectionObserver(function(es){
       es.forEach(function(e){ if (e.isIntersecting) pinta(slides.indexOf(e.target)); });
-    }, {root: deck, threshold: 0.55});
+    }, {root: propio ? deck : null, rootMargin: '-45% 0px -45% 0px', threshold: 0});
     slides.forEach(function(s){ io.observe(s); });
   }
 
