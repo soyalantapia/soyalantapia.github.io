@@ -38,7 +38,7 @@ body{margin:0; background:var(--fondo); color:var(--tinta); font-family:var(--f)
 .deck::-webkit-scrollbar{display:none}
 .s{min-height:100svh; scroll-snap-align:start; scroll-snap-stop:always; display:flex;
   flex-direction:column; justify-content:center; overflow-y:auto; background:var(--fondo);
-  padding:clamp(42px,6vh,72px) clamp(22px,5.5vw,80px) clamp(74px,10vh,100px)}
+  padding:clamp(30px,4.6vh,60px) clamp(20px,5vw,74px) clamp(58px,7.5vh,80px)}
 .s.osc{background:var(--hondo); color:#F4EEFF}
 .in{width:100%; max-width:1060px; margin:0 auto}
 
@@ -197,10 +197,10 @@ th.n2{color:var(--violeta)}
   color:var(--violeta); margin-top:14px}
 
 /* de donde sale el contenido */
-.origenes{display:grid; grid-template-columns:repeat(auto-fit,minmax(146px,1fr)); gap:9px}
-.orig{border:1px solid var(--regla); border-radius:12px; padding:11px 13px; background:var(--panel)}
-.orig .on{font-size:15px; font-weight:600; letter-spacing:-.02em; margin-bottom:4px}
-.orig p{font-size:12px; margin:0; max-width:none; line-height:1.38}
+.origenes{display:grid; grid-template-columns:repeat(auto-fit,minmax(136px,1fr)); gap:8px}
+.orig{border:1px solid var(--regla); border-radius:11px; padding:10px 12px; background:var(--panel)}
+.orig .on{font-size:13.5px; font-weight:600; letter-spacing:-.02em; margin-bottom:4px}
+.orig p{font-size:11.5px; margin:0; max-width:none; line-height:1.38}
 .orig.eje{background:var(--hondo2); border-color:var(--hondo2); grid-column:span 2}
 .orig.eje .on{color:#fff} .orig.eje p{color:#DBCDF3}
 .orig.eje p b{color:var(--claro); font-weight:600}
@@ -289,10 +289,11 @@ th.n2{color:var(--violeta)}
 .osc .hueco{border-color:var(--claro); color:var(--claro)}
 
 /* salas */
-.salas{display:grid; grid-template-columns:repeat(auto-fit,minmax(168px,1fr)); gap:9px}
-.sala{border:1px solid var(--regla); border-radius:12px; padding:11px 13px; background:var(--panel)}
-.sala .n2b{font-size:clamp(14.5px,1.6vw,17px); font-weight:600; letter-spacing:-.024em; margin-bottom:3px}
-.sala p{font-size:11.5px; margin:0; max-width:none; line-height:1.35}
+.salas{display:grid; grid-template-columns:repeat(auto-fit,minmax(152px,1fr)); gap:8px}
+.sala{border:1px solid var(--regla); border-radius:11px; padding:9px 11px; background:var(--panel)}
+.sala .n2b{font-size:clamp(13px,1.45vw,15px); font-weight:600; letter-spacing:-.022em;
+  margin-bottom:3px; line-height:1.2}
+.sala p{font-size:11px; margin:0; max-width:none; line-height:1.32}
 .sala .n2b .chip{margin-left:8px}
 .sala.porver{border-color:var(--ambar-b); background:var(--ambar-t)}
 .sala.vacia{border-style:dashed; border-color:var(--violeta); background:transparent; opacity:.6;
