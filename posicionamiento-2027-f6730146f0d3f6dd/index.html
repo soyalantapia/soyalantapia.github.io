@@ -354,6 +354,13 @@ th.n2{color:var(--violeta)}
 
 @media (max-width:900px){}
 
+.vert .por b,.vert .conv b{display:block; margin-bottom:6px; font-size:12px}
+.vert .por ul,.vert .conv ul{gap:5px}
+.vert .por li,.vert .conv li{font-size:12px; padding-left:12px; line-height:1.34;
+  font-weight:400}
+.vert .por li::before,.vert .conv li::before{width:4px; height:4px; top:.6em}
+.vert.eje .por li,.vert.eje .conv li{color:#E4D9F8}
+.vert.eje .por li::before,.vert.eje .conv li::before{background:var(--claro)}
 </style>
 </head>
 <body>
@@ -626,16 +633,45 @@ th.n2{color:var(--violeta)}
     <div class="verts" style="margin-top:18px">
       <div class="vert eje"><div class="vn">Gastronomía</div>
         <p>La vertical donde mi palabra tiene peso comprobable.</p>
-        <p class="por"><b>Por qué me escucharían.</b> Cien locales trabajan todos los días con lo que construimos. Cuando algo se cae un viernes a la noche, la llamada entra por acá. Conozco el rubro con el cierre de caja a la vista, no por lo que se publica de él.</p>
-        <p class="conv"><b>Por qué nos conviene hablarle.</b> Es un rubro chico donde todos se conocen. El que duda puede llamar a Nucha, a Palta o a Quem y preguntar, y eso me ahorra la mitad de la conversación. Una charla que sale bien se comenta sola en el resto del mercado.</p></div>
+        <div class="por"><b>Por qué me escucharían</b>
+          <ul>
+          <li>Cien locales trabajan todos los días con lo que construimos</li>
+          <li>Cuando algo se cae un viernes a la noche, la llamada entra por acá</li>
+          <li>Conozco el rubro con el cierre de caja a la vista</li>
+          </ul></div>
+        <div class="conv"><b>Por qué nos conviene hablarle</b>
+          <ul>
+          <li>Hoy no hay un referente del rubro. El lugar está libre</li>
+          <li>Es un mercado de credibilidad y confianza</li>
+          <li>Hacer las cosas bien acá ya es posicionarse</li>
+          </ul></div></div>
       <div class="vert eje"><div class="vn">Resolver problemas en empresas con tecnología</div>
         <p>El problema concreto primero, la herramienta después.</p>
-        <p class="por"><b>Por qué me escucharían.</b> Es el trabajo por el que me pagan. Cada vez que entré a una empresa a resolver algo me pasó lo mismo: el problema que me contaron no era el problema. Hablo del paso de antes de comprar la herramienta, que es el que nadie explica.</p>
-        <p class="conv"><b>Por qué nos conviene hablarle.</b> Es el único tema donde el criterio se ve en vivo. Alguien tira un problema de su empresa, yo lo pienso adelante de todos, y el que escucha saca su propia conclusión.</p></div>
+        <div class="por"><b>Por qué me escucharían</b>
+          <ul>
+          <li>Es el trabajo por el que me pagan</li>
+          <li>Cada vez que entré a resolver algo, el problema que me contaron no era el problema</li>
+          <li>Hablo del paso de antes de comprar la herramienta</li>
+          </ul></div>
+        <div class="conv"><b>Por qué nos conviene hablarle</b>
+          <ul>
+          <li>Es el único tema donde el criterio se ve en vivo</li>
+          <li>Alguien tira un problema de su empresa y lo pienso adelante de todos</li>
+          <li>El que escucha saca su propia conclusión</li>
+          </ul></div></div>
       <div class="vert eje"><div class="vn">Comercio</div>
         <p>Cómo se vende hoy, y qué dejó de funcionar.</p>
-        <p class="por"><b>Por qué me escucharían.</b> Empecé a los 13 vendiendo paños multiuso puerta a puerta, y llegué a tener 27 vendedores a comisión. Hoy vendo software a empresas. Son las dos puntas del mismo oficio, y las hice, no las estudié.</p>
-        <p class="conv"><b>Por qué nos conviene hablarle.</b> Un comerciante que quiere crecer escucha a alguien que vendió, no a alguien que da consejos. Y es la puerta más ancha que hay: casi todos los que me van a escuchar venden algo.</p></div>
+        <div class="por"><b>Por qué me escucharían</b>
+          <ul>
+          <li>Empecé a los 13 vendiendo paños multiuso puerta a puerta</li>
+          <li>Llegué a tener 27 vendedores a comisión</li>
+          <li>Hoy vendo software a empresas: las dos puntas del mismo oficio</li>
+          </ul></div>
+        <div class="conv"><b>Por qué nos conviene hablarle</b>
+          <ul>
+          <li>El comerciante escucha a alguien que vendió, no a alguien que aconseja</li>
+          <li>Es la puerta más ancha: casi todos los que me escuchan venden algo</li>
+          </ul></div></div>
     </div>
   </div>
 </section>
@@ -648,16 +684,46 @@ th.n2{color:var(--violeta)}
     <div class="verts" style="margin-top:18px">
       <div class="vert"><div class="vn">Tecnología</div>
         <p>El eje que cruza a todas las demás.</p>
-        <p class="por"><b>Por qué me escucharían.</b> Escribo el código. No dirijo a los que construyen. Cuando alguien me pregunta si algo se puede hacer, contesto en el momento, porque lo voy a hacer yo.</p>
-        <p class="conv"><b>Por qué nos conviene hablarle.</b> Es el tema que define en qué mesa me sientan. Sin él soy alguien con opinión sobre negocios, que hay muchos. Con él soy alguien a quien le preguntan cómo se hace.</p></div>
+        <div class="por"><b>Por qué me escucharían</b>
+          <ul>
+          <li>Escribo el código. No dirijo a los que construyen</li>
+          <li>Si me preguntan si algo se puede hacer, contesto en el momento</li>
+          <li>Hace cuatro años que no paro</li>
+          </ul></div>
+        <div class="conv"><b>Por qué nos conviene hablarle</b>
+          <ul>
+          <li>Define en qué mesa me sientan</li>
+          <li>Sin este tema soy alguien con opinión sobre negocios, que hay muchos</li>
+          <li>Con este tema soy alguien a quien le preguntan cómo se hace</li>
+          </ul></div></div>
       <div class="vert"><div class="vn">Empresas</div>
         <p>Cómo se opera de verdad, no cómo se cuenta en un caso de éxito.</p>
-        <p class="por"><b>Por qué me escucharían.</b> Las opero yo y no delego la parte fea: sueldos, márgenes, gente que se va. Puedo contar un mes malo con el detalle de un mes malo, que es justo lo que ningún caso de éxito cuenta.</p>
-        <p class="conv"><b>Por qué nos conviene hablarle.</b> Acá está el que decide. El dueño de una pyme no busca contenido de tecnología, busca cómo manejar mejor lo que ya tiene. Por ahí le entra todo lo demás.</p></div>
+        <div class="por"><b>Por qué me escucharían</b>
+          <ul>
+          <li>Las opero yo y no delego la parte fea: sueldos, márgenes, gente que se va</li>
+          <li>Puedo contar un mes malo con el detalle de un mes malo</li>
+          <li>Es justo lo que ningún caso de éxito cuenta</li>
+          </ul></div>
+        <div class="conv"><b>Por qué nos conviene hablarle</b>
+          <ul>
+          <li>Acá está el que decide</li>
+          <li>El dueño de pyme no busca tecnología: busca manejar mejor lo que ya tiene</li>
+          <li>Por ahí le entra todo lo demás</li>
+          </ul></div></div>
       <div class="vert"><div class="vn">Economía</div>
         <p>Lo que hace la macro adentro de un negocio chico.</p>
-        <p class="por"><b>Por qué me escucharían.</b> Veo el mismo viernes a la noche en cien mostradores distintos. Cuando se mueve algo de la macro lo veo en los pedidos antes de que salga publicado. La muestra está inclinada, porque son locales que nos contrataron, y lo aclaro cuando lo cuento.</p>
-        <p class="conv"><b>Por qué nos conviene hablarle.</b> Es de lo que habla todo el mundo todos los días, así que es la entrada más ancha. Desde ahí bajo a lo mío en dos frases.</p></div>
+        <div class="por"><b>Por qué me escucharían</b>
+          <ul>
+          <li>Veo el mismo viernes a la noche en cien mostradores distintos</li>
+          <li>Cuando se mueve la macro lo veo en los pedidos antes de que salga publicado</li>
+          <li>La muestra está inclinada, son locales que nos contrataron, y lo aclaro</li>
+          </ul></div>
+        <div class="conv"><b>Por qué nos conviene hablarle</b>
+          <ul>
+          <li>Es de lo que habla todo el mundo todos los días</li>
+          <li>Es la entrada más ancha que hay</li>
+          <li>Desde ahí bajo a lo mío en dos frases</li>
+          </ul></div></div>
     </div>
   </div>
 </section>
@@ -670,16 +736,44 @@ th.n2{color:var(--violeta)}
     <div class="verts" style="margin-top:18px">
       <div class="vert"><div class="vn">Situación del país con la tecnología</div>
         <p>Dónde estamos parados de verdad, contra dónde decimos que estamos.</p>
-        <p class="por"><b>Por qué me escucharían.</b> Trabajo con empresas que no son tecnológicas y necesitan volverse una. Ahí se ve el país que no sale en los anuncios: el de la empresa que factura bien y todavía anota los pedidos en un cuaderno.</p>
-        <p class="conv"><b>Por qué nos conviene hablarle.</b> Es el tema que un medio levanta sin que se lo ofrezcas. Si hay una vertical que va a conseguir prensa y lugar en un panel antes que las otras, es esta.</p></div>
+        <div class="por"><b>Por qué me escucharían</b>
+          <ul>
+          <li>Trabajo con empresas que no son tecnológicas y necesitan volverse una</li>
+          <li>Ahí se ve el país que no sale en los anuncios</li>
+          <li>La empresa que factura bien y todavía anota los pedidos en un cuaderno</li>
+          </ul></div>
+        <div class="conv"><b>Por qué nos conviene hablarle</b>
+          <ul>
+          <li>Un medio lo levanta sin que se lo ofrezcas</li>
+          <li>Es la vertical que antes consigue prensa y lugar en un panel</li>
+          </ul></div></div>
       <div class="vert"><div class="vn">Innovación</div>
         <p>Qué cambia algo, y qué es sólo comprar una herramienta nueva.</p>
-        <p class="por"><b>Por qué me escucharían.</b> Vi de cerca qué se adopta y qué se abandona a los tres meses. Se abandona más de lo que se adopta, y casi siempre por lo mismo: se compró la herramienta antes de entender para qué.</p>
-        <p class="conv"><b>Por qué nos conviene hablarle.</b> Es el tema con el que hablan las cámaras y los colegios. Es la puerta a CUCICBA, CPI, AAMF y la Cámara Fintech, que son justo las salas donde todavía no estuve.</p></div>
+        <div class="por"><b>Por qué me escucharían</b>
+          <ul>
+          <li>Vi de cerca qué se adopta y qué se abandona a los tres meses</li>
+          <li>Se abandona más de lo que se adopta</li>
+          <li>Casi siempre por lo mismo: se compró la herramienta antes de entender para qué</li>
+          </ul></div>
+        <div class="conv"><b>Por qué nos conviene hablarle</b>
+          <ul>
+          <li>Es el tema de las cámaras y los colegios</li>
+          <li>Es la puerta a CUCICBA, CPI, AAMF y la Cámara Fintech</li>
+          <li>Son justo las salas donde todavía no estuve</li>
+          </ul></div></div>
       <div class="vert"><div class="vn">Innovación en tiempos de crisis</div>
         <p>Cuando no hay plata para experimentar.</p>
-        <p class="por"><b>Por qué me escucharían.</b> Todo lo que tengo lo construí sin capital de afuera, acá, en los últimos cuatro años. No conozco otro contexto, y es el mismo que está viviendo el que me escucha.</p>
-        <p class="conv"><b>Por qué nos conviene hablarle.</b> Es lo único que alguien con la caja ajustada tiene tiempo de escuchar. Si no nombrás la restricción primero, no te escuchan el resto.</p></div>
+        <div class="por"><b>Por qué me escucharían</b>
+          <ul>
+          <li>Construí todo sin capital de afuera, acá, en los últimos cuatro años</li>
+          <li>No conozco otro contexto</li>
+          <li>Es el mismo que está viviendo el que me escucha</li>
+          </ul></div>
+        <div class="conv"><b>Por qué nos conviene hablarle</b>
+          <ul>
+          <li>Es lo único que alguien con la caja ajustada tiene tiempo de escuchar</li>
+          <li>Si no nombrás la restricción primero, no te escuchan el resto</li>
+          </ul></div></div>
     </div>
   </div>
 </section>
