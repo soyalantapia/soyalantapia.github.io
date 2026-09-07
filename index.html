@@ -273,6 +273,8 @@ th.n2{color:var(--violeta)}
 .sala{border:1px solid var(--regla); border-radius:13px; padding:15px 17px; background:var(--panel)}
 .sala .n2b{font-size:clamp(17px,2vw,21px); font-weight:600; letter-spacing:-.024em; margin-bottom:3px}
 .sala p{font-size:13px; margin:0; max-width:none}
+.sala .n2b .chip{margin-left:8px}
+.sala.porver{border-color:var(--ambar-b); background:var(--ambar-t)}
 .sala.vacia{border-style:dashed; border-color:var(--violeta); background:transparent; opacity:.6;
   display:grid; place-items:center; min-height:84px; color:var(--violeta); font-size:11.5px;
   font-weight:500; text-align:center}
@@ -734,12 +736,12 @@ th.n2{color:var(--violeta)}
   </div>
 </section>
 
-<!-- 09 · DONDE QUIERO HABLAR -->
+<!-- PUERTA ABIERTA -->
 <section class="s" data-t="Puerta abierta">
   <div class="in">
     <div class="rot"><span class="p">16</span><span class="n">Puerta abierta</span></div>
     <h2>Donde actualmente tenemos puerta abierta.</h2>
-    <div class="salas">
+    <div class="salas" style="margin-top:18px">
       <div class="sala"><div class="n2b">CUCICBA</div>
         <p>Colegio Único de Corredores Inmobiliarios de la Ciudad de Buenos Aires.</p></div>
       <div class="sala"><div class="n2b">CPI</div>
@@ -748,7 +750,16 @@ th.n2{color:var(--violeta)}
         <p>Asociación Argentina de Marcas y Franquicias.</p></div>
       <div class="sala"><div class="n2b">Cámara Fintech</div>
         <p>Cámara Argentina de Fintech.</p></div>
-      <div class="sala vacia">+ agregar sala</div>
+      <div class="sala"><div class="n2b">Mutual Hirigoyen</div>
+        <p>Mutual.<span class="chip">completá la línea</span></p></div>
+      <div class="sala"><div class="n2b">Century</div>
+        <p>Red inmobiliaria.<span class="chip">completá la línea</span></p></div>
+      <div class="sala"><div class="n2b">Federación de Bomberos</div>
+        <p>Federación de bomberos voluntarios.<span class="chip">completá la línea</span></p></div>
+      <div class="sala"><div class="n2b">UPM</div>
+        <p>Unión de Parlamentarios del Mercosur.</p></div>
+      <div class="sala porver"><div class="n2b">CASE<span class="chip">a indagar</span></div>
+        <p>Los dos ex presidentes son amigos míos. Hay que averiguar bien cómo se entra.</p></div>
       <div class="sala vacia">+ agregar sala</div>
     </div>
   </div>
