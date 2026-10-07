@@ -1,0 +1,412 @@
+{
+  "titulo": "Escaleta",
+  "actualizado": "2026-10-07",
+  "temas": [
+    {
+      "id": "estafamos",
+      "planilla": 72,
+      "tema": "Estafamos",
+      "gancho": "Le dije: nos tenemos que ir los dos pensando que estafamos.",
+      "puntos": [
+        "No estafar de verdad: sentir que el otro cedió más.",
+        "Fui agresivo con el número y me dijo «es muy fuerte». Le dije al oído la contraoferta que me haría yo.",
+        "El que sale sintiendo que perdió, te lo cobra después. Si los dos sienten que ganaron, firman."
+      ],
+      "cierre": "Yo no busco ganarle. Busco algo justo.",
+      "a_quien": "Un empresario amigo, en un café.",
+      "si_hay_tiempo": false
+    },
+    {
+      "id": "el-rival",
+      "planilla": 71,
+      "tema": "El rival",
+      "gancho": "Cuando boxeaba, aunque ganara, le preguntaba al rival qué hice mal.",
+      "puntos": [
+        "Me decían que con el contrincante no se habla. Yo preguntaba igual.",
+        "Con los clientes hago lo mismo. Uno me dijo: «hablabas un montón, Alan».",
+        "Al que me dijo que no, también: tranquilo, ya no te vendo, ¿qué hice mal? A veces termino vendiendo."
+      ],
+      "cierre": "Al que te dijo que no, llamalo. No para venderle: para que te diga qué hiciste mal.",
+      "a_quien": "Un empresario amigo, en un café.",
+      "si_hay_tiempo": false
+    },
+    {
+      "id": "no-me-contrates",
+      "planilla": 98,
+      "tema": "No me contrates",
+      "gancho": "Un cliente me quiso contratar y le dije: no me contrates.",
+      "puntos": [
+        "Ya había trabajado con nosotros. Quería un equipo para hacerse un software.",
+        "Lo que tenía para gastar no alcanzaba. Le dije: con esa plata, tomá a alguien en tu empresa, y te ayudo a buscarlo.",
+        "Se quedó mal. «¿Y si te pago para que me asesores?» Me terminó contratando, para otra cosa."
+      ],
+      "cierre": "No soy tu vendedor. Soy tu asesor.",
+      "a_quien": "Un empresario amigo, en un café.",
+      "si_hay_tiempo": false
+    },
+    {
+      "id": "cobran-con-varias",
+      "planilla": 90,
+      "tema": "Cobran con varias",
+      "gancho": "Casi siete de cada diez pymes cobran con más de una marca.",
+      "puntos": [
+        "Muchas fintech quieren ser la cuenta principal de la pyme.",
+        "Una encuesta de Getnet, una procesadora: en promedio cobran con dos o tres a la vez. No eligen una, suman. Y eligen en cada cobro.",
+        "La gente tiene plata; el problema es el riesgo que ve en vos. Entrá con algo chico: si ya te probó, lo grande deja de dar miedo."
+      ],
+      "cierre": "A una pyme no le pidas la cuenta. Pedile un cobro, y ganátelo.",
+      "a_quien": "El fundador de una fintech.",
+      "si_hay_tiempo": false
+    },
+    {
+      "id": "la-mora",
+      "planilla": 89,
+      "tema": "La mora",
+      "gancho": "Uno de cada cuatro pesos que tenían prestados las fintech estaba en mora.",
+      "puntos": [
+        "Es verdad: prestar rápido, desde el celular, le dio crédito a millones.",
+        "Lo dice el Banco Central: en febrero de este año, más de noventa días de atraso. Y hablo de las fintech que no son bancos.",
+        "Cuando negocio lo digo así: cada condición que agregás te baja el riesgo y te sube la fricción."
+      ],
+      "cierre": "Para mí, la fricción que no pusiste al prestar, la pagás al cobrar.",
+      "a_quien": "El fundador de una fintech.",
+      "si_hay_tiempo": false
+    },
+    {
+      "id": "una-persona",
+      "planilla": 91,
+      "tema": "Una persona",
+      "gancho": "Lo que más le piden a su banco no es la tasa.",
+      "puntos": [
+        "Todos compiten por la tasa o por el mejor chatbot.",
+        "En agosto salió una encuesta de D'Alessio IROL: si tu banco o tu billetera pudiera mejorar una sola cosa, cuatro de cada diez eligen hablar con una persona. Tasas más bajas, tres de cada cien.",
+        "Un aliado me lo dijo así: cuando algo falla, te responde una persona, y la gente me quiere por eso."
+      ],
+      "cierre": "La atención no es el costo que se recorta. Es lo primero que se elige.",
+      "a_quien": "El fundador de una fintech.",
+      "si_hay_tiempo": false
+    },
+    {
+      "id": "la-clave",
+      "planilla": 88,
+      "tema": "La clave",
+      "gancho": "La cuenta le llega a gente que no sabe cambiar su clave.",
+      "puntos": [
+        "Celebramos que la mayoría ya tiene cuenta: en Argentina, ocho de cada diez. Y es un logro.",
+        "El Banco Mundial también preguntó si podés cambiar la clave del celular sin ayuda. En Argentina, de los que tienen 25 o más y el celular bloqueado, casi dos de cada diez dijeron que no. De 15 a 24, prácticamente nadie.",
+        "La seguridad se piensa para el que sí puede."
+      ],
+      "cierre": "La inclusión que falta no es abrir la cuenta. Es poder cuidarla.",
+      "a_quien": "El fundador de una fintech.",
+      "si_hay_tiempo": false
+    },
+    {
+      "id": "la-deuda",
+      "planilla": 87,
+      "tema": "La deuda",
+      "gancho": "Me llamaron para cobrarme una deuda. Quise pagar, pero no les creía.",
+      "puntos": [
+        "Una deuda chica que me había olvidado. Me llama un estudio: «¿quiere arreglar su situación?»",
+        "«Te pago de mil amores, pero no sé quién sos.» Silencio. «Tenemos página web.»",
+        "Pedí que me llamara la empresa a la que le debía. No se podía: se la habían pasado a ellos."
+      ],
+      "cierre": "La confianza la tenía la empresa a la que le debía, no el que me llamaba.",
+      "a_quien": "El fundador de una fintech.",
+      "si_hay_tiempo": false
+    },
+    {
+      "id": "comprar-dias",
+      "planilla": 93,
+      "tema": "Comprar días",
+      "gancho": "Cuando una pyme pide un adelanto, no está comprando plata.",
+      "puntos": [
+        "Me pidieron un caso de éxito en PDF. Lo delegué y en un día estaba; a mí me llevaba tres. La plata me compró días.",
+        "La pyme que pide un adelanto compra los días que le faltan para cobrar, o para cumplir un pedido.",
+        "El banco que le pregunta cuántos días necesita le habla en su idioma."
+      ],
+      "cierre": "Una pyme no te pide plata. Te pide tiempo.",
+      "a_quien": "El gerente comercial de un banco.",
+      "si_hay_tiempo": false
+    },
+    {
+      "id": "bancos-e-ia",
+      "planilla": 92,
+      "tema": "Bancos e IA",
+      "gancho": "Sólo cinco de cada cien banqueros dicen que su banco está listo para la IA.",
+      "puntos": [
+        "Una encuesta de FELABAN y PwC a casi cien directivos de bancos de la región. En parte listos: seis de cada diez.",
+        "¿Atraso? Para mí asusta más el que no está listo y lanza todo junto.",
+        "En mi equipo dije: micro lanzamientos. Si junto todo, armo una bomba que me rompe el sistema. Y en un banco, el sistema es la plata de la gente."
+      ],
+      "cierre": "Ir de a poco no es ir lento. Es no romper lo que ya funciona.",
+      "a_quien": "El gerente comercial de un banco.",
+      "si_hay_tiempo": false
+    },
+    {
+      "id": "la-app-del-banco",
+      "planilla": 85,
+      "tema": "La app del banco",
+      "gancho": "De cuarenta y cinco mil clientes de un banco, diez mil usan la app. Y mil, todos los días.",
+      "puntos": [
+        "Lo contó un orador en un evento de fintech. Es mi nota: puede ser un grupo, no todo el banco.",
+        "En las apps de las cadenas peleamos lo mismo.",
+        "Un cliente, en un pueblo lleno de lugares para comer, eligió el local de la marca. ¿Por qué? Tenía puntos."
+      ],
+      "cierre": "La app que le guarda algo, la abre. La otra, sólo la tiene.",
+      "a_quien": "El gerente comercial de un banco.",
+      "si_hay_tiempo": false
+    },
+    {
+      "id": "reintegro-o-punto",
+      "planilla": 86,
+      "tema": "Reintegro o punto",
+      "gancho": "El reintegro del banco se gasta y termina ahí. El punto, no.",
+      "puntos": [
+        "Es verdad: tu promo de gastronomía funciona, mueve gente.",
+        "Pero el descuento se usa en ese ticket y se acaba. El punto queda en la app de la cadena: para usarlo, hay que volver.",
+        "Y cuando vuelve, puede volver a pagar con vos. No te voy a mentir: no lo probé con un banco."
+      ],
+      "cierre": "Hoy tu reintegro se gasta. Convertido en puntos, hace volver.",
+      "a_quien": "El gerente comercial de un banco.",
+      "si_hay_tiempo": true
+    },
+    {
+      "id": "el-empleado-estrella",
+      "planilla": 99,
+      "tema": "El empleado estrella",
+      "gancho": "Tu empleado estrella es el que menos necesita la IA.",
+      "puntos": [
+        "Es verdad, tiene lógica dársela al que más sabe. Pero un estudio de Stanford y el MIT siguió a más de cinco mil personas que atendían clientes por chat.",
+        "El que llevaba dos meses y usaba IA rendía igual que uno de más de seis meses sin ella. Al de más de un año, casi no le cambió la productividad.",
+        "¿Por qué? La IA aprendió dándoles más peso a las charlas de los mejores. Le pasaba al nuevo lo que el mejor hace sin darse cuenta."
+      ],
+      "cierre": "Si se la das sólo a tu empleado estrella, se la diste al que menos la necesita.",
+      "a_quien": "El dueño de una pyme de cuarenta empleados.",
+      "si_hay_tiempo": false
+    },
+    {
+      "id": "la-mudanza",
+      "planilla": 97,
+      "tema": "La mudanza",
+      "gancho": "En nueve presupuestos nuestros, la mudanza no tiene precio. La regalamos.",
+      "puntos": [
+        "Es verdad: si la operación no puede parar, apagar lo viejo da miedo.",
+        "Un cliente con un taller: la contabilidad pasó al sistema nuevo de golpe, porque el viejo tenía fecha de baja. «Aprendimos a la fuerza.»",
+        "En el taller, el viejo seguía a mano: dos técnicos con usuario, órdenes en los dos sistemas. Uno firmó una orden que no era suya."
+      ],
+      "cierre": "Con lo viejo a mano, lo nuevo no arranca. Regalamos lo único que hace que se use.",
+      "a_quien": "El dueño de una pyme de cuarenta empleados.",
+      "si_hay_tiempo": false
+    },
+    {
+      "id": "para-adentro",
+      "planilla": 95,
+      "tema": "Para adentro",
+      "gancho": "La pyme sí paga tecnología. Pero sobre todo para adentro.",
+      "puntos": [
+        "Se dice que la pyme no invierte en tecnología. Una encuesta de Fundar y la Di Tella: en industria y software, más de tres de cada cuatro ya paga al menos una.",
+        "Nube, comunicación interna, sistema de gestión: cerca de la mitad. Vender por internet o marketing digital: menos de tres de cada diez.",
+        "Se digitalizó para ordenarse, no para vender."
+      ],
+      "cierre": "De lo que pagás en tecnología, ¿cuánto te trae un cliente?",
+      "a_quien": "El dueño de una pyme de cuarenta empleados.",
+      "si_hay_tiempo": false
+    },
+    {
+      "id": "el-camion",
+      "planilla": 47,
+      "tema": "El camión",
+      "gancho": "Un empresario puso una fortuna en un camión eléctrico. En marketing, ni un peso.",
+      "puntos": [
+        "Le pregunté por qué. «Yo pago lo que conozco.» Y tiene razón.",
+        "Las empresas que ya están tienen el negocio y la plata. Los jóvenes, la innovación y las ganas.",
+        "Para mí ahí está el negocio: ser socios del crecimiento. Un fijo chico y una parte de lo que te hago crecer."
+      ],
+      "cierre": "Tener toda la estructura ya no te hace intocable.",
+      "a_quien": "El dueño de una pyme de cuarenta empleados.",
+      "si_hay_tiempo": false
+    },
+    {
+      "id": "horas-a-minutos",
+      "planilla": 68,
+      "tema": "Horas a minutos",
+      "gancho": "Antes, horas de una persona. Hoy, minutos de inteligencia artificial.",
+      "puntos": [
+        "Lo vi en una consultora de recursos humanos: escribir la descripción de un puesto.",
+        "Un estudio de Stanford lo midió en Estados Unidos: en los trabajos más expuestos a la IA, a los de 22 a 25 años los contratan bastante menos. No es que los echen: lo que cayó es la contratación.",
+        "Para mí, lo que tenían en común es que se podían escribir en un manual. Esa parte ya compite con algo que no cobra sueldo."
+      ],
+      "cierre": "¿Tu trabajo es de pensar o de seguir pasos?",
+      "a_quien": "El dueño de una pyme de cuarenta empleados.",
+      "si_hay_tiempo": true
+    },
+    {
+      "id": "procesos-y-un-lider",
+      "planilla": 83,
+      "tema": "Procesos y un líder",
+      "gancho": "Al restaurante no le falta software: le faltan procesos y un líder.",
+      "puntos": [
+        "Y te lo dice uno que vende software.",
+        "Con cinco locales lo ves vos. A los quince ya no controlás ni el baño. Y ahí pedís un sistema.",
+        "La tecnología acelera lo que ya hay. Si hay desorden, acelera el desorden."
+      ],
+      "cierre": "Primero el manual y el que lo hace cumplir. Después, el sistema.",
+      "a_quien": "El dueño de una cadena gastronómica de treinta locales.",
+      "si_hay_tiempo": false
+    },
+    {
+      "id": "sin-base-de-datos",
+      "planilla": 55,
+      "tema": "Sin base de datos",
+      "gancho": "Hay cadenas de cincuenta locales sin una sola base de datos de clientes.",
+      "puntos": [
+        "Tu cliente come, paga y se va. No sabés quién fue, cuántas veces vino ni qué pide.",
+        "Starbucks les contó a sus inversores en enero: casi el 60% de lo que facturan sus locales propios en Estados Unidos viene de los socios de su programa de puntos.",
+        "Si el que viene una vez por mes viene dos, a escala de cadena es una locura."
+      ],
+      "cierre": "El cliente registrado no es un extra. Es el negocio.",
+      "a_quien": "El dueño de una cadena gastronómica de treinta locales.",
+      "si_hay_tiempo": false
+    },
+    {
+      "id": "sin-marketing",
+      "planilla": 56,
+      "tema": "Sin marketing",
+      "gancho": "Hay cadenas grandes sin una sola persona de marketing.",
+      "puntos": [
+        "Viví un mes a una cuadra de una tienda: la más cara de la zona, y siempre llena.",
+        "Al lado, otra con lo mismo, mucho más barata. ¿La diferencia? Una hacía marketing.",
+        "Una marca chica con buen marketing le puede ganar en pedidos a una mucho más grande."
+      ],
+      "cierre": "Si no hacés marketing, competís por precio. Y por precio siempre hay uno más barato.",
+      "a_quien": "El dueño de una cadena gastronómica de treinta locales.",
+      "si_hay_tiempo": false
+    },
+    {
+      "id": "sin-whatsapp",
+      "planilla": 79,
+      "tema": "Sin WhatsApp",
+      "gancho": "Una cadena eliminó el WhatsApp de raíz. Y perdió clientes.",
+      "puntos": [
+        "Obligó a pedir por su canal propio. Algunos se fueron, sí.",
+        "No es apagar y listo: contá qué les dio a cambio para que pidan por ahí.",
+        "Estar en todos lados no es una estrategia."
+      ],
+      "cierre": "A veces, para tener clientes tuyos, tenés que perder algunos.",
+      "a_quien": "El dueño de una cadena gastronómica de treinta locales.",
+      "si_hay_tiempo": false
+    },
+    {
+      "id": "el-cajero",
+      "planilla": 64,
+      "tema": "El cajero",
+      "gancho": "El cajero tiene miedo de ofrecerte algo más.",
+      "puntos": [
+        "Pensalo desde el mostrador: fila, apuro, y si ofrece y le dicen que no, queda mal.",
+        "Nadie le enseñó a vender. Le enseñaron a despachar.",
+        "Contá un cajero que viste no animarse a ofrecer."
+      ],
+      "cierre": "El cajero no es un despachante. Es el vendedor que más clientes ve por día.",
+      "a_quien": "El dueño de una cadena gastronómica de treinta locales.",
+      "si_hay_tiempo": false
+    },
+    {
+      "id": "la-fabrica",
+      "planilla": 69,
+      "tema": "La fábrica",
+      "gancho": "Una marca vendió franquicias más rápido de lo que esperaba. Y es un problema.",
+      "puntos": [
+        "Tiene que decidir si agranda la fábrica.",
+        "Si la hace grande y no llegan los locales, paga por lo que no tiene. Si la deja chica y llegan, deja a sus franquiciados sin producto.",
+        "Hace un año no estaba pensando en esto. ¿Qué quiere decir? Que creció."
+      ],
+      "cierre": "Para mí, la fábrica no se agranda por los locales que todavía no tenés.",
+      "a_quien": "El dueño de una cadena gastronómica de treinta locales.",
+      "si_hay_tiempo": true
+    },
+    {
+      "id": "el-veintiuno",
+      "planilla": 65,
+      "tema": "El veintiuno",
+      "gancho": "Si veinte dicen que les fue bárbaro, yo quiero ser el veintiuno.",
+      "puntos": [
+        "Pensalo del lado del que compra. Nadie quiere ser el primero que confió en vos y le salió mal.",
+        "Por eso los primeros cuestan tanto. Conseguí diez, y los que vienen son una pavada.",
+        "¿Para conseguirlos regalás el producto? Más barato, puede ser. Gratis, nunca."
+      ],
+      "cierre": "Tiene que haber negocio siempre. Si no, el que no se sostiene sos vos.",
+      "a_quien": "Un empresario amigo, en un café.",
+      "si_hay_tiempo": false
+    },
+    {
+      "id": "te-digo-siete",
+      "planilla": 94,
+      "tema": "Te digo siete",
+      "gancho": "Si sé que conmigo conseguís diez, te digo siete.",
+      "puntos": [
+        "Se dice que el que se muestra en redes es un vendehumo.",
+        "Yo dejé de volar con mis clientes. Muchos se te van por lo que les prometiste.",
+        "No te voy a mentir: todavía lo estoy afinando."
+      ],
+      "cierre": "Vendehumo es el que te vende lo que su producto después no cumple. Y eso me lo aplico a mí primero.",
+      "a_quien": "Un empresario amigo, en un café.",
+      "si_hay_tiempo": false
+    },
+    {
+      "id": "mi-propio-audio",
+      "planilla": 67,
+      "tema": "Mi propio audio",
+      "gancho": "Les dije «yo no pedí esto» y me pusieron mi propio audio.",
+      "puntos": [
+        "El equipo de sistemas me entrega algo. «Yo no pedí esto.» Y me ponen un audio mío pidiendo exactamente eso.",
+        "Lo tengo como ley: si alguien entendió mal, la culpa es mía. Me comuniqué mal.",
+        "Pido perdón y me quedo con ellos a arreglarlo, hasta las dos de la mañana si hace falta."
+      ],
+      "cierre": "Antes de echar al que no rinde, fijate si alguna vez le explicaste qué esperabas de él.",
+      "a_quien": "Un empresario amigo, en un café.",
+      "si_hay_tiempo": false
+    },
+    {
+      "id": "al-pie-de-la-letra",
+      "planilla": 96,
+      "tema": "Al pie de la letra",
+      "gancho": "Si hiciste todo lo que te pedí, tenemos un problema.",
+      "puntos": [
+        "Si dentro de un año hiciste todo al pie de la letra y todo sigue igual, tenemos un problema.",
+        "Si te pago bien, no te pago para que sigas procesos. Te pago para que los mejores.",
+        "Busco al que un día me diga: «Alan, me pediste esto, hice otra cosa y conseguí más». Buenísimo."
+      ],
+      "cierre": "¿A tu sueldo más alto le pagás para seguir procesos o para mejorarlos?",
+      "a_quien": "Un empresario amigo, en un café.",
+      "si_hay_tiempo": true
+    },
+    {
+      "id": "la-app-del-boliche",
+      "planilla": 46,
+      "tema": "La app del boliche",
+      "gancho": "Pasé dos años con una app que nadie quiso comprar.",
+      "puntos": [
+        "Era para pedir tragos en el boliche sin hacer la fila. Me parecía genial.",
+        "Salimos a venderla y no le gustó a nadie: los boliches no querían cobrar online. Y yo seguía, buscándole la vuelta.",
+        "Fueron dos años tristes."
+      ],
+      "cierre": "Lo difícil no es construirlo: es venderlo. Hoy vendo antes de construir.",
+      "a_quien": "Un empresario amigo, en un café.",
+      "si_hay_tiempo": true
+    },
+    {
+      "id": "los-repasadores",
+      "planilla": 45,
+      "tema": "Los repasadores",
+      "gancho": "Eso de que si soñás, todo se puede, es mentira.",
+      "puntos": [
+        "De chico vendía repasadores en la calle. «Doña, ¿me compra un repasador?» Muerto de vergüenza.",
+        "No salí de ahí por soñar. Salí porque me moví y cambié de entorno.",
+        "Soñá, pero con los pies en la tierra: sabiendo que podés fracasar y que lo tenés que dar todo."
+      ],
+      "cierre": "Tu empresa tampoco sale de donde está por soñar. Sale cuando cambia de entorno.",
+      "a_quien": "Un empresario amigo, en un café.",
+      "si_hay_tiempo": true
+    }
+  ]
+}

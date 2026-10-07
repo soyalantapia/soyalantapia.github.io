@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Un tema por pantalla para grabar clips: gancho, puntos a tocar, cierre y a quién le hablás.">
+<meta name="theme-color" content="#E7EAEE" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E1013" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Escaleta">
+<title>Escaleta</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preload" href="fonts/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/atkinson-hyperlegible-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="top">
+  <span class="marca"><span class="dot" aria-hidden="true"></span>ESCALETA</span>
+  <button id="contador" class="contador" type="button" aria-label="Ver todos los temas">&nbsp;</button>
+</header>
+
+<main id="vista-tema" class="vista" aria-live="polite">
+  <section class="campo">
+    <p class="lbl">TEMA</p>
+    <h1 id="tema" class="tema-titulo"></h1>
+  </section>
+  <section class="campo">
+    <p class="lbl">GANCHO</p>
+    <p id="gancho" class="gancho"></p>
+  </section>
+  <section class="campo">
+    <p class="lbl">PUNTOS A TOCAR</p>
+    <ol id="puntos" class="puntos"></ol>
+  </section>
+  <section class="campo">
+    <p class="lbl">CIERRE</p>
+    <p id="cierre" class="cierre"></p>
+  </section>
+  <section class="campo">
+    <p class="lbl">A QUIÉN LE ESTOY HABLANDO</p>
+    <p id="aquien" class="aquien"></p>
+  </section>
+</main>
+
+<main id="vista-lista" class="vista" hidden>
+  <div class="lista-head">
+    <h2>Todos los temas</h2>
+    <button id="volver" class="btn primario" type="button">VOLVER</button>
+  </div>
+  <p id="resumen" class="nota"></p>
+  <ol id="items" class="items"></ol>
+  <div class="pie">
+    <button id="reiniciar" class="btn" type="button">Empezar de cero</button>
+  </div>
+</main>
+
+<main id="vista-fin" class="vista" hidden>
+  <p class="gancho">Listo.</p>
+  <p id="fin-texto" class="aquien"></p>
+  <div class="fila">
+    <button id="ir-saltados" class="btn primario" type="button" hidden></button>
+    <button id="ver-todos" class="btn" type="button">Ver todos</button>
+  </div>
+</main>
+
+<main id="vista-error" class="vista" hidden>
+  <p class="cierre">No pude cargar los guiones.</p>
+  <p class="nota">Abrí la app una vez con internet para que se descarguen. Después funciona sin conexión.</p>
+  <div class="fila"><button id="reintentar" class="btn primario" type="button">Reintentar</button></div>
+</main>
+
+<nav id="acciones" class="acciones" aria-label="Acciones">
+  <div class="acciones-in">
+    <button id="anterior" type="button">ANTERIOR</button>
+    <button id="saltar" type="button">SALTAR</button>
+    <button id="grabado" class="primario" type="button">GRABADO</button>
+  </div>
+</nav>
+
+<script src="app.js" defer></script>
+</body>
+</html>
