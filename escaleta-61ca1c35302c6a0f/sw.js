@@ -1,6 +1,6 @@
 // Escaleta: funciona sin internet una vez abierta.
 // Subí el número de CACHE cuando cambien los íconos o las tipografías.
-var CACHE = 'escaleta-v6';
+var CACHE = 'escaleta-v7';
 var BASE = [
   './',
   'index.html',

@@ -119,6 +119,9 @@ body.grabar .vista { gap: 10px; padding-top: 12px; }
 body.grabar .campo { gap: 3px; }
 body.grabar .campo + .campo { padding-top: 8px; }
 body.grabar .tema-titulo { font-size: 1.35rem; }
+body.grabar #campo-pregunta + #campo-tema { border-top: 0; padding-top: 0; }
+body.grabar #campo-tema { display: flex; align-items: baseline; gap: 10px; }
+body.grabar #campo-tema .lbl { flex: none; }
 body.grabar .puntos { gap: 6px; }
 
 /* Celular acostado: barras más finas y letra a la medida de la altura. */
