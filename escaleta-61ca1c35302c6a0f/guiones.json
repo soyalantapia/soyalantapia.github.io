@@ -19,6 +19,7 @@
       "cierre": "Yo no busco ganarle. Busco algo justo.",
       "a_quien": "Un empresario amigo, en un café.",
       "si_hay_tiempo": false,
+      "pregunta": "¿Qué hacés cuando una negociación se traba por el precio?",
       "viral": 9,
       "por_que_pega": "La palabra «estafamos» frena, y la contraoferta al oído nadie la espera.",
       "bloque": "Para arrancar"
@@ -40,6 +41,7 @@
       "cierre": "No soy tu vendedor, soy tu asesor.",
       "a_quien": "Un empresario amigo, en un café.",
       "si_hay_tiempo": false,
+      "pregunta": "¿Qué hacés cuando un cliente te quiere contratar para algo que no le conviene?",
       "viral": 9,
       "por_que_pega": "Decirle «no me contrates» a un cliente rompe lo que se espera de un vendedor.",
       "bloque": "Para arrancar"
@@ -61,6 +63,7 @@
       "cierre": "La paciencia empieza después de la llamada, no antes.",
       "a_quien": "El dueño de una pyme de cuarenta empleados que espera que las ventas lleguen solas.",
       "si_hay_tiempo": false,
+      "pregunta": "Las ventas no llegan. ¿Hay que tener paciencia?",
       "viral": 9,
       "por_que_pega": "Una frase que duele porque es verdad, y se comparte.",
       "bloque": "Para arrancar"
@@ -82,6 +85,7 @@
       "cierre": "¿A tu sueldo más alto le pagás para seguir procesos o para mejorarlos?",
       "a_quien": "Un empresario amigo, en un café.",
       "si_hay_tiempo": false,
+      "pregunta": "¿Qué le exigís a alguien de tu equipo al que le pagás bien?",
       "viral": 9,
       "por_que_pega": "Le dice al empleado obediente que es un problema: divide en el acto.",
       "bloque": "Para arrancar"
@@ -103,6 +107,7 @@
       "cierre": "Para mí, parte de la fricción que no pusiste al prestar la pagás al cobrar.",
       "a_quien": "El fundador de una fintech.",
       "si_hay_tiempo": false,
+      "pregunta": "Las fintech prestan en minutos. ¿Eso es bueno o es un problema?",
       "viral": 9,
       "por_que_pega": "Un número que asusta y una opinión que incomoda a toda fintech que presta rápido.",
       "bloque": "Fintech"
@@ -124,6 +129,7 @@
       "cierre": "Prestar para lo que se gasta es fácil. Lo que vale es prestar para lo que queda.",
       "a_quien": "El que decide los préstamos de un banco o una fintech.",
       "si_hay_tiempo": false,
+      "pregunta": "¿Para qué es fácil conseguir crédito, y para qué no?",
       "viral": 9,
       "por_que_pega": "Un contraste que cualquiera vivió, puesto del lado de quien presta.",
       "bloque": "Fintech"
@@ -145,6 +151,7 @@
       "cierre": "A una pyme no le pidas la cuenta. Pedile un cobro, y ganátelo.",
       "a_quien": "El fundador de una fintech.",
       "si_hay_tiempo": false,
+      "pregunta": "Si tenés una fintech, ¿cómo hacés para ser la cuenta principal de una pyme?",
       "viral": 8,
       "por_que_pega": "Le dice a las fintech que persiguen la meta equivocada, y lo prueba con un dato.",
       "bloque": "Fintech"
@@ -166,6 +173,7 @@
       "cierre": "La atención no es el costo que se recorta. Es lo primero que se elige.",
       "a_quien": "El fundador de una fintech.",
       "si_hay_tiempo": false,
+      "pregunta": "¿Con qué le gana una fintech a un banco? ¿Con mejor tasa?",
       "viral": 8,
       "por_que_pega": "Todos compiten por tasa y chatbot; el dato dice que el cliente pide otra cosa.",
       "bloque": "Fintech"
@@ -187,6 +195,7 @@
       "cierre": "La confianza la tenía la empresa a la que le debía, no el que me llamaba.",
       "a_quien": "El fundador de una fintech.",
       "si_hay_tiempo": false,
+      "pregunta": "¿Cómo tiene que cobrarle una fintech a un cliente que se atrasó?",
       "viral": 8,
       "por_que_pega": "Historia propia con humor y una lección para el que cobra.",
       "bloque": "Fintech"
@@ -208,6 +217,7 @@
       "cierre": "Tu cliente no es el que ya llegó. Es el que quiere llegar.",
       "a_quien": "El fundador de una fintech.",
       "si_hay_tiempo": false,
+      "pregunta": "Si lanzás una app de inversiones, ¿a quién se la tenés que vender?",
       "viral": 8,
       "por_que_pega": "Un ejemplo que cualquiera entiende, llevado a las finanzas.",
       "bloque": "Fintech"
@@ -229,6 +239,7 @@
       "cierre": "Una pyme no te pide plata. Te pide tiempo.",
       "a_quien": "El gerente comercial de un banco.",
       "si_hay_tiempo": false,
+      "pregunta": "¿Qué compra una pyme cuando le pide un adelanto al banco?",
       "viral": 8,
       "por_que_pega": "Cambia la pregunta del crédito pyme: no cuánta plata, cuántos días.",
       "bloque": "Bancos"
@@ -250,6 +261,7 @@
       "cierre": "La app que le guarda algo, la abre. La otra, sólo la tiene.",
       "a_quien": "El gerente comercial de un banco.",
       "si_hay_tiempo": false,
+      "pregunta": "¿Los clientes de un banco usan la app que el banco les hizo?",
       "viral": 8,
       "por_que_pega": "Un embudo de números que cualquier banco reconoce como propio.",
       "bloque": "Bancos"
@@ -271,6 +283,7 @@
       "cierre": "Hoy tu reintegro se gasta. Convertido en puntos, hace volver.",
       "a_quien": "El gerente comercial de un banco.",
       "si_hay_tiempo": false,
+      "pregunta": "¿Sirven las promos de los bancos en restaurantes?",
       "viral": 8,
       "por_que_pega": "Le muestra al banco que la plata de su promo se termina en un ticket.",
       "bloque": "Bancos"
@@ -292,6 +305,7 @@
       "cierre": "Si se la das sólo a tu empleado estrella, se la diste al que menos la necesita.",
       "a_quien": "El dueño de una pyme de cuarenta empleados.",
       "si_hay_tiempo": false,
+      "pregunta": "Si vas a darle IA a tu equipo, ¿por quién empezás?",
       "viral": 9,
       "por_que_pega": "Da vuelta una intuición que todos tienen, con un estudio serio.",
       "bloque": "Pymes"
@@ -313,6 +327,7 @@
       "cierre": "La parte del trabajo que entra en un manual ya compite con algo que no cobra sueldo.",
       "a_quien": "El dueño de una pyme de cuarenta empleados.",
       "si_hay_tiempo": false,
+      "pregunta": "¿La IA ya está dejando gente sin trabajo?",
       "viral": 8,
       "por_que_pega": "Cambia el miedo de siempre, que te echen, por lo que midió Stanford.",
       "bloque": "Pymes"
@@ -334,6 +349,7 @@
       "cierre": "Meter IA en una empresa desordenada sólo multiplica el desastre.",
       "a_quien": "El dueño de una pyme que quiere meter IA ya, antes de ordenar nada.",
       "si_hay_tiempo": false,
+      "pregunta": "Tengo una pyme. ¿Por dónde empiezo con la IA?",
       "viral": 8,
       "por_que_pega": "Va contra el apuro de meter IA en todo, con datos de McKinsey.",
       "bloque": "Pymes"
@@ -355,6 +371,7 @@
       "cierre": "Si un número no te cambia una decisión, no es información: es decoración.",
       "a_quien": "El dueño de una pyme de cuarenta empleados que pide un reporte nuevo cada mes.",
       "si_hay_tiempo": false,
+      "pregunta": "Antes de tomar una decisión grande, ¿no conviene tener todos los datos?",
       "viral": 8,
       "por_que_pega": "Le pega al que se esconde atrás de los reportes, y todos conocen a uno.",
       "bloque": "Pymes"
@@ -376,6 +393,7 @@
       "cierre": "Lo que pagás no es el código. Es el descubrimiento, y por eso tiene precio.",
       "a_quien": "El dueño de una pyme de cuarenta empleados que piensa armarse su propio sistema con IA.",
       "si_hay_tiempo": false,
+      "pregunta": "Con la IA cualquiera se arma su sistema. ¿Para qué pagarle a una empresa?",
       "viral": 8,
       "por_que_pega": "Discute con el que se arma su sistema con IA en un fin de semana.",
       "bloque": "Pymes"
@@ -397,6 +415,7 @@
       "cierre": "La tecnología se paga con la plata de las buenas. Con la de las malas, llega tarde.",
       "a_quien": "El dueño de una pyme de cuarenta empleados que viene vendiendo bien.",
       "si_hay_tiempo": false,
+      "pregunta": "Si a mi empresa le va bien, ¿para qué voy a cambiar algo?",
       "viral": 8,
       "por_que_pega": "Acusa al dueño de una costumbre que reconoce, y le pone el costo.",
       "bloque": "Pymes"
@@ -418,6 +437,7 @@
       "cierre": "Si nadie lidera el mostrador, ningún sistema te va a vender más.",
       "a_quien": "El dueño de un restaurante que está por comprar un sistema.",
       "si_hay_tiempo": false,
+      "pregunta": "Vos vendés software. ¿Qué le recomendás a un restaurante que quiere ordenarse?",
       "viral": 9,
       "por_que_pega": "Lo dice uno que vende software: nadie lo espera.",
       "bloque": "Gastronomía"
@@ -439,6 +459,7 @@
       "cierre": "Si no sabés quién te compra, no sabés a quién estás perdiendo.",
       "a_quien": "El dueño de un restaurante que dice que a sus clientes los conoce de vista.",
       "si_hay_tiempo": false,
+      "pregunta": "Yo a mis clientes los conozco de vista. ¿Para qué quiero sus datos?",
       "viral": 8,
       "por_que_pega": "Una imagen simple que deja al dueño sin respuesta.",
       "bloque": "Gastronomía"
@@ -460,6 +481,7 @@
       "cierre": "El cajero no es un despachante. Es el vendedor que más clientes ve por día.",
       "a_quien": "El dueño de una cadena gastronómica de treinta locales.",
       "si_hay_tiempo": false,
+      "pregunta": "¿Por qué en los locales casi nunca te ofrecen algo más cuando pagás?",
       "viral": 8,
       "por_que_pega": "Pone en palabras una emoción que el dueño no ve y el cliente sí.",
       "bloque": "Gastronomía"
@@ -481,6 +503,7 @@
       "cierre": "A veces, para tener clientes tuyos, tenés que perder algunos.",
       "a_quien": "El dueño de una cadena gastronómica de treinta locales.",
       "si_hay_tiempo": false,
+      "pregunta": "¿Una cadena tiene que tomar pedidos por todos los canales que pueda?",
       "viral": 8,
       "por_que_pega": "Elegir perder clientes va contra el «hay que estar en todos lados».",
       "bloque": "Gastronomía"
@@ -502,6 +525,7 @@
       "cierre": "Si en tu caja nadie pide un dato, tu mejor cliente es un desconocido.",
       "a_quien": "El dueño de una cadena de cafeterías de treinta locales que no pide datos en caja.",
       "si_hay_tiempo": false,
+      "pregunta": "¿Vale la pena pedirle un dato al cliente en la caja, si demora la fila?",
       "viral": 8,
       "por_que_pega": "Un número enorme de una marca que todos conocen.",
       "bloque": "Gastronomía"
@@ -523,6 +547,7 @@
       "cierre": "Lo caro no es invertir en la experiencia. Lo caro es no hacerlo.",
       "a_quien": "El dueño de una cadena gastronómica de treinta locales.",
       "si_hay_tiempo": false,
+      "pregunta": "Si el salón está vacío, ¿no conviene lanzar una promo?",
       "viral": 8,
       "por_que_pega": "Discute la herramienta favorita del gastronómico: la promo.",
       "bloque": "Gastronomía"
@@ -544,6 +569,7 @@
       "cierre": "Agrandá la fábrica con lo que vendiste, no con lo que esperás vender.",
       "a_quien": "El franquiciante que está por decidir si agranda la fábrica.",
       "si_hay_tiempo": false,
+      "pregunta": "Un franquiciante te dice que creció tan rápido que no le da la fábrica. ¿Qué le decís?",
       "viral": 7,
       "por_que_pega": "Una orden concreta para el franquiciante, contra el «primero la capacidad».",
       "bloque": "Gastronomía"
@@ -565,6 +591,7 @@
       "cierre": "Vendehumo es el que te vende lo que su producto no cumple; me lo aplico primero a mí.",
       "a_quien": "Un empresario amigo, en un café.",
       "si_hay_tiempo": false,
+      "pregunta": "Cuando vendés, ¿cuánto le prometés a un cliente?",
       "viral": 8,
       "por_que_pega": "Prometer menos de lo que podés dar suena raro, y eso lo hace creíble.",
       "bloque": "Ventas y negocio"
@@ -586,6 +613,7 @@
       "cierre": "Hace unos años era una idea estúpida. Hoy es una idea brillante.",
       "a_quien": "El fundador de una fintech.",
       "si_hay_tiempo": false,
+      "pregunta": "¿Qué pasa cuando tenés una buena idea y el mercado todavía no está listo?",
       "viral": 8,
       "por_que_pega": "Una frase que se discute sola, y una historia propia que la prueba.",
       "bloque": "Ventas y negocio"
@@ -607,6 +635,7 @@
       "cierre": "Sin plata escuchás al mercado. Con plata, eso no lo aprendés.",
       "a_quien": "El dueño de una pyme que quiere arrancar un negocio nuevo al lado del que ya tiene.",
       "si_hay_tiempo": false,
+      "pregunta": "¿Cuánta plata necesitás para arrancar un negocio nuevo?",
       "viral": 8,
       "por_que_pega": "Va contra lo que todos creen sobre arrancar con plata.",
       "bloque": "Ventas y negocio"
@@ -628,6 +657,7 @@
       "cierre": "En un mercado chico, al cliente que no podés hacer feliz, no lo firmes.",
       "a_quien": "El dueño de una pyme que le vende a otras empresas.",
       "si_hay_tiempo": false,
+      "pregunta": "En un mercado chico, ¿podés darte el lujo de rechazar a un cliente?",
       "viral": 8,
       "por_que_pega": "Rechazar plata es lo último que un dueño espera escuchar.",
       "bloque": "Ventas y negocio"
@@ -649,6 +679,7 @@
       "cierre": "Estar ocupado no es avanzar. Vender, sí.",
       "a_quien": "El dueño de una pyme de cuarenta empleados que se pasa el día apagando incendios.",
       "si_hay_tiempo": false,
+      "pregunta": "¿Cómo sabés si tuviste un buen día de trabajo?",
       "viral": 8,
       "por_que_pega": "Le habla al dueño que apaga incendios todo el día, y lo incomoda.",
       "bloque": "Ventas y negocio"
@@ -670,6 +701,7 @@
       "cierre": "Al que te dijo que no, llamalo. No para venderle: para que te diga qué hiciste mal.",
       "a_quien": "Un empresario amigo, en un café.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Qué hacés con el cliente que te dijo que no?",
       "viral": 8,
       "por_que_pega": "Una costumbre rara del boxeo que casi nadie se anima a hacer con clientes.",
       "bloque": "Si hay tiempo"
@@ -691,6 +723,7 @@
       "cierre": "La inclusión que falta no es abrir la cuenta. Es poder cuidarla.",
       "a_quien": "El fundador de una fintech.",
       "si_hay_tiempo": true,
+      "pregunta": "Hoy casi todos tienen una cuenta. ¿Ya está resuelta la inclusión financiera?",
       "viral": 8,
       "por_que_pega": "Pincha un número que todos celebran, con un dato del Banco Mundial.",
       "bloque": "Si hay tiempo"
@@ -712,6 +745,7 @@
       "cierre": "Ir de a poco no es ir lento. Es no romper lo que ya funciona.",
       "a_quien": "El gerente comercial de un banco.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Los bancos están atrasados con la IA?",
       "viral": 8,
       "por_que_pega": "Defiende ir despacio con la IA justo cuando todos se apuran, y lo respalda con un número.",
       "bloque": "Si hay tiempo"
@@ -733,6 +767,7 @@
       "cierre": "Con lo viejo a mano, lo nuevo no arranca. Por eso la mudanza la regalamos.",
       "a_quien": "El dueño de una pyme de cuarenta empleados.",
       "si_hay_tiempo": true,
+      "pregunta": "Cuando cambiás de sistema, ¿no conviene usar los dos un tiempo, por las dudas?",
       "viral": 8,
       "por_que_pega": "Va contra la regla de oro de toda migración, con un error real.",
       "bloque": "Si hay tiempo"
@@ -754,6 +789,7 @@
       "cierre": "Si pagás sólo lo que conocés, necesitás un socio que conozca lo que vos no.",
       "a_quien": "El dueño de una pyme de cuarenta empleados.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Por qué a los dueños les cuesta tanto pagar marketing?",
       "viral": 8,
       "por_que_pega": "Una escena que todos conocen: el dueño que paga el camión y no el marketing.",
       "bloque": "Si hay tiempo"
@@ -775,6 +811,7 @@
       "cierre": "Primero el manual y el que lo hace cumplir. Después, el sistema.",
       "a_quien": "El dueño de una cadena gastronómica de treinta locales.",
       "si_hay_tiempo": true,
+      "pregunta": "Mi cadena es un caos. ¿Qué programa me la ordena?",
       "viral": 8,
       "por_que_pega": "Va contra lo que le repiten al dueño todo el tiempo: que le falta un programa.",
       "bloque": "Si hay tiempo"
@@ -796,6 +833,7 @@
       "cierre": "El cliente registrado no es un extra. Es el negocio.",
       "a_quien": "El dueño de una cadena gastronómica de treinta locales.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Qué es lo que más te sorprende cuando entrás a una cadena grande?",
       "viral": 8,
       "por_que_pega": "Un dato del rubro que le da vergüenza al dueño de una cadena.",
       "bloque": "Si hay tiempo"
@@ -817,6 +855,7 @@
       "cierre": "Si no hacés marketing, competís por precio. Y por precio siempre hay uno más barato.",
       "a_quien": "El dueño de una cadena gastronómica de treinta locales.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Una cadena necesita a alguien de marketing, si el producto es bueno?",
       "viral": 8,
       "por_que_pega": "Le pone nombre al costo de no tener a nadie de marketing: competir por precio.",
       "bloque": "Si hay tiempo"
@@ -838,6 +877,7 @@
       "cierre": "Tiene que haber negocio siempre. Si no, el que no se sostiene sos vos.",
       "a_quien": "Un empresario amigo, en un café.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Por qué cuesta tanto conseguir los primeros clientes?",
       "viral": 8,
       "por_que_pega": "«Gratis, nunca» choca con el piloto gratis, la entrada más usada para vender.",
       "bloque": "Si hay tiempo"
@@ -859,6 +899,7 @@
       "cierre": "Antes de echar al que no rinde, fijate si alguna vez le explicaste qué esperabas de él.",
       "a_quien": "Un empresario amigo, en un café.",
       "si_hay_tiempo": true,
+      "pregunta": "¿De quién es la culpa cuando tu equipo hace algo distinto de lo que pediste?",
       "viral": 8,
       "por_que_pega": "Una escena que da risa, y la culpa del lado del jefe.",
       "bloque": "Si hay tiempo"
@@ -880,6 +921,7 @@
       "cierre": "Lo difícil no es construirlo: es venderlo. Hoy vendo antes de construir.",
       "a_quien": "Un empresario amigo, en un café.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Cuál fue tu fracaso más caro?",
       "viral": 8,
       "por_que_pega": "Un fracaso propio de dos años, contado sin maquillaje.",
       "bloque": "Si hay tiempo"
@@ -901,6 +943,7 @@
       "cierre": "Tu empresa tampoco sale de donde está por soñar. Sale cuando cambia de entorno.",
       "a_quien": "El dueño de una pyme de cuarenta empleados.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Alcanza con soñar en grande para que una empresa crezca?",
       "viral": 8,
       "por_que_pega": "Va contra la frase más repetida de la autoayuda.",
       "bloque": "Si hay tiempo"
@@ -922,6 +965,7 @@
       "cierre": "El empleado que cumple procesos escritos y no tiene que pensar ya compite con la inteligencia artificial.",
       "a_quien": "Un empleado de una pyme que cumple procedimientos escritos y teme por su puesto.",
       "si_hay_tiempo": true,
+      "pregunta": "Si hace años que hago bien mi trabajo, ¿la IA me puede reemplazar?",
       "viral": 8,
       "por_que_pega": "Le saca al empleado la seguridad de sus años en el puesto.",
       "bloque": "Si hay tiempo"
@@ -943,6 +987,7 @@
       "cierre": "Tu primer trabajo ya no lo ganás por saber seguir pasos. Lo ganás por pensar.",
       "a_quien": "Alguien joven que está buscando su primer trabajo.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Por qué a los jóvenes les cuesta tanto conseguir su primer trabajo?",
       "viral": 8,
       "por_que_pega": "Da vuelta el «los jóvenes no quieren trabajar» con un dato de Stanford.",
       "bloque": "Si hay tiempo"
@@ -964,6 +1009,7 @@
       "cierre": "La pregunta no es a quién echás. Es a quién ponés a pensar.",
       "a_quien": "El gerente de una empresa de cuarenta empleados que tiene que mostrar ahorro.",
       "si_hay_tiempo": true,
+      "pregunta": "La IA hace en minutos lo que antes llevaba horas. ¿Sobra gente?",
       "viral": 8,
       "por_que_pega": "Le dice al gerente que tiene que mostrar ahorro que no eche a nadie: incomoda.",
       "bloque": "Si hay tiempo"
@@ -985,6 +1031,7 @@
       "cierre": "Pagar IA sin cambiar cómo trabajás es gasto, no inversión.",
       "a_quien": "El dueño de una pyme de cuarenta empleados que ya paga licencias de IA.",
       "si_hay_tiempo": true,
+      "pregunta": "Si mi equipo rinde más con IA, ¿eso no es ganar más plata?",
       "viral": 8,
       "por_que_pega": "Dos números de McKinsey que separan sentirse productivo de ganar plata.",
       "bloque": "Si hay tiempo"
@@ -1006,6 +1053,7 @@
       "cierre": "Primero te ordenan, después te construyen. Si es al revés, desconfiá.",
       "a_quien": "El dueño de una pyme de cuarenta empleados que está por comprar un sistema.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Cómo te das cuenta de que un proveedor de tecnología es bueno?",
       "viral": 8,
       "por_que_pega": "Le da al dueño una prueba simple para desconfiar de su proveedor.",
       "bloque": "Si hay tiempo"
@@ -1027,6 +1075,7 @@
       "cierre": "Primero ordená los procesos; la tecnología viene después, a acelerar lo que ya funciona.",
       "a_quien": "El dueño de una pyme de cuarenta empleados que está por comprar un sistema.",
       "si_hay_tiempo": true,
+      "pregunta": "Estoy creciendo y es un lío. ¿Un sistema nuevo me ordena la empresa?",
       "viral": 8,
       "por_que_pega": "Una frase que se recuerda, contra la idea de que la tecnología ordena.",
       "bloque": "Si hay tiempo"
@@ -1048,6 +1097,7 @@
       "cierre": "El desorden que normalizaste no lo ves; para verlo, a veces hay que empezar de cero.",
       "a_quien": "Un empresario amigo, en un café.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Por qué le cambiaste la plataforma de trabajo a todo tu equipo?",
       "viral": 8,
       "por_que_pega": "Una frase que se cita sola, y detrás una decisión fuerte de líder.",
       "bloque": "Si hay tiempo"
@@ -1069,6 +1119,7 @@
       "cierre": "Donde todavía hay Excel, hay un rubro que nadie se sentó a escuchar.",
       "a_quien": "El dueño de una pyme de cuarenta empleados que todavía lleva todo en el Excel.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Por qué hay rubros enteros que siguen trabajando con Excel?",
       "viral": 8,
       "por_que_pega": "Le saca la culpa al dueño y se la pasa a los que nunca lo escucharon.",
       "bloque": "Si hay tiempo"
@@ -1090,6 +1141,7 @@
       "cierre": "La estructura ya la tenés; te falta un socio que piense como el chico.",
       "a_quien": "El dueño de una cadena gastronómica de treinta locales.",
       "si_hay_tiempo": true,
+      "pregunta": "Una cadena con estructura y años en el mercado, ¿a quién le tiene que tener miedo?",
       "viral": 8,
       "por_que_pega": "Una amenaza concreta para el que confía en su tamaño.",
       "bloque": "Si hay tiempo"
@@ -1111,6 +1163,7 @@
       "cierre": "Abrir locales te hace más grande. No te hace más elegido.",
       "a_quien": "El dueño de una cadena gastronómica grande que cree que el tamaño le alcanza.",
       "si_hay_tiempo": true,
+      "pregunta": "Si tengo más locales que mi competencia, ¿no gano yo?",
       "viral": 8,
       "por_que_pega": "Le dice a la cadena grande que su tamaño no la salva.",
       "bloque": "Si hay tiempo"
@@ -1132,6 +1185,7 @@
       "cierre": "Con quince locales, si todavía controlás con tus ojos, ya no controlás nada.",
       "a_quien": "El dueño de una cadena gastronómica que está pasando de cinco a quince locales.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Cuándo se le va de las manos una cadena al dueño?",
       "viral": 8,
       "por_que_pega": "Una imagen exagerada que cualquier dueño de cadena reconoce.",
       "bloque": "Si hay tiempo"
@@ -1153,6 +1207,7 @@
       "cierre": "El cajero no es un despachante. Es un vendedor, si lo tratás como uno.",
       "a_quien": "El dueño de una cadena con mostrador que mide al cajero por lo rápido que avanza la fila.",
       "si_hay_tiempo": true,
+      "pregunta": "Mis cajeros no venden nada. ¿Los cambio?",
       "viral": 8,
       "por_que_pega": "Le devuelve la culpa al dueño, no al cajero.",
       "bloque": "Si hay tiempo"
@@ -1174,6 +1229,7 @@
       "cierre": "El programa de puntos no se mide por lo que cuesta, sino por lo que vende.",
       "a_quien": "El gerente financiero de una cadena gastronómica de treinta locales.",
       "si_hay_tiempo": true,
+      "pregunta": "Un programa de puntos, ¿no es regalar margen?",
       "viral": 8,
       "por_que_pega": "Un número enorme de una marca conocida, contra la idea de que los puntos son gasto.",
       "bloque": "Si hay tiempo"
@@ -1195,6 +1251,7 @@
       "cierre": "Mi app es igual a las trescientas que hay, y aun así no vale cero.",
       "a_quien": "Un empresario amigo que vende algo parecido a lo de su competencia, en un café.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Qué te dijo el cliente que más te dolió?",
       "viral": 8,
       "por_que_pega": "Un rechazo con un «vale cero» que duele, y una postura que no se esconde.",
       "bloque": "Si hay tiempo"
@@ -1216,6 +1273,7 @@
       "cierre": "Estar en la app está bien. Depender de ella, no.",
       "a_quien": "El dueño de una cadena gastronómica que vende delivery por una sola app.",
       "si_hay_tiempo": true,
+      "pregunta": "Si una app de delivery me trae todos los pedidos, ¿para qué quiero otra cosa?",
       "viral": 8,
       "por_que_pega": "Le dice al dueño que su cadena no es suya: duele, y tiene un caso real.",
       "bloque": "Si hay tiempo"
@@ -1237,6 +1295,7 @@
       "cierre": "Que te vendan una app propia no quiere decir que la necesites.",
       "a_quien": "El dueño de un restaurante de un solo local al que le ofrecen una app propia.",
       "si_hay_tiempo": true,
+      "pregunta": "Tengo un solo restaurante. ¿Me conviene tener mi propia app?",
       "viral": 8,
       "por_que_pega": "El que vende apps te dice que no compres una: eso genera confianza.",
       "bloque": "Si hay tiempo"
@@ -1258,6 +1317,7 @@
       "cierre": "Lanzar chico y temprano sale más barato que esperar el momento perfecto.",
       "a_quien": "El dueño de una cadena gastronómica de treinta locales.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Cuándo es el momento de lanzar algo nuevo?",
       "viral": 8,
       "por_que_pega": "Mete a la competencia en la cabeza del que espera el momento perfecto.",
       "bloque": "Si hay tiempo"
@@ -1279,6 +1339,7 @@
       "cierre": "Cuando no hay nadie del otro lado, insistir es pagar caro no querer ver.",
       "a_quien": "El dueño de una pyme que insiste con un producto que no se vende.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Cuánto tiempo hay que insistir con un producto antes de largarlo?",
       "viral": 8,
       "por_que_pega": "Un fundador que dice que su perseverancia fue un error va contra el discurso del aguante.",
       "bloque": "Si hay tiempo"
@@ -1300,6 +1361,7 @@
       "cierre": "Mientras no vendas, todo lo que construís es un gasto.",
       "a_quien": "El dueño de una pyme que está construyendo su propio producto.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Por qué tantos fundadores siguen mejorando el producto en vez de salir a venderlo?",
       "viral": 8,
       "por_que_pega": "Le pone nombre a lo que hace el que posterga salir a vender.",
       "bloque": "Si hay tiempo"
@@ -1321,6 +1383,7 @@
       "cierre": "Soñá todo lo que quieras. Pero hasta que alguien te pague, es un deseo.",
       "a_quien": "Un empresario amigo, en un café.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Qué le dirías a alguien que tiene una visión enorme pero todavía no vendió nada?",
       "viral": 8,
       "por_que_pega": "Le baja el precio a la visión, lo que más se vende en los grupos de emprendedores.",
       "bloque": "Si hay tiempo"
@@ -1342,6 +1405,7 @@
       "cierre": "No tenés una idea: tenés una necesidad real. Y un cliente.",
       "a_quien": "El dueño de una pyme de cuarenta empleados que está por lanzar un servicio nuevo.",
       "si_hay_tiempo": true,
+      "pregunta": "Antes de lanzar un servicio nuevo, ¿no conviene hacer una encuesta?",
       "viral": 8,
       "por_que_pega": "Le dice al que no lanza sin estudio de mercado que una encuesta no valida nada.",
       "bloque": "Si hay tiempo"
@@ -1363,6 +1427,7 @@
       "cierre": "Para mí, primero se vende la solución. El producto viene después.",
       "a_quien": "Un empresario amigo, en un café.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Cómo conseguiste tu primer cliente?",
       "viral": 8,
       "por_que_pega": "Vender antes de construir suena a humo, y él cuenta que lo hizo.",
       "bloque": "Si hay tiempo"
@@ -1384,6 +1449,7 @@
       "cierre": "La pregunta no es si tu idea es buena. Es a quién le duele.",
       "a_quien": "El dueño de una pyme de cuarenta empleados enamorado de una idea nueva.",
       "si_hay_tiempo": true,
+      "pregunta": "Tengo una idea que me encanta. ¿Por dónde arranco?",
       "viral": 8,
       "por_que_pega": "Le dice al que se enamoró de su idea que al cliente no le importa.",
       "bloque": "Si hay tiempo"
@@ -1405,6 +1471,7 @@
       "cierre": "Una idea escondida no te protege: te demora.",
       "a_quien": "Un empresario amigo, en un café, que te cuenta su idea en voz baja.",
       "si_hay_tiempo": true,
+      "pregunta": "Si tengo una buena idea, ¿no tengo que cuidarla para que no me la copien?",
       "viral": 8,
       "por_que_pega": "Le saca el valor a la idea, que es lo que todos cuidan.",
       "bloque": "Si hay tiempo"
@@ -1426,6 +1493,7 @@
       "cierre": "Si no hacés nada por miedo a perder plata, vas a perder igual.",
       "a_quien": "El dueño de una pyme de cuarenta empleados que frenó todo por la crisis.",
       "si_hay_tiempo": true,
+      "pregunta": "En una crisis, ¿no es mejor frenar todo hasta que pase?",
       "viral": 8,
       "por_que_pega": "Le pone costo a quedarse quieto, que parece gratis.",
       "bloque": "Si hay tiempo"
@@ -1447,6 +1515,7 @@
       "cierre": "Entre el talentoso sin horas y el que no paró nunca, contratá al segundo.",
       "a_quien": "El dueño de una pyme de cuarenta empleados que está por contratar.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Qué le mirás a alguien antes de contratarlo?",
       "viral": 8,
       "por_que_pega": "Una frase de un campeón y una postura que divide a los que contratan.",
       "bloque": "Si hay tiempo"
@@ -1468,6 +1537,7 @@
       "cierre": "Producir suerte se llama llamar todos los días.",
       "a_quien": "El dueño de una pyme que dice que tuvo suerte con un cliente.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Cuánto de conseguir un buen cliente es suerte?",
       "viral": 8,
       "por_que_pega": "Le saca la suerte al que cree que tuvo suerte.",
       "bloque": "Si hay tiempo"
@@ -1489,6 +1559,7 @@
       "cierre": "¿La diferencia? Una hacía marketing.",
       "a_quien": "El dueño de un comercio que baja precios para llenar el local.",
       "si_hay_tiempo": true,
+      "pregunta": "Si bajo los precios, ¿no se me llena el local?",
       "viral": 8,
       "por_que_pega": "Una escena con misterio que se paga al final.",
       "bloque": "Si hay tiempo"
@@ -1510,6 +1581,7 @@
       "cierre": "Ganar la negociación y perder el acuerdo es el peor negocio.",
       "a_quien": "El dueño de una pyme de cuarenta empleados que está por cerrar un contrato.",
       "si_hay_tiempo": true,
+      "pregunta": "En una negociación, ¿no se trata de sacarle al otro todo lo que puedas?",
       "viral": 8,
       "por_que_pega": "Da vuelta la idea de que negociar bien es sacarle todo al otro.",
       "bloque": "Si hay tiempo"
@@ -1531,6 +1603,7 @@
       "cierre": "Antes de sumar un vendedor, preguntate cuántos clientes hablarían bien de vos.",
       "a_quien": "El dueño de una pyme que le vende tecnología a otras empresas.",
       "si_hay_tiempo": true,
+      "pregunta": "Si quiero vender más, ¿sumo vendedores?",
       "viral": 8,
       "por_que_pega": "Un dato que cambia dónde pone la plata el que vende.",
       "bloque": "Si hay tiempo"
@@ -1552,6 +1625,7 @@
       "cierre": "De lo que pagás en tecnología, ¿cuánto te trae un cliente?",
       "a_quien": "El dueño de una pyme de cuarenta empleados.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Es verdad que las pymes no invierten en tecnología?",
       "viral": 7,
       "por_que_pega": "Da vuelta el «la pyme no invierte» con una encuesta seria.",
       "bloque": "Si hay tiempo"
@@ -1573,6 +1647,7 @@
       "cierre": "Para mí, la fábrica no se agranda por los locales que todavía no tenés.",
       "a_quien": "El dueño de una cadena gastronómica de treinta locales.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Qué problema te trae crecer más rápido de lo que esperabas?",
       "viral": 7,
       "por_que_pega": "Convierte un éxito en problema, y le habla al franquiciante que lo está viviendo.",
       "bloque": "Si hay tiempo"
@@ -1594,6 +1669,7 @@
       "cierre": "Una estadística que no dispara una acción no sirve para nada.",
       "a_quien": "El dueño de una cadena gastronómica de treinta locales.",
       "si_hay_tiempo": true,
+      "pregunta": "¿No es bueno medir todo lo que puedas en una empresa?",
       "viral": 7,
       "por_que_pega": "Una pregunta que incomoda a cualquiera con un tablero lindo.",
       "bloque": "Si hay tiempo"
@@ -1615,6 +1691,7 @@
       "cierre": "La IA se come lo operativo, no lo estratégico.",
       "a_quien": "Alguien con un trabajo de oficina, que pasa el día entre planillas y sistemas.",
       "si_hay_tiempo": true,
+      "pregunta": "Trabajo en una oficina. ¿La IA me va a sacar el puesto?",
       "viral": 7,
       "por_que_pega": "Una imagen concreta para el que vive en planillas: no pierde el puesto, pierde tareas.",
       "bloque": "Si hay tiempo"
@@ -1636,6 +1713,7 @@
       "cierre": "Pensar o seguir pasos: esa respuesta cambia toda la ecuación.",
       "a_quien": "El que está mirando, sea empleado o dueño.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Cómo sé si mi trabajo está en riesgo con la IA?",
       "viral": 7,
       "por_que_pega": "Promete una pregunta concreta y la paga en el momento.",
       "bloque": "Si hay tiempo"
@@ -1657,6 +1735,7 @@
       "cierre": "La herramienta se compra en un día. Meterla en cómo trabaja tu gente, no.",
       "a_quien": "El dueño de una pyme de cuarenta empleados que está por sumar IA.",
       "si_hay_tiempo": true,
+      "pregunta": "Ya pagué una herramienta de IA. ¿Ahora qué?",
       "viral": 7,
       "por_que_pega": "Baja a tierra la euforia de la IA con lo que nadie cuenta: la adopción.",
       "bloque": "Si hay tiempo"
@@ -1678,6 +1757,7 @@
       "cierre": "Antes de sumar sistemas, ordená el proceso y escribí el manual.",
       "a_quien": "El dueño de una cadena gastronómica de treinta locales.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Qué tengo que hacer antes de comprar un sistema para mi cadena?",
       "viral": 7,
       "por_que_pega": "Una escena que todo dueño reconoce: nadie escribió cómo se trabaja.",
       "bloque": "Si hay tiempo"
@@ -1699,6 +1779,7 @@
       "cierre": "Cuando ve con sus números lo que pierde, te escucha como a otro empresario.",
       "a_quien": "Un empresario amigo, en un café, que le vende tecnología a otras empresas.",
       "si_hay_tiempo": true,
+      "pregunta": "Si vendés tecnología, ¿qué le mostrás a un dueño para que te compre?",
       "viral": 7,
       "por_que_pega": "Uno que vende software dice que al cliente no le importan las funciones.",
       "bloque": "Si hay tiempo"
@@ -1720,6 +1801,7 @@
       "cierre": "La misma tienda para el que arranca y para el que tiene fábrica no tiene sentido.",
       "a_quien": "El dueño de una marca de franquicias con fábrica propia.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Qué error ves en cómo venden online las marcas grandes?",
       "viral": 7,
       "por_que_pega": "Le dice a la marca grande que vende como un emprendedor.",
       "bloque": "Si hay tiempo"
@@ -1741,6 +1823,7 @@
       "cierre": "Al restaurante no le falta software: le faltan manuales, procesos y un líder.",
       "a_quien": "El dueño de un restaurante que ya compró un sistema.",
       "si_hay_tiempo": true,
+      "pregunta": "Compré un sistema carísimo y nadie lo usa. ¿Qué hice mal?",
       "viral": 7,
       "por_que_pega": "Le habla al dueño que ya gastó en un sistema y está frustrado.",
       "bloque": "Si hay tiempo"
@@ -1762,6 +1845,7 @@
       "cierre": "Mi objetivo es que el canal propio no sea más lento que una app.",
       "a_quien": "El dueño de una cadena gastronómica que vende mucho por apps de delivery.",
       "si_hay_tiempo": true,
+      "pregunta": "Si un cliente me pide directo, ¿no me banca esperar un poco más?",
       "viral": 7,
       "por_que_pega": "Le cambia al dueño contra quién compite: no es otro restaurante, es la app.",
       "bloque": "Si hay tiempo"
@@ -1783,6 +1867,7 @@
       "cierre": "A una empresa que son diez no le sirve un solo sistema para todo.",
       "a_quien": "El dueño de una empresa gastronómica con fábrica propia.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Por qué a una empresa gastronómica grande le cuesta tanto encontrar un sistema que le sirva?",
       "viral": 7,
       "por_que_pega": "Explica por qué ningún sistema le cierra, y discute con los que venden todo integrado.",
       "bloque": "Si hay tiempo"
@@ -1804,6 +1889,7 @@
       "cierre": "El precio te trae al cliente una vez, pero no es lo que lo hace volver.",
       "a_quien": "El dueño de una cadena de comida económica.",
       "si_hay_tiempo": true,
+      "pregunta": "Si mi menú es el más barato, ¿para qué necesito marketing?",
       "viral": 7,
       "por_que_pega": "Le habla al que compite por precio con una frase que se repite.",
       "bloque": "Si hay tiempo"
@@ -1825,6 +1911,7 @@
       "cierre": "A los quince locales, la venta que no medís es una venta que no controlás.",
       "a_quien": "El dueño de una cadena gastronómica de quince locales que controla la venta mirando el total del día.",
       "si_hay_tiempo": true,
+      "pregunta": "Yo miro el total del día de cada local. ¿No alcanza para controlar la venta?",
       "viral": 7,
       "por_que_pega": "Separa el cuánto del cómo: el dueño se queda pensando.",
       "bloque": "Si hay tiempo"
@@ -1846,6 +1933,7 @@
       "cierre": "Crecer no es sumar canales. Es que el mismo cliente vuelva una vez más por mes.",
       "a_quien": "El dueño de una cadena gastronómica de treinta locales que crece abriendo canales.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Cómo hace una cadena para vender más? ¿Abre más canales?",
       "viral": 7,
       "por_que_pega": "Le pide al que suma canales que mire al cliente que ya tiene.",
       "bloque": "Si hay tiempo"
@@ -1867,6 +1955,7 @@
       "cierre": "No gana el que se equivoca menos. Gana el que puede pagar sus errores.",
       "a_quien": "Un empresario amigo, en un café.",
       "si_hay_tiempo": true,
+      "pregunta": "Para crecer en serio, ¿no hay que jugarse todo alguna vez?",
       "viral": 7,
       "por_que_pega": "Le dice al que se juega todo que no es valiente: divide.",
       "bloque": "Si hay tiempo"
@@ -1888,6 +1977,7 @@
       "cierre": "Si nadie en tu empresa se equivocó hoy, nadie probó nada nuevo.",
       "a_quien": "El dueño de una pyme de cuarenta empleados.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Le exigís a tu equipo cero errores?",
       "viral": 7,
       "por_que_pega": "Da vuelta la idea de que un buen día es un día sin errores.",
       "bloque": "Si hay tiempo"
@@ -1909,6 +1999,7 @@
       "cierre": "Ninguna empresa se hizo sola. El que dice que sí, se olvidó de quién lo empujó.",
       "a_quien": "Un empresario amigo que dice que se hizo solo, en un café.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Vos te hiciste solo?",
       "viral": 7,
       "por_que_pega": "Discute el relato del que se hizo solo, que tiene fans y enemigos.",
       "bloque": "Si hay tiempo"
@@ -1930,6 +2021,7 @@
       "cierre": "Lo que más tiempo te lleva construir suele ser lo que al cliente no le importa.",
       "a_quien": "El fundador de una fintech.",
       "si_hay_tiempo": true,
+      "pregunta": "¿En qué perdiste más tiempo cuando construías producto?",
       "viral": 7,
       "por_que_pega": "Todo el que construye se ve reflejado: horas en lo que nadie pidió.",
       "bloque": "Si hay tiempo"
@@ -1951,6 +2043,7 @@
       "cierre": "Frenar a tiempo también es una decisión de empresario. Y la más barata.",
       "a_quien": "El dueño de una cadena gastronómica que está por abrir otro local.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Cuál es la mejor decisión que tomaste con un proyecto?",
       "viral": 7,
       "por_que_pega": "Un fracaso contado como la mejor decisión.",
       "bloque": "Si hay tiempo"
@@ -1972,6 +2065,7 @@
       "cierre": "Antes de construir nada, buscá un primer cliente que te marque la cancha.",
       "a_quien": "El dueño de una empresa de servicios que quiere convertir lo que hace en un producto.",
       "si_hay_tiempo": true,
+      "pregunta": "Si querés convertir tu servicio en un producto, ¿quién decide qué construís?",
       "viral": 7,
       "por_que_pega": "Le saca la visión al dueño y se la da al cliente.",
       "bloque": "Si hay tiempo"
@@ -1993,6 +2087,7 @@
       "cierre": "Mostrar lo que hacés te consigue la reunión. Cerrar la venta sigue siendo trabajo tuyo.",
       "a_quien": "El dueño de una pyme de cuarenta empleados que sigue vendiendo él mismo.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Cómo conseguís reuniones con clientes nuevos?",
       "viral": 7,
       "por_que_pega": "Discute con el que mide a su equipo por llamadas.",
       "bloque": "Si hay tiempo"
@@ -2014,6 +2109,7 @@
       "cierre": "Esperar es dejar que otro marque tu tiempo. A mí nunca me gustó.",
       "a_quien": "Un empresario amigo, en un café.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Sos impaciente?",
       "viral": 7,
       "por_que_pega": "Una confesión que muchos sienten, contra el «todo tiene su tiempo».",
       "bloque": "Si hay tiempo"
@@ -2035,6 +2131,7 @@
       "cierre": "No vendo funcionalidades: vendo lo que le cambia al cliente.",
       "a_quien": "El dueño de una pyme de cuarenta empleados que está por contratar un proveedor.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Qué le tengo que pedir a un proveedor antes de contratarlo?",
       "viral": 7,
       "por_que_pega": "Deja en evidencia al proveedor que vende horas en vez de resultados.",
       "bloque": "Si hay tiempo"
@@ -2056,6 +2153,7 @@
       "cierre": "Lo que vendés cambia. Lo que te compran, siempre, sos vos.",
       "a_quien": "El dueño de una pyme que vende con su nombre.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Qué hace que un cliente te compre a vos y no a otro?",
       "viral": 7,
       "por_que_pega": "Una frase que todo vendedor siente verdad, con una imagen fácil de recordar.",
       "bloque": "Si hay tiempo"
@@ -2077,6 +2175,7 @@
       "cierre": "La rutina perfecta no llega nunca. El entrenamiento de hoy, sí.",
       "a_quien": "El dueño de una pyme de cuarenta empleados.",
       "si_hay_tiempo": true,
+      "pregunta": "¿Cómo armás tu rutina de entrenamiento?",
       "viral": 6,
       "por_que_pega": "Una costumbre suya que se entiende en dos segundos y se lleva a la empresa.",
       "bloque": "Si hay tiempo"

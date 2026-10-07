@@ -42,6 +42,9 @@ button:focus-visible { outline: 3px solid var(--tally); outline-offset: 2px; }
 .modo button[aria-pressed="true"] { background: var(--btn); color: var(--btn-ink); }
 body.grabar .prep { display: none; }
 
+/* La pregunta del entrevistador que no está: la voz del otro, en cursiva. */
+.pregunta { margin: 0; font-size: clamp(1.15rem, 4.4vw, 1.4rem); line-height: 1.3; font-style: italic; }
+body.grabar .pregunta { font-size: clamp(1.05rem, 4vw, 1.25rem); }
 .angulo { margin: 0; color: var(--muted); font-size: 0.95rem; }
 .angulo:empty { display: none; }
 .potencial { margin: 8px 0 0; color: var(--muted); font-size: 0.95rem; }

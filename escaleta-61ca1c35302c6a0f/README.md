@@ -6,12 +6,16 @@ Un tema por pantalla para grabar clips sin perder el hilo. Abajo, tres botones:
 **ANTERIOR**, **SALTAR** y **GRABADO**. Tocando el contador de arriba ves todos los temas y saltás
 a cualquiera.
 
+Cada tema arranca con **la pregunta**: lo que te preguntaría un entrevistador. Como en el estudio no
+hay nadie, es el empujón para arrancar: el gancho es tu respuesta.
+
 Arriba hay dos modos:
 
-- **ENTENDER**, para prepararte: el tema y su ángulo, **el potencial viral** (de 1 a 10) y **por qué
-  pega**, el gancho, **la polémica**, **de qué se trata**, **por qué te escucha**, los puntos a tocar,
-  el cierre y a quién le estás hablando.
-- **GRABAR**, para el estudio: sólo tema, gancho, puntos a tocar, cierre y a quién le estás hablando.
+- **ENTENDER**, para prepararte: la pregunta, el tema y su ángulo, **el potencial viral** (de 1 a 10)
+  y **por qué pega**, el gancho, **la polémica**, **de qué se trata**, **por qué te escucha**, los
+  puntos a tocar, el cierre y a quién le estás hablando.
+- **GRABAR**, para el estudio: sólo la pregunta, el tema, el gancho, los puntos a tocar, el cierre y
+  a quién le estás hablando.
 
 ## Instalarla en el celular
 
@@ -30,6 +34,7 @@ Todo el contenido está en [`guiones.json`](guiones.json). Cada tema es así:
   "id": "la-mora",
   "planilla": 89,
   "tema": "La mora",
+  "pregunta": "Lo que te preguntaría el entrevistador, para que el gancho sea tu respuesta.",
   "angulo": "",
   "gancho": "La primera frase, tal cual se dice.",
   "polemica": "La postura, y quién te la va a discutir.",

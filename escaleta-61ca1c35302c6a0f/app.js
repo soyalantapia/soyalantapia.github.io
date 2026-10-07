@@ -126,6 +126,8 @@
     else if (estado.saltado[t.id]) h.appendChild(etiqueta('Saltado', 'salto'));
     if (t.si_hay_tiempo) h.appendChild(etiqueta('Si hay tiempo', 'opcional'));
 
+    texto($('pregunta'), t.pregunta);
+    $('campo-pregunta').hidden = !t.pregunta;
     texto($('gancho'), t.gancho);
     var ol = $('puntos');
     ol.textContent = '';
