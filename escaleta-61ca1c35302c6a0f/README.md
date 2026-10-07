@@ -8,8 +8,9 @@ a cualquiera.
 
 Arriba hay dos modos:
 
-- **ENTENDER**, para prepararte: el tema y su ángulo, el gancho, **la polémica**, **de qué se trata**,
-  **por qué te escucha**, los puntos a tocar, el cierre y a quién le estás hablando.
+- **ENTENDER**, para prepararte: el tema y su ángulo, **el potencial viral** (de 1 a 10) y **por qué
+  pega**, el gancho, **la polémica**, **de qué se trata**, **por qué te escucha**, los puntos a tocar,
+  el cierre y a quién le estás hablando.
 - **GRABAR**, para el estudio: sólo tema, gancho, puntos a tocar, cierre y a quién le estás hablando.
 
 ## Instalarla en el celular
@@ -37,12 +38,17 @@ Todo el contenido está en [`guiones.json`](guiones.json). Cada tema es así:
   "puntos": ["Primer punto.", "Segundo punto.", "Tercer punto."],
   "cierre": "La última frase, tal cual se dice.",
   "a_quien": "El fundador de una fintech.",
-  "si_hay_tiempo": false
+  "si_hay_tiempo": false,
+  "viral": 9,
+  "por_que_pega": "Por qué ese clip se va a compartir, en una línea.",
+  "bloque": "Fintech"
 }
 ```
 
 - `id` no se cambia nunca: es lo que recuerda si un tema ya está grabado.
-- El orden de la lista es el orden de la grabación.
+- El orden de la lista es el orden de la grabación. Primero van los de hoy, agrupados por `bloque`;
+  después los que son `si_hay_tiempo`, del que más pega al que menos.
+- `viral` es una estimación de 1 a 10 de cuánto puede circular el clip, no una medición.
 - `planilla` es el número del guion en la planilla de evaluación.
 - `angulo` sólo se completa cuando la misma postura se graba desde varios ángulos.
 

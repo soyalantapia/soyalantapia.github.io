@@ -129,6 +129,15 @@
     texto($('cierre'), t.cierre);
     texto($('aquien'), t.a_quien);
     texto($('angulo'), t.angulo ? 'Ángulo: ' + t.angulo : '');
+    var pot = $('potencial');
+    pot.textContent = '';
+    if (typeof t.viral === 'number') {
+      var nv = document.createElement('b');
+      nv.className = 'nota-viral';
+      nv.textContent = 'Potencial ' + t.viral + '/10';
+      pot.appendChild(nv);
+      if (t.por_que_pega) pot.appendChild(document.createTextNode(' ' + t.por_que_pega));
+    }
     texto($('polemica'), t.polemica);
     texto($('insight'), t.insight);
     texto($('objetivo'), t.objetivo);
@@ -146,7 +155,15 @@
     var actual = indiceActual();
     var ol = $('items');
     ol.textContent = '';
+    var bloque = null;
     ts.forEach(function (t, i) {
+      if (t.bloque && t.bloque !== bloque) {
+        bloque = t.bloque;
+        var c = document.createElement('li');
+        c.className = 'corte';
+        c.textContent = bloque;
+        ol.appendChild(c);
+      }
       var li = document.createElement('li');
       var b = document.createElement('button');
       b.type = 'button';
@@ -165,7 +182,12 @@
       e.className = 'e';
       if (estado.hecho[t.id]) { e.className += ' ok'; e.textContent = 'Grabado'; }
       else if (estado.saltado[t.id]) { e.className += ' salto'; e.textContent = 'Saltado'; }
-      else if (t.si_hay_tiempo) { e.className += ' salto'; e.textContent = 'Si hay tiempo'; }
+      if (typeof t.viral === 'number') {
+        var v = document.createElement('span');
+        v.className = 'v';
+        v.textContent = t.viral + '/10';
+        e.appendChild(v);
+      }
       b.appendChild(n);
       b.appendChild(tt);
       b.appendChild(e);
