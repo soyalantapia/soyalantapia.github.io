@@ -118,7 +118,7 @@
       "objetivo": "Que el que presta vea que el crédito fácil para lo que se gasta también es su riesgo de mora.",
       "puntos": [
         "Banco Central, febrero de este año: uno de cada cuatro pesos que tenían prestados las fintech no bancarias, en mora de más de noventa días.",
-        "[Contá un caso tuyo, como dueño de empresa, de crédito fácil para algo que se gastaba y difícil para algo que iba a quedar.]",
+        "Pensalo con lo tuyo: unas zapatillas en cuotas te las aprueban en el acto. Para algo que te queda, como una casa, es otra historia.",
         "Para mí, parte de eso viene de acá: es más fácil aprobar algo chico que se gasta que algo grande que queda."
       ],
       "cierre": "Prestar para lo que se gasta es fácil. Lo que vale es prestar para lo que queda.",
@@ -348,7 +348,7 @@
       "insight": "Lo que estás diciendo es que el dato solo no vale nada: vale cuando alguien lo convierte en información, o sea en algo que explica qué pasa, y eso termina en una acción concreta con un responsable. El mecanismo es que juntar datos es barato y se siente como trabajo, pero decidir cuesta, entonces la empresa se queda en el primer paso. El límite: no estás en contra de medir; hay números que se miran para saber que todo sigue bien, y está perfecto mientras alguien sepa qué hace si se mueven.",
       "objetivo": "Que el dueño deje de pagar reportes que nadie usa y pida sólo los números que le cambian una decisión.",
       "puntos": [
-        "[Contá un reporte que te mostraron con orgullo en una empresa y que no cambió ninguna decisión.]",
+        "Me mostraron un montón de datos. Ninguno me dio información con la que pudiera hacer algo.",
         "Para mí es una cadena: del dato a la información, y de la información a la acción. Si se corta, no sirvió.",
         "Pensalo así: antes de pedir un número nuevo, preguntá qué vas a hacer distinto si sube o si baja."
       ],
@@ -369,7 +369,7 @@
       "insight": "Lo que estás diciendo es que la IA bajó el costo de escribir software, pero no el de entender qué problema hay que resolver. El mecanismo: el que vende un sistema ya pasó por la etapa de descubrimiento, los errores, los casos raros, lo que el cliente pide y no necesita, y eso es lo que cobra. El límite: si el problema es simple y lo conocés bien, armarlo vos puede tener sentido; esto vale para el sistema que toca cómo opera la empresa.",
       "objetivo": "Que el dueño que piensa armarse su sistema con IA calcule el costo de descubrir el problema, no sólo el de programarlo.",
       "puntos": [
-        "[Contá un cliente que llegó pidiendo un sistema y, cuando entendieron su problema, necesitaba otra cosa.]",
+        "Muchos clientes me llegan pidiendo un sistema, y lo que necesitan es ordenarse. Yo trabajo mucho en eso: entender sus protocolos.",
         "Hoy es fácil pedir un sistema de gestión o un sistema contable. Pocos entienden el problema de raíz.",
         "Toda esa etapa de descubrimiento, entender qué pasa por detrás, ya la hizo una empresa que lo resolvió antes."
       ],
@@ -390,9 +390,9 @@
       "insight": "Lo que estás diciendo es que el dueño posterga la tecnología mientras vende bien y la busca cuando las ventas caen, esperando un resultado extraordinario con la plata que le queda. El mecanismo: un sistema tarda en devolver, entre ponerlo en marcha, que el equipo lo use y que se vea en los números, y en la mala ese tiempo no está. El límite: no decís que en las buenas haya que comprar cualquier cosa; decís que lo que vas a necesitar se compra antes de necesitarlo.",
       "objetivo": "Que el dueño de una pyme invierta en tecnología mientras vende bien, y no con la plata que le queda cuando las ventas caen.",
       "puntos": [
-        "[Contá una empresa que buscó tecnología recién cuando las ventas cayeron, y qué le pasó.]",
-        "Cuando venden bien, no tocan nada. Innovan cuando no tienen fondos y quieren resultados extraordinarios con la plata de su fracaso.",
-        "¿Qué quiere decir eso? La tecnología devuelve con tiempo, y cuando falta la plata, lo que no tenés es tiempo."
+        "Lo veo todo el tiempo: la mayoría sale a buscar tecnología cuando le caen las ventas. Casi nunca para crecer. Y quiere resultados extraordinarios con la plata de su fracaso.",
+        "Muy pocos entienden que hay que innovar en los tiempos buenos, para poder trabajar cuando lleguen los tiempos grises.",
+        "¿Por qué? La tecnología devuelve con tiempo, y cuando falta la plata, lo que no tenés es tiempo."
       ],
       "cierre": "La tecnología se paga con la plata de las buenas. Con la de las malas, llega tarde.",
       "a_quien": "El dueño de una pyme de cuarenta empleados que viene vendiendo bien.",
@@ -411,7 +411,7 @@
       "insight": "Lo que estás diciendo, y lo decís vendiendo software, es que el dueño compra un sistema esperando que le ordene el local, y el sistema sólo ejecuta lo que ya está definido. El mecanismo: los números se mueven cuando cambia lo que hace la gente, y eso lo cambia un proceso con alguien que lo empuja, no una pantalla. El límite: cuando el proceso ya funciona y lo que traba es hacerlo a mano, ahí el sistema sí es la respuesta.",
       "objetivo": "Que el dueño de un restaurante no gaste en un sistema para arreglar algo que se arregla con un proceso y alguien que lo lidere.",
       "puntos": [
-        "[Contá un restaurante que compró un sistema esperando que le ordene el local, y qué pasó después.]",
+        "¿Compraste un sistema para que te ordene el local? Fijate si cambió lo que hace tu gente en el mostrador.",
         "Un sistema registra lo que hace tu gente. Lo que hace tu gente lo define un proceso y alguien que lo lidera.",
         "A ver, es verdad que hay momentos para comprar un sistema: cuando el proceso ya funciona y hacerlo a mano te frena."
       ],
@@ -453,7 +453,7 @@
       "insight": "Lo que estás diciendo es que el cajero que no ofrece no es vago, tiene miedo: con fila y apuro, si ofrece y le dicen que no, queda mal delante de todos. Nadie le enseñó a vender, le enseñaron a despachar, y entonces hace lo seguro. El límite decilo vos: hay cajeros que no ofrecen porque no ganan nada con eso, y ahí el problema es otro. No hables del tótem ni des números.",
       "objetivo": "Que el dueño deje de retar al cajero que no ofrece y se ocupe de lo que le da miedo.",
       "puntos": [
-        "[Contá un cajero concreto que viste no animarse a ofrecer, y qué pasó]",
+        "Para mí es uno de los problemas más grandes del mercado hoy: gran parte de los cajeros no está preparada para ofrecer algo más. A esta generación le cuesta mucho.",
         "Pensalo desde el mostrador: fila, apuro, y si ofrece y le dicen que no, queda mal.",
         "Nadie le enseñó a vender. Le enseñaron a despachar."
       ],
@@ -474,8 +474,8 @@
       "insight": "Lo que estás diciendo es que estar en todos lados no es una estrategia: si el cliente puede pedir por cualquier lado, nunca pasa por un lugar donde lo conozcas. Cuando la cadena cortó los pedidos por mensaje y obligó a usar su canal, perdió algunos clientes, pero se quedó con clientes que son suyos y a los que puede hacer volver. El límite decilo vos: no es apagar y listo, sin algo a cambio el cliente se va. Y no digas que los que quedan vuelven más si no tenés el número y el permiso de la cadena.",
       "objetivo": "Que el dueño de una cadena se anime a perder algunos pedidos para quedarse con clientes que son suyos.",
       "puntos": [
-        "Obligó a pedir por su canal propio. Algunos se fueron, sí.",
-        "No es apagar y listo. [Contá qué les dio la cadena a cambio para que pidan por ahí]",
+        "Obligó a pedir por su canal propio. Algunos se fueron, sí. Los que quedaron son clientes suyos.",
+        "No es apagar y listo: si cortás un canal, al cliente le tenés que dar una razón para pedir por el tuyo.",
         "Estar en todos lados no es una estrategia."
       ],
       "cierre": "A veces, para tener clientes tuyos, tenés que perder algunos.",
@@ -642,7 +642,7 @@
       "insight": "Lo que estás diciendo es que estar ocupado no es avanzar: el dueño puede llenar el día de cosas urgentes y no hacer la única que trae plata. El mecanismo es que lo operativo siempre grita y vender nunca parece urgente, hasta que falta. El límite lo decís vos antes de que te lo digan: no hace falta cerrar una venta por día, porque hay negocios donde una venta tarda meses; lo que no puede pasar es un día sin una llamada, una propuesta o un seguimiento.",
       "objetivo": "Que el dueño deje de medir su día por lo ocupado que estuvo y lo mida por lo que hizo para vender.",
       "puntos": [
-        "[Contá un día concreto tuyo de mil cosas sin vender nada, y qué cambiaste después de ese día.]",
+        "Pensá en tu día de ayer: reuniones, problemas, proveedores. ¿Cuánto de eso fue para vender?",
         "Lo operativo siempre es urgente. Vender nunca parece urgente, hasta que falta la plata.",
         "A ver, hay negocios donde una venta tarda meses. Ahí vender hoy es la llamada, la propuesta o el seguimiento."
       ],
