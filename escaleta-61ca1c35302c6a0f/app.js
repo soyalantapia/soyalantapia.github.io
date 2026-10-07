@@ -4,7 +4,7 @@
   var CLAVE = 'escaleta:v1';
   var datos = null;
   var vista = 'tema';
-  var estado = { actual: null, hecho: {}, saltado: {} };
+  var estado = { actual: null, hecho: {}, saltado: {}, orden: '' };
   var $ = function (id) { return document.getElementById(id); };
 
   // ── Lo que se recuerda en este teléfono ──────────────────────────────────
@@ -15,6 +15,7 @@
         estado.actual = typeof s.actual === 'string' ? s.actual : null;
         estado.hecho = s.hecho && typeof s.hecho === 'object' ? s.hecho : {};
         estado.saltado = s.saltado && typeof s.saltado === 'object' ? s.saltado : {};
+        estado.orden = typeof s.orden === 'string' ? s.orden : '';
       }
     } catch (e) { /* sin almacenamiento: anda igual, sólo que no recuerda */ }
   }
@@ -36,6 +37,13 @@
     for (var i = desde + 1; i < ts.length; i++) { if (!cerrado(ts[i])) return i; }
     for (var j = 0; j < Math.min(desde + 1, ts.length); j++) { if (!cerrado(ts[j])) return j; }
     return -1;
+  }
+  // Una huella del orden de los temas: si cambia, la app arranca desde el primero.
+  function firmaDe(ts) {
+    var s = ts.map(function (t) { return t.id; }).join('|');
+    var h = 5381;
+    for (var i = 0; i < s.length; i++) { h = ((h << 5) + h + s.charCodeAt(i)) | 0; }
+    return (h >>> 0) + ':' + ts.length;
   }
   function hechos() { return lista().filter(function (t) { return estado.hecho[t.id]; }).length; }
   function saltados() { return lista().filter(function (t) { return estado.saltado[t.id] && !estado.hecho[t.id]; }); }
@@ -293,7 +301,7 @@
     clearTimeout(armado);
     armado = null;
     texto(b, 'Empezar de cero');
-    estado = { actual: null, hecho: {}, saltado: {} };
+    estado = { actual: null, hecho: {}, saltado: {}, orden: estado.orden };
     irA(0);
   });
 
@@ -335,9 +343,11 @@
         d.temas = d.temas.filter(function (t) { return t && typeof t.id === 'string' && t.id; });
         if (!d.temas.length) throw new Error('sin temas');
         datos = d;
-        if (indiceDe(estado.actual) < 0) {
+        var firma = firmaDe(d.temas);
+        if (estado.orden !== firma || indiceDe(estado.actual) < 0) {
           var n = proximoAbierto(-1);
           estado.actual = d.temas[n < 0 ? 0 : n].id;
+          estado.orden = firma;
         }
         guardar();
         if (lista().every(cerrado)) { mostrar('fin'); pintarFin(); }
