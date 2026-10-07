@@ -528,6 +528,27 @@
       "bloque": "Gastronomía"
     },
     {
+      "planilla": 11,
+      "id": "sabana-corta",
+      "tema": "Sábana corta",
+      "angulo": "Desde la charla con un franquiciante que quedó en sábana corta, y tomando partido.",
+      "gancho": "No agrandes la fábrica por los locales que esperás vender.",
+      "polemica": "La fábrica se agranda por los locales que ya firmaste, no por los que esperás vender. Te lo discute el franquiciante que dice «primero la capacidad», porque si un franquiciado se queda sin producto, la que paga es la marca.",
+      "insight": "Lo que estás diciendo es que crecer rápido en franquicias te deja en sábana corta: si la fábrica queda chica, tus franquiciados se quedan sin producto, y si la hacés grande antes de tiempo, inmovilizás plata en capacidad que no usás. Discutís a los que dicen que primero va la capacidad: para vos, la fábrica sigue a los locales firmados, no a los esperados. El límite: si los locales ya están firmados y la fábrica no llega, agrandar no es una apuesta, es una obligación.",
+      "objetivo": "Que el franquiciante no hunda en una fábrica la plata de locales que todavía no vendió.",
+      "puntos": [
+        "Un franquiciante me dijo: «crecí rápido y ahora estoy en sábana corta». Si sigue vendiendo y la fábrica no da, sus franquiciados se quedan sin producto.",
+        "Pero si arma una fábrica para todos los locales que espera tener, paga hoy capacidad que capaz nunca usa.",
+        "A ver, si los locales ya están firmados y no llegás con el producto, agrandar no es apuesta: es obligación."
+      ],
+      "cierre": "Agrandá la fábrica con lo que vendiste, no con lo que esperás vender.",
+      "a_quien": "El franquiciante que está por decidir si agranda la fábrica.",
+      "si_hay_tiempo": false,
+      "viral": 7,
+      "por_que_pega": "Una orden concreta para el franquiciante, contra el «primero la capacidad».",
+      "bloque": "Gastronomía"
+    },
+    {
       "planilla": 94,
       "id": "te-digo-siete",
       "tema": "Te digo siete",
@@ -1701,27 +1722,6 @@
       "si_hay_tiempo": true,
       "viral": 7,
       "por_que_pega": "Le dice a la marca grande que vende como un emprendedor.",
-      "bloque": "Si hay tiempo"
-    },
-    {
-      "planilla": 11,
-      "id": "sabana-corta",
-      "tema": "Sábana corta",
-      "angulo": "Desde la charla con un franquiciante que quedó en sábana corta, y tomando partido.",
-      "gancho": "No agrandes la fábrica por los locales que esperás vender.",
-      "polemica": "La fábrica se agranda por los locales que ya firmaste, no por los que esperás vender. Te lo discute el franquiciante que dice «primero la capacidad», porque si un franquiciado se queda sin producto, la que paga es la marca.",
-      "insight": "Lo que estás diciendo es que crecer rápido en franquicias te deja en sábana corta: si la fábrica queda chica, tus franquiciados se quedan sin producto, y si la hacés grande antes de tiempo, inmovilizás plata en capacidad que no usás. Discutís a los que dicen que primero va la capacidad: para vos, la fábrica sigue a los locales firmados, no a los esperados. El límite: si los locales ya están firmados y la fábrica no llega, agrandar no es una apuesta, es una obligación.",
-      "objetivo": "Que el franquiciante no hunda en una fábrica la plata de locales que todavía no vendió.",
-      "puntos": [
-        "Un franquiciante me dijo: «crecí rápido y ahora estoy en sábana corta». Si sigue vendiendo y la fábrica no da, sus franquiciados se quedan sin producto.",
-        "Pero si arma una fábrica para todos los locales que espera tener, paga hoy capacidad que capaz nunca usa.",
-        "A ver, si los locales ya están firmados y no llegás con el producto, agrandar no es apuesta: es obligación."
-      ],
-      "cierre": "Agrandá la fábrica con lo que vendiste, no con lo que esperás vender.",
-      "a_quien": "El franquiciante que está por decidir si agranda la fábrica.",
-      "si_hay_tiempo": true,
-      "viral": 7,
-      "por_que_pega": "Una orden concreta para el franquiciante, contra el «primero la capacidad».",
       "bloque": "Si hay tiempo"
     },
     {
