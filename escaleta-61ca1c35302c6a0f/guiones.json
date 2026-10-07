@@ -3,24 +3,32 @@
   "actualizado": "2026-10-07",
   "temas": [
     {
-      "id": "estafamos",
       "planilla": 72,
+      "id": "estafamos",
       "tema": "Estafamos",
+      "angulo": "Desde la mesa de negociación: la frase que le dijo al otro y la contraoferta al oído.",
       "gancho": "Le dije: nos tenemos que ir los dos pensando que estafamos.",
+      "polemica": "Negociar bien no es ganarle al otro: es que los dos sientan que el otro cedió más. Te lo discute el que cree que en una negociación nunca se muestran las cartas.",
+      "insight": "Lo que estás diciendo es que una negociación no se gana: se firma algo que los dos quieran cumplir, porque el que sale sintiendo que perdió te lo cobra después. Por eso le dijiste al oído qué contraoferta te harías vos: en vez de esconder las cartas, le mostraste por dónde podía sentir que ganaba. El límite lo decís vos: no es estafar de verdad ni regalar; habías ido fuerte con el número, y lo que buscás es algo justo, no ganarle.",
+      "objetivo": "Que el dueño que negocia un contrato deje de querer ganarle al otro y cierre un acuerdo que nadie le cobre después.",
       "puntos": [
-        "No estafar de verdad: sentir que el otro cedió más.",
-        "Fui agresivo con el número y me dijo «es muy fuerte». Le dije al oído la contraoferta que me haría yo.",
-        "El que sale sintiendo que perdió, te lo cobra después. Si los dos sienten que ganaron, firman."
+        "Había ido agresivo con el número y el otro me dijo «es muy fuerte». Ahí se lo dije.",
+        "No estafar de verdad, eh: sentir que el otro cedió más. Y hasta le dije al oído qué contraoferta me haría yo.",
+        "¿Por qué? El que sale sintiendo que perdió, te lo cobra después. Si los dos sienten que ganaron, firman."
       ],
       "cierre": "Yo no busco ganarle. Busco algo justo.",
       "a_quien": "Un empresario amigo, en un café.",
       "si_hay_tiempo": false
     },
     {
-      "id": "el-rival",
       "planilla": 71,
+      "id": "el-rival",
       "tema": "El rival",
-      "gancho": "Cuando boxeaba, aunque ganara, le preguntaba al rival qué hice mal.",
+      "angulo": "",
+      "gancho": "Cuando boxeaba, aunque ganara, le preguntaba al rival: ¿qué hice mal?",
+      "polemica": "Al cliente que te dijo que no, llamalo para preguntarle qué hiciste mal. Te lo discute el que cree que insistir con el que ya dijo que no quema la relación.",
+      "insight": "Lo que estás diciendo es que el que te dijo que no tiene la devolución más honesta sobre cómo vendés, y la creencia que discutís es que volver a llamarlo quema. El mecanismo es que, cuando le aclarás que ya no le vas a vender, baja la guardia y te dice la verdad; y a veces esa charla reabre la venta. El límite lo decís vos: si la pregunta es una excusa para volver a venderle, quema; funciona porque de verdad escuchás, aunque no te guste que te maten.",
+      "objetivo": "Que el dueño que pierde una venta saque de una sola llamada lo que hizo mal, y a veces la venta.",
       "puntos": [
         "Me decían que con el contrincante no se habla. Yo preguntaba igual.",
         "Con los clientes hago lo mismo. Uno me dijo: «hablabas un montón, Alan».",
@@ -31,55 +39,71 @@
       "si_hay_tiempo": false
     },
     {
-      "id": "no-me-contrates",
       "planilla": 98,
+      "id": "no-me-contrates",
       "tema": "No me contrates",
+      "angulo": "",
       "gancho": "Un cliente me quiso contratar y le dije: no me contrates.",
+      "polemica": "A veces lo que más vende es decirle a un cliente que no te contrate, porque no le conviene. Te lo discute el proveedor que vive de cada venta y cree que una venta rechazada no vuelve.",
+      "insight": "Lo que estás diciendo es que decirle a alguien que no te contrate, cuando no le conviene, te saca del lugar de vendedor y te pone en el de asesor. Cuidarle la plata en vez de cobrársela es la prueba más clara de que pensás en su negocio y no en tu venta. El límite: un proveedor vive de que lo contraten, y no siempre sale bien; esta vez te terminó contratando, y para otra cosa.",
+      "objetivo": "Que el dueño que quiere hacerse un software sepa distinguir al que le vende del que le cuida la plata.",
       "puntos": [
         "Ya había trabajado con nosotros. Quería un equipo para hacerse un software.",
         "Lo que tenía para gastar no alcanzaba. Le dije: con esa plata, tomá a alguien en tu empresa, y te ayudo a buscarlo.",
         "Se quedó mal. «¿Y si te pago para que me asesores?» Me terminó contratando, para otra cosa."
       ],
-      "cierre": "No soy tu vendedor. Soy tu asesor.",
+      "cierre": "No soy tu vendedor, soy tu asesor.",
       "a_quien": "Un empresario amigo, en un café.",
       "si_hay_tiempo": false
     },
     {
-      "id": "cobran-con-varias",
       "planilla": 90,
+      "id": "cobran-con-varias",
       "tema": "Cobran con varias",
+      "angulo": "",
       "gancho": "Casi siete de cada diez pymes cobran con más de una marca.",
+      "polemica": "A una pyme no le pidas ser su cuenta principal: pedile un cobro y ganátelo. Te lo discute el que persigue la cuenta principal porque ahí quedan los saldos.",
+      "insight": "Lo que estás diciendo es que la pyme no elige un solo proveedor para cobrar: suma varios y decide en cada cobro, así que pedirle la cuenta principal de entrada es pedirle algo que no hace. El mecanismo es el riesgo que ve en vos: un cobro chico es una prueba barata para ella, y si cumplís, lo grande deja de dar miedo porque ya te conoce. El límite: la encuesta mide cómo cobran, no dónde dejan la plata, y ser la cuenta principal puede seguir siendo la meta; lo que discutís es por dónde se entra.",
+      "objetivo": "Que el fundador de una fintech deje de gastar en convencer a la pyme de pasarse entera y le gane un cobro.",
       "puntos": [
-        "Muchas fintech quieren ser la cuenta principal de la pyme.",
-        "Una encuesta de Getnet, una procesadora: en promedio cobran con dos o tres a la vez. No eligen una, suman. Y eligen en cada cobro.",
-        "La gente tiene plata; el problema es el riesgo que ve en vos. Entrá con algo chico: si ya te probó, lo grande deja de dar miedo."
+        "Una encuesta de Getnet, una procesadora: en promedio cobran con dos o tres a la vez. No eligen una, suman.",
+        "Muchas fintech quieren ser la cuenta principal de la pyme. Y la pyme elige de nuevo en cada cobro.",
+        "La gente tiene plata; el problema es el riesgo que ve en vos. Si te probó con algo chico, lo grande deja de dar miedo."
       ],
       "cierre": "A una pyme no le pidas la cuenta. Pedile un cobro, y ganátelo.",
       "a_quien": "El fundador de una fintech.",
       "si_hay_tiempo": false
     },
     {
-      "id": "la-mora",
       "planilla": 89,
+      "id": "la-mora",
       "tema": "La mora",
+      "angulo": "",
       "gancho": "Uno de cada cuatro pesos que tenían prestados las fintech estaba en mora.",
+      "polemica": "Para mí, parte de la mora es la fricción que no se puso al prestar. Te lo discute el de producto, que mide su éxito en lo rápido que se aprueba un préstamo.",
+      "insight": "Lo que estás diciendo es que la fricción no desaparece: si no la ponés al prestar, con más condiciones y más preguntas, aparece después, al cobrar. La creencia que discutís es que prestar sin fricción es la gran ventaja de la fintech; el mecanismo es que cada condición que sacás para aprobar más rápido es un riesgo que te llevás a la cobranza. El límite, dicho por vos: la mora tiene muchas causas y el sector discute la cifra; lo tuyo es una opinión sobre una parte, no un diagnóstico de la economía.",
+      "objetivo": "Que el fundador de una fintech mida cada paso que saca al prestar contra lo que le cuesta cobrar después.",
       "puntos": [
-        "Es verdad: prestar rápido, desde el celular, le dio crédito a millones.",
         "Lo dice el Banco Central: en febrero de este año, más de noventa días de atraso. Y hablo de las fintech que no son bancos.",
+        "Es verdad: prestar rápido, desde el celular, le dio crédito a millones.",
         "Cuando negocio lo digo así: cada condición que agregás te baja el riesgo y te sube la fricción."
       ],
-      "cierre": "Para mí, la fricción que no pusiste al prestar, la pagás al cobrar.",
+      "cierre": "Para mí, parte de la fricción que no pusiste al prestar la pagás al cobrar.",
       "a_quien": "El fundador de una fintech.",
       "si_hay_tiempo": false
     },
     {
-      "id": "una-persona",
       "planilla": 91,
+      "id": "una-persona",
       "tema": "Una persona",
+      "angulo": "",
       "gancho": "Lo que más le piden a su banco no es la tasa.",
+      "polemica": "Hablar con una persona no es un costo para recortar: es lo primero que el cliente elige. Te lo discute el que reemplaza soporte por un chatbot para ahorrar.",
+      "insight": "Lo que estás diciendo es que el rubro compite por lo que el cliente casi no pide y recorta lo que más pide. El mecanismo: cuando algo falla, el cliente no mide la app sino si alguien le responde, y ahí decide si te quiere. El límite, dicho por vos: no decís que el chatbot sobre ni que la tasa no importe, y la encuesta pregunta qué mejorarían, no por qué eligen a su banco.",
+      "objetivo": "Que el que recorta soporte para pagar un chatbot vea que está recortando lo que su cliente más pide.",
       "puntos": [
-        "Todos compiten por la tasa o por el mejor chatbot.",
-        "En agosto salió una encuesta de D'Alessio IROL: si tu banco o tu billetera pudiera mejorar una sola cosa, cuatro de cada diez eligen hablar con una persona. Tasas más bajas, tres de cada cien.",
+        "En agosto, D'Alessio IROL preguntó: si tu banco o billetera pudiera mejorar una sola cosa, ¿cuál? Cuatro de cada diez: hablar con una persona.",
+        "Una persona, cuando hay un problema. Tasas más bajas: tres de cada cien. Y casi todos compiten por tasa o chatbot.",
         "Un aliado me lo dijo así: cuando algo falla, te responde una persona, y la gente me quiere por eso."
       ],
       "cierre": "La atención no es el costo que se recorta. Es lo primero que se elige.",
@@ -87,27 +111,35 @@
       "si_hay_tiempo": false
     },
     {
-      "id": "la-clave",
       "planilla": 88,
+      "id": "la-clave",
       "tema": "La clave",
-      "gancho": "La cuenta le llega a gente que no sabe cambiar su clave.",
+      "angulo": "",
+      "gancho": "La cuenta llega a gente que no puede cambiar su clave sola.",
+      "polemica": "La inclusión que falta no es abrir cuentas, es que la gente pueda cuidarlas sola. Te lo discute el que mide la inclusión en cuentas abiertas.",
+      "insight": "Lo que estás diciendo es que medir la inclusión por cuentas abiertas deja afuera una parte del problema: tener la cuenta no es poder cuidarla. El mecanismo: la clave, el bloqueo y los pasos para recuperar el acceso se diseñan para el que se maneja solo con el celular, y el que necesita ayuda queda expuesto o depende de otro. El límite: el dato mide la clave del celular, no la de la cuenta, y lo que sacás de ahí es tu lectura, no lo que dice el Banco Mundial.",
+      "objetivo": "Que el fundador de una fintech vea que el cliente que no puede cuidar su cuenta sin ayuda también es su riesgo.",
       "puntos": [
-        "Celebramos que la mayoría ya tiene cuenta: en Argentina, ocho de cada diez. Y es un logro.",
-        "El Banco Mundial también preguntó si podés cambiar la clave del celular sin ayuda. En Argentina, de los que tienen 25 o más y el celular bloqueado, casi dos de cada diez dijeron que no. De 15 a 24, prácticamente nadie.",
-        "La seguridad se piensa para el que sí puede."
+        "Según el Banco Mundial, en Argentina ocho de cada diez tienen cuenta. Lo celebramos, y es un logro.",
+        "También preguntó si podés cambiar la clave del celular sin ayuda. De 25 para arriba, con el celular bloqueado: casi dos de cada diez, no.",
+        "De 15 a 24, prácticamente nadie. ¿Qué quiere decir? Para mí, la seguridad se piensa para el que sí puede."
       ],
       "cierre": "La inclusión que falta no es abrir la cuenta. Es poder cuidarla.",
       "a_quien": "El fundador de una fintech.",
       "si_hay_tiempo": false
     },
     {
-      "id": "la-deuda",
       "planilla": 87,
+      "id": "la-deuda",
       "tema": "La deuda",
+      "angulo": "",
       "gancho": "Me llamaron para cobrarme una deuda. Quise pagar, pero no les creía.",
+      "polemica": "Si mandás la cobranza a alguien que tu cliente no conoce, le hacés desconfiar hasta al que quiere pagar. Te lo discute el que manda la mora a un estudio porque le sale más barato que cobrar él.",
+      "insight": "Lo que estás diciendo es que la confianza la tiene el que prestó, y cuando le pasa la deuda a un tercero que el deudor no conoce, esa confianza no se pasa con ella. El mecanismo: el que llama no puede probar quién es, y lo único que te daría seguridad, hablar con la empresa original, ya no existe; entonces hasta el que quiere pagar duda. El límite: es un caso tuyo y una deuda chica; no decís que tercerizar la cobranza no funcione, sino que el acreedor tiene que seguir dando la cara. Y no cuentes cómo terminó la deuda: cerrás en tu lectura.",
+      "objetivo": "Que el que cobra deje de perder pagos de clientes que quieren pagar pero no le creen al que llama.",
       "puntos": [
         "Una deuda chica que me había olvidado. Me llama un estudio: «¿quiere arreglar su situación?»",
-        "«Te pago de mil amores, pero no sé quién sos.» Silencio. «Tenemos página web.»",
+        "«Te pago de mil amores, pero no sé quién sos. Dame algo para confiar.» Silencio. «Tenemos página web.»",
         "Pedí que me llamara la empresa a la que le debía. No se podía: se la habían pasado a ellos."
       ],
       "cierre": "La confianza la tenía la empresa a la que le debía, no el que me llamaba.",
@@ -115,10 +147,14 @@
       "si_hay_tiempo": false
     },
     {
-      "id": "comprar-dias",
       "planilla": 93,
+      "id": "comprar-dias",
       "tema": "Comprar días",
+      "angulo": "",
       "gancho": "Cuando una pyme pide un adelanto, no está comprando plata.",
+      "polemica": "La pyme que pide un adelanto no compra plata, compra días. Te lo discute el que arma el crédito pyme pensando en el monto, porque es lo que el banco mide.",
+      "insight": "Lo que estás diciendo es que la pyme no necesita la plata en sí: necesita los días que le faltan para cobrar o para cumplir un pedido, y la plata es cómo los compra. El mecanismo es tu caso del PDF: delegar con plata te devolvió días, y un adelanto hace lo mismo con el tiempo que separa vender de cobrar. El límite: no toda pyme que pide plata está comprando días; a veces le falta porque el negocio no cierra, y ahí más tiempo no la salva.",
+      "objetivo": "Que el gerente de un banco le venda a la pyme lo que de verdad compra: días.",
       "puntos": [
         "Me pidieron un caso de éxito en PDF. Lo delegué y en un día estaba; a mí me llevaba tres. La plata me compró días.",
         "La pyme que pide un adelanto compra los días que le faltan para cobrar, o para cumplir un pedido.",
@@ -129,139 +165,179 @@
       "si_hay_tiempo": false
     },
     {
-      "id": "bancos-e-ia",
       "planilla": 92,
+      "id": "bancos-e-ia",
       "tema": "Bancos e IA",
-      "gancho": "Sólo cinco de cada cien banqueros dicen que su banco está listo para la IA.",
+      "angulo": "",
+      "gancho": "Cinco de cada cien banqueros dicen que su banco está listo para la IA.",
+      "polemica": "En un banco, lanzar la IA de a poco no es atraso: es no romper lo que funciona. Te lo discute el que cree que lanzar todo junto es la única forma de no quedar atrás.",
+      "insight": "Lo que estás diciendo es que el número que parece atraso no es lo que asusta: asusta el que no está listo y lanza todo junto. El mecanismo: cada lanzamiento chico se puede medir y deshacer, y si juntás todo, cuando algo falla no sabés qué fue, y en un banco eso toca la plata de la gente. El límite: no decís que esperar sea gratis ni que no haya que lanzar, decís cómo; y la encuesta mide lo que dicen los directivos, no lo que hacen sus bancos.",
+      "objetivo": "Que el gerente de un banco lance IA sin arriesgar la plata de sus clientes por querer hacerlo todo junto.",
       "puntos": [
-        "Una encuesta de FELABAN y PwC a casi cien directivos de bancos de la región. En parte listos: seis de cada diez.",
-        "¿Atraso? Para mí asusta más el que no está listo y lanza todo junto.",
-        "En mi equipo dije: micro lanzamientos. Si junto todo, armo una bomba que me rompe el sistema. Y en un banco, el sistema es la plata de la gente."
+        "Una encuesta de FELABAN y PwC a casi cien directivos de bancos de la región. En parte listos: seis de cada diez. ¿Atraso?",
+        "Para mí asusta más el que no está listo y lanza todo junto. En mi equipo dije: micro lanzamientos.",
+        "Si junto todo, armo una bomba que me rompe el sistema. Y en un banco, el sistema es la plata de la gente."
       ],
       "cierre": "Ir de a poco no es ir lento. Es no romper lo que ya funciona.",
       "a_quien": "El gerente comercial de un banco.",
       "si_hay_tiempo": false
     },
     {
-      "id": "la-app-del-banco",
       "planilla": 85,
+      "id": "la-app-del-banco",
       "tema": "La app del banco",
-      "gancho": "De cuarenta y cinco mil clientes de un banco, diez mil usan la app. Y mil, todos los días.",
+      "angulo": "",
+      "gancho": "45 mil clientes de un banco: 10 mil usan la app; mil, a diario.",
+      "polemica": "Tu app no se abre por linda: se abre si le guarda algo al cliente. Te lo discute el que invierte en diseño para que la usen más.",
+      "insight": "Lo que estás diciendo es que la gente vuelve adonde tiene algo suyo guardado, y eso vale igual para la app de un banco que para la de una cadena. La creencia que discutís es que una app se abre porque es linda; el mecanismo es que si adentro hay algo del cliente, como puntos, tiene una razón para volver, y si no, compite con todas las cuentas que ya tiene en otros lados. El límite: el número es tu nota de una charla y puede ser un grupo, no todo el banco; y el diseño ayuda a que la prueben, pero por sí mismo no hace volver.",
+      "objetivo": "Que el banco deje de gastar en una app que el cliente tiene pero no abre.",
       "puntos": [
         "Lo contó un orador en un evento de fintech. Es mi nota: puede ser un grupo, no todo el banco.",
-        "En las apps de las cadenas peleamos lo mismo.",
-        "Un cliente, en un pueblo lleno de lugares para comer, eligió el local de la marca. ¿Por qué? Tenía puntos."
+        "En las apps de las cadenas peleamos lo mismo. Y tu cliente hoy tiene cuentas en varios lados.",
+        "En el historial de un cliente vi esto: en un pueblo lleno de lugares para comer, eligió la marca. ¿Por qué? Tenía puntos."
       ],
       "cierre": "La app que le guarda algo, la abre. La otra, sólo la tiene.",
       "a_quien": "El gerente comercial de un banco.",
       "si_hay_tiempo": false
     },
     {
-      "id": "reintegro-o-punto",
       "planilla": 86,
+      "id": "reintegro-o-punto",
       "tema": "Reintegro o punto",
+      "angulo": "",
       "gancho": "El reintegro del banco se gasta y termina ahí. El punto, no.",
+      "polemica": "Un reintegro en descuento se gasta en un ticket; acreditado como puntos, hace volver al cliente. Te lo discute el que arma las promos del banco, que prefiere el descuento porque el cliente lo ve en el acto.",
+      "insight": "Lo que estás diciendo es que el banco ya pone la plata de la promo, y la pone de una forma que se termina en ese ticket. El mecanismo: el descuento se consume en la compra, mientras que el punto queda guardado en la app de la cadena y sólo se usa volviendo, y esa vuelta se puede pagar otra vez con el banco. El límite, dicho por vos: no lo probaste con un banco; es una propuesta desde el comercio, no un resultado.",
+      "objetivo": "Que el que arma las promos del banco vea cómo la misma plata le puede traer una segunda compra.",
       "puntos": [
-        "Es verdad: tu promo de gastronomía funciona, mueve gente.",
-        "Pero el descuento se usa en ese ticket y se acaba. El punto queda en la app de la cadena: para usarlo, hay que volver.",
-        "Y cuando vuelve, puede volver a pagar con vos. No te voy a mentir: no lo probé con un banco."
+        "Cuando le explico el cashback a una cadena, le digo: es como el reintegro del banco, pero en puntos.",
+        "Es verdad, tu promo de gastronomía mueve gente. Pero el descuento se acaba en ese ticket. El punto queda en la app de la cadena.",
+        "Para usarlo hay que volver, y puede volver a pagar con vos. No te voy a mentir: no lo probé con un banco."
       ],
       "cierre": "Hoy tu reintegro se gasta. Convertido en puntos, hace volver.",
       "a_quien": "El gerente comercial de un banco.",
       "si_hay_tiempo": true
     },
     {
-      "id": "el-empleado-estrella",
       "planilla": 99,
+      "id": "el-empleado-estrella",
       "tema": "El empleado estrella",
+      "angulo": "",
       "gancho": "Tu empleado estrella es el que menos necesita la IA.",
+      "polemica": "Para mí, darle la IA primero a los mejores es desperdiciarla. Te lo discute el gerente que premia a sus estrellas con herramientas nuevas.",
+      "insight": "Lo que estás diciendo es que la intuición de darle la IA al que más sabe está al revés: en el estudio de Stanford y el MIT el que más ganó fue el nuevo, y al de más de un año casi no le cambió la productividad. El mecanismo es que la IA aprendió dándoles más peso a las charlas de los mejores, así que le pasa al nuevo lo que el experto ya sabe. El límite: es un estudio de atención a clientes por chat, no de cualquier puesto, y no decís que al experto no le sirva; decís a quién dársela primero.",
+      "objetivo": "Que el dueño que reparte la IA en su equipo deje de dársela primero al que menos la necesita.",
       "puntos": [
-        "Es verdad, tiene lógica dársela al que más sabe. Pero un estudio de Stanford y el MIT siguió a más de cinco mil personas que atendían clientes por chat.",
-        "El que llevaba dos meses y usaba IA rendía igual que uno de más de seis meses sin ella. Al de más de un año, casi no le cambió la productividad.",
-        "¿Por qué? La IA aprendió dándoles más peso a las charlas de los mejores. Le pasaba al nuevo lo que el mejor hace sin darse cuenta."
+        "Un estudio de Stanford y el MIT siguió a más de cinco mil personas que atendían clientes por chat.",
+        "El de dos meses con IA rendía igual que uno de más de seis sin ella. Al de más de un año, casi no le cambió la productividad.",
+        "La IA aprendió dándoles más peso a las charlas de los mejores: le pasaba al nuevo lo que el mejor hace sin darse cuenta."
       ],
       "cierre": "Si se la das sólo a tu empleado estrella, se la diste al que menos la necesita.",
       "a_quien": "El dueño de una pyme de cuarenta empleados.",
       "si_hay_tiempo": false
     },
     {
-      "id": "la-mudanza",
       "planilla": 97,
+      "id": "la-mudanza",
       "tema": "La mudanza",
+      "angulo": "",
       "gancho": "En nueve presupuestos nuestros, la mudanza no tiene precio. La regalamos.",
+      "polemica": "Al cambiar de sistema hay que apagar el viejo en vez de convivir con él, aunque dé miedo: con lo viejo a mano, lo nuevo no arranca. Te lo discute el que defiende la regla de oro de toda migración: convivir un tiempo con los dos sistemas, por seguridad.",
+      "insight": "El punto es que lo caro de cambiar de sistema no es el sistema nuevo sino apagar el viejo: mientras el viejo esté a mano, la gente vuelve a lo conocido y el nuevo no termina de arrancar. Por eso, en nueve presupuestos, la mudanza no se cobra: es lo único que hace que el nuevo se use. El límite: en una operación que no puede parar, apagar lo viejo da miedo con razón, y lo decís vos antes de que te lo digan.",
+      "objetivo": "Que el dueño que cambia de sistema no termine con dos sistemas a medias y gente firmando lo que no es suyo.",
       "puntos": [
-        "Es verdad: si la operación no puede parar, apagar lo viejo da miedo.",
         "Un cliente con un taller: la contabilidad pasó al sistema nuevo de golpe, porque el viejo tenía fecha de baja. «Aprendimos a la fuerza.»",
-        "En el taller, el viejo seguía a mano: dos técnicos con usuario, órdenes en los dos sistemas. Uno firmó una orden que no era suya."
+        "En el taller, el viejo seguía a mano: dos técnicos con usuario, órdenes en los dos sistemas. Uno firmó una orden que no era suya.",
+        "Es verdad: si la operación no puede parar, apagar lo viejo da miedo."
       ],
-      "cierre": "Con lo viejo a mano, lo nuevo no arranca. Regalamos lo único que hace que se use.",
+      "cierre": "Con lo viejo a mano, lo nuevo no arranca: regalamos lo único que hace que se use.",
       "a_quien": "El dueño de una pyme de cuarenta empleados.",
       "si_hay_tiempo": false
     },
     {
-      "id": "para-adentro",
       "planilla": 95,
+      "id": "para-adentro",
       "tema": "Para adentro",
+      "angulo": "",
       "gancho": "La pyme sí paga tecnología. Pero sobre todo para adentro.",
+      "polemica": "La pyme no es que no invierte en tecnología: invierte sobre todo para ordenarse por dentro, no para conseguir clientes. Te lo discute el dueño que le vende a otras empresas y dice que sus clientes llegan por recomendación, no por internet.",
+      "insight": "El punto no es si la pyme paga tecnología sino para qué: en la encuesta de Fundar y la Di Tella, en industria y software, son más las que pagan para ordenarse por dentro que las que pagan para vender. Ordenarse está bien, pero no te trae un cliente por sí solo. El límite lo decís vos: muchas le venden a otras empresas y hay herramientas gratis, así que pagar poco en marketing no siempre es un error.",
+      "objetivo": "Que el dueño revise cuánto de lo que paga en tecnología le trae clientes, y no sólo orden.",
       "puntos": [
-        "Se dice que la pyme no invierte en tecnología. Una encuesta de Fundar y la Di Tella: en industria y software, más de tres de cada cuatro ya paga al menos una.",
+        "Encuesta de Fundar y la Di Tella: en industria y software, más de tres de cada cuatro pymes pagan al menos una tecnología digital.",
         "Nube, comunicación interna, sistema de gestión: cerca de la mitad. Vender por internet o marketing digital: menos de tres de cada diez.",
-        "Se digitalizó para ordenarse, no para vender."
+        "¿Qué quiere decir? Que se digitalizó sobre todo para ordenarse. Es verdad que muchas le venden a otras empresas, y hay herramientas gratis."
       ],
       "cierre": "De lo que pagás en tecnología, ¿cuánto te trae un cliente?",
       "a_quien": "El dueño de una pyme de cuarenta empleados.",
       "si_hay_tiempo": false
     },
     {
-      "id": "el-camion",
       "planilla": 47,
+      "id": "el-camion",
       "tema": "El camión",
-      "gancho": "Un empresario puso una fortuna en un camión eléctrico. En marketing, ni un peso.",
+      "angulo": "Desde la oportunidad: el empresario que sólo paga lo que conoce.",
+      "gancho": "Un empresario puso una fortuna en un camión eléctrico. En marketing, cero.",
+      "polemica": "Para mí, al dueño que sólo paga lo que conoce no hay que venderle: hay que proponerle ser socios del crecimiento, con un fijo chico y una parte de lo que crece. Te lo discute el dueño que prefiere pagar un fijo y quedarse con todo lo que crece.",
+      "insight": "Lo que estás diciendo es que el dueño de una pyme no es tacaño: paga lo que conoce, y el marketing no lo conoce. La empresa que ya está tiene el negocio y la plata, y el joven tecnológico tiene la innovación; por eso proponés atarte a su resultado, con un fijo chico y una parte de lo que crece. El límite: no pronosticás quiebras, decís dónde ves la oportunidad; y el talento que hace crecer una empresa es caro.",
+      "objetivo": "Que el dueño de una pyme encuentre cómo pagar lo que no conoce sin arriesgar plata a ciegas.",
       "puntos": [
         "Le pregunté por qué. «Yo pago lo que conozco.» Y tiene razón.",
         "Las empresas que ya están tienen el negocio y la plata. Los jóvenes, la innovación y las ganas.",
         "Para mí ahí está el negocio: ser socios del crecimiento. Un fijo chico y una parte de lo que te hago crecer."
       ],
-      "cierre": "Tener toda la estructura ya no te hace intocable.",
+      "cierre": "Si pagás sólo lo que conocés, necesitás un socio que conozca lo que vos no.",
       "a_quien": "El dueño de una pyme de cuarenta empleados.",
       "si_hay_tiempo": false
     },
     {
-      "id": "horas-a-minutos",
       "planilla": 68,
+      "id": "horas-a-minutos",
       "tema": "Horas a minutos",
+      "angulo": "Desde el dueño que contrata: lo que cae no son los despidos, es la contratación.",
       "gancho": "Antes, horas de una persona. Hoy, minutos de inteligencia artificial.",
+      "polemica": "Para mí, la IA no se nota primero en los despidos sino en el puesto que ya no se abre. Te lo discute el dueño que dice que en su empresa la IA no le cambió ni una búsqueda.",
+      "insight": "Lo que estás diciendo es que la IA no se ve primero en la gente que se va sino en la que no entra: el estudio de Stanford midió que en los trabajos más expuestos a la IA a los de 22 a 25 años los contratan bastante menos. El mecanismo, para vos, es que lo que se puede escribir en un manual era justo la puerta de entrada, y esa parte ya la hace algo que no cobra sueldo. El límite: el estudio es de Estados Unidos y lo del manual es tu lectura, no el dato; decilo así.",
+      "objetivo": "Que el dueño que va a abrir un puesto se pregunte cuánto de ese puesto entra en un manual antes de contratar.",
       "puntos": [
         "Lo vi en una consultora de recursos humanos: escribir la descripción de un puesto.",
-        "Un estudio de Stanford lo midió en Estados Unidos: en los trabajos más expuestos a la IA, a los de 22 a 25 años los contratan bastante menos. No es que los echen: lo que cayó es la contratación.",
-        "Para mí, lo que tenían en común es que se podían escribir en un manual. Esa parte ya compite con algo que no cobra sueldo."
+        "Stanford lo midió en Estados Unidos: en los trabajos más expuestos a la IA, a los de 22 a 25 años los contratan bastante menos.",
+        "No es que los echen: cayó la contratación. Para mí, lo que tenían en común es que se podían escribir en un manual."
       ],
-      "cierre": "¿Tu trabajo es de pensar o de seguir pasos?",
+      "cierre": "La parte del trabajo que entra en un manual ya compite con algo que no cobra sueldo.",
       "a_quien": "El dueño de una pyme de cuarenta empleados.",
       "si_hay_tiempo": true
     },
     {
-      "id": "procesos-y-un-lider",
       "planilla": 83,
+      "id": "procesos-y-un-lider",
       "tema": "Procesos y un líder",
+      "angulo": "Desde el dueño que pide un sistema para ordenar el caos: la tecnología lo acelera.",
       "gancho": "Al restaurante no le falta software: le faltan procesos y un líder.",
+      "polemica": "Comprar tecnología para ordenar un restaurante desordenado es acelerar el desorden. Te lo discute el dueño que dice que justamente el sistema es lo que le pone orden a la gente.",
+      "insight": "Lo que estás diciendo es que la tecnología multiplica lo que encuentra: si hay un proceso, lo hace más rápido, y si hay caos, también. Discutís la idea, que le viven repitiendo al dueño, de que lo que necesita es un programa. El mecanismo: con pocos locales el dueño ordena con los ojos, y cuando crece ya no ve todo y pide un sistema para tapar lo que no está escrito. El límite: no estás en contra del sistema, estás en contra de comprarlo antes que el manual y el que lo hace cumplir.",
+      "objetivo": "Que el dueño de una cadena no compre un sistema para tapar un desorden que el sistema va a hacer más rápido.",
       "puntos": [
-        "Y te lo dice uno que vende software.",
-        "Con cinco locales lo ves vos. A los quince ya no controlás ni el baño. Y ahí pedís un sistema.",
-        "La tecnología acelera lo que ya hay. Si hay desorden, acelera el desorden."
+        "Me viven diciendo que lo que necesitás es un programa que te ordene.",
+        "Pero la tecnología acelera lo que ya hay. Si hay caos, acelera el caos.",
+        "A ver, no digo que no compres un sistema. Digo que primero ordenes lo que el sistema va a acelerar."
       ],
       "cierre": "Primero el manual y el que lo hace cumplir. Después, el sistema.",
       "a_quien": "El dueño de una cadena gastronómica de treinta locales.",
       "si_hay_tiempo": false
     },
     {
-      "id": "sin-base-de-datos",
       "planilla": 55,
+      "id": "sin-base-de-datos",
       "tema": "Sin base de datos",
+      "angulo": "Desde la escala: una cadena entera sin base de datos, contra lo que factura la que sí la tiene.",
       "gancho": "Hay cadenas de cincuenta locales sin una sola base de datos de clientes.",
+      "polemica": "Para una cadena, el cliente registrado no es un agregado de marketing: es el negocio. Te lo discute el dueño que dice que lo suyo es el producto y el local, y que los datos son cosa de las marcas gigantes.",
+      "insight": "Lo que estás diciendo es que una cadena puede tener todo medido, menos a la gente que le compra. El mecanismo: sin base de datos no podés lograr que el que viene una vez por mes venga dos, y a escala de cadena esa diferencia es enorme; Starbucks lo muestra con el peso de los socios de su programa. El límite: es un dato de Estados Unidos y de una sola marca; no prometés ese número, decís que sin base de datos no llegás a ninguno.",
+      "objetivo": "Que el dueño de una cadena deje de tratar su base de clientes como un extra y la vea como parte de lo que factura.",
       "puntos": [
-        "Tu cliente come, paga y se va. No sabés quién fue, cuántas veces vino ni qué pide.",
-        "Starbucks les contó a sus inversores en enero: casi el 60% de lo que facturan sus locales propios en Estados Unidos viene de los socios de su programa de puntos.",
+        "Starbucks les contó a sus inversores en enero cuánto pesan los socios de su programa de puntos.",
+        "Casi el 60% de lo que facturan sus locales propios en Estados Unidos viene de ellos.",
         "Si el que viene una vez por mes viene dos, a escala de cadena es una locura."
       ],
       "cierre": "El cliente registrado no es un extra. Es el negocio.",
@@ -269,10 +345,14 @@
       "si_hay_tiempo": false
     },
     {
-      "id": "sin-marketing",
       "planilla": 56,
+      "id": "sin-marketing",
       "tema": "Sin marketing",
+      "angulo": "",
       "gancho": "Hay cadenas grandes sin una sola persona de marketing.",
+      "polemica": "Una cadena sin nadie de marketing termina compitiendo por precio, y ahí siempre hay uno más barato. Te lo discute el dueño que dice que su marketing es el producto y el boca en boca, y que con eso llenó sus locales.",
+      "insight": "Lo que estás diciendo es que tamaño no es marca: una cadena puede tener muchos locales y nadie que se ocupe de por qué la eligen. El mecanismo es el de la tienda que viste de cerca: con lo mismo que la de al lado y mucho más cara, estaba siempre llena, y la diferencia era el marketing. El límite: el marketing no salva un mal producto; lo que decís es que con buen producto y sin marketing, la única palanca que te queda es el precio.",
+      "objetivo": "Que el dueño de una cadena grande deje de competir sólo por precio por no tener a nadie que se ocupe de su marca.",
       "puntos": [
         "Viví un mes a una cuadra de una tienda: la más cara de la zona, y siempre llena.",
         "Al lado, otra con lo mismo, mucho más barata. ¿La diferencia? Una hacía marketing.",
@@ -283,13 +363,17 @@
       "si_hay_tiempo": false
     },
     {
-      "id": "sin-whatsapp",
       "planilla": 79,
+      "id": "sin-whatsapp",
       "tema": "Sin WhatsApp",
+      "angulo": "",
       "gancho": "Una cadena eliminó el WhatsApp de raíz. Y perdió clientes.",
+      "polemica": "Para tener clientes propios, a veces hay que cortar un canal y perder algunos. Te lo discute el dueño que cree que hay que estar en todos lados y tomar pedidos por donde vengan.",
+      "insight": "Lo que estás diciendo es que estar en todos lados no es una estrategia: si el cliente puede pedir por cualquier lado, nunca pasa por un lugar donde lo conozcas. Cuando la cadena cortó los pedidos por mensaje y obligó a usar su canal, perdió algunos clientes, pero se quedó con clientes que son suyos y a los que puede hacer volver. El límite decilo vos: no es apagar y listo, sin algo a cambio el cliente se va. Y no digas que los que quedan vuelven más si no tenés el número y el permiso de la cadena.",
+      "objetivo": "Que el dueño de una cadena se anime a perder algunos pedidos para quedarse con clientes que son suyos.",
       "puntos": [
         "Obligó a pedir por su canal propio. Algunos se fueron, sí.",
-        "No es apagar y listo: contá qué les dio a cambio para que pidan por ahí.",
+        "No es apagar y listo. [Contá qué les dio la cadena a cambio para que pidan por ahí]",
         "Estar en todos lados no es una estrategia."
       ],
       "cierre": "A veces, para tener clientes tuyos, tenés que perder algunos.",
@@ -297,27 +381,35 @@
       "si_hay_tiempo": false
     },
     {
-      "id": "el-cajero",
       "planilla": 64,
+      "id": "el-cajero",
       "tema": "El cajero",
+      "angulo": "",
       "gancho": "El cajero tiene miedo de ofrecerte algo más.",
+      "polemica": "El cajero no ofrece por miedo a quedar mal, no por falta de ganas. Te lo discute el dueño que cree que eso se arregla con una comisión por venta.",
+      "insight": "Lo que estás diciendo es que el cajero que no ofrece no es vago, tiene miedo: con fila y apuro, si ofrece y le dicen que no, queda mal delante de todos. Nadie le enseñó a vender, le enseñaron a despachar, y entonces hace lo seguro. El límite decilo vos: hay cajeros que no ofrecen porque no ganan nada con eso, y ahí el problema es otro. No hables del tótem ni des números.",
+      "objetivo": "Que el dueño deje de retar al cajero que no ofrece y se ocupe de lo que le da miedo.",
       "puntos": [
+        "[Contá un cajero concreto que viste no animarse a ofrecer, y qué pasó]",
         "Pensalo desde el mostrador: fila, apuro, y si ofrece y le dicen que no, queda mal.",
-        "Nadie le enseñó a vender. Le enseñaron a despachar.",
-        "Contá un cajero que viste no animarse a ofrecer."
+        "Nadie le enseñó a vender. Le enseñaron a despachar."
       ],
       "cierre": "El cajero no es un despachante. Es el vendedor que más clientes ve por día.",
       "a_quien": "El dueño de una cadena gastronómica de treinta locales.",
       "si_hay_tiempo": false
     },
     {
-      "id": "la-fabrica",
       "planilla": 69,
+      "id": "la-fabrica",
       "tema": "La fábrica",
-      "gancho": "Una marca vendió franquicias más rápido de lo que esperaba. Y es un problema.",
+      "angulo": "Desde el lado bueno: el problema nuevo es la prueba de que la marca creció.",
+      "gancho": "Vender franquicias más rápido de lo esperado también es un problema.",
+      "polemica": "Un problemón de crecimiento es la prueba de que creciste, no una falla, y la fábrica no se agranda por locales que todavía no tenés. Te lo discute el franquiciante que dice que, si te pasa esto, es porque no planificaste la capacidad antes de vender.",
+      "insight": "Lo que estás diciendo es que el dilema de la fábrica no le aparece a una marca quieta: le aparece a la que vendió más de lo que esperaba. Discutís la idea de que tener problemas es señal de que algo se hizo mal; el mecanismo es que cada etapa de crecimiento trae decisiones que antes no existían. El límite: que sea prueba de crecimiento no te autoriza a apostar, porque la fábrica igual crece con los locales que tenés y no con los que esperás.",
+      "objetivo": "Que el franquiciante que vende más rápido de lo esperado decida la fábrica sin apostar plata a locales que todavía no tiene.",
       "puntos": [
-        "Tiene que decidir si agranda la fábrica.",
-        "Si la hace grande y no llegan los locales, paga por lo que no tiene. Si la deja chica y llegan, deja a sus franquiciados sin producto.",
+        "Una marca vende franquicias tan rápido que tiene que decidir si agranda la fábrica.",
+        "Grande y no llegan los locales: paga por lo que no tiene. Chica y llegan: deja a sus franquiciados sin producto.",
         "Hace un año no estaba pensando en esto. ¿Qué quiere decir? Que creció."
       ],
       "cierre": "Para mí, la fábrica no se agranda por los locales que todavía no tenés.",
@@ -325,13 +417,17 @@
       "si_hay_tiempo": true
     },
     {
-      "id": "el-veintiuno",
       "planilla": 65,
+      "id": "el-veintiuno",
       "tema": "El veintiuno",
+      "angulo": "Desde el que compra: nadie quiere ser el primero en confiar y quedar como el que se equivocó.",
       "gancho": "Si veinte dicen que les fue bárbaro, yo quiero ser el veintiuno.",
+      "polemica": "A los primeros clientes podés cobrarles menos, pero regalarles el producto, nunca. Te lo discute el que entra a una empresa grande con un piloto gratis.",
+      "insight": "Lo que estás diciendo es que el que compra no quiere ser el primero, porque si le sale mal queda como el que se equivocó delante de todos; por eso los primeros clientes cuestan tanto aunque el producto sea bueno. El mecanismo es que cada cliente que confía le baja el riesgo al siguiente, y cuando tenés diez, los que vienen son una pavada. El límite lo ponés vos antes de que te lo digan: a los primeros podés cobrarles menos, pero regalar no, porque sin negocio el que no se sostiene sos vos.",
+      "objetivo": "Que el dueño que lanza algo nuevo entienda por qué los primeros clientes cuestan tanto y no los consiga regalando lo que vende.",
       "puntos": [
-        "Pensalo del lado del que compra. Nadie quiere ser el primero que confió en vos y le salió mal.",
-        "Por eso los primeros cuestan tanto. Conseguí diez, y los que vienen son una pavada.",
+        "¿El primero? No. Nadie quiere ser el que confió en vos y quedó como el que se equivocó delante de todos.",
+        "Por eso los primeros cuestan tanto. Si conseguís diez que confíen en vos, los que vienen son una pavada.",
         "¿Para conseguirlos regalás el producto? Más barato, puede ser. Gratis, nunca."
       ],
       "cierre": "Tiene que haber negocio siempre. Si no, el que no se sostiene sos vos.",
@@ -339,24 +435,32 @@
       "si_hay_tiempo": false
     },
     {
-      "id": "te-digo-siete",
       "planilla": 94,
+      "id": "te-digo-siete",
       "tema": "Te digo siete",
+      "angulo": "",
       "gancho": "Si sé que conmigo conseguís diez, te digo siete.",
+      "polemica": "Prometer menos de lo que podés dar no es vender mal: es no ser vendehumo. Te lo discute el que dice que, si no prometés lo máximo, el cliente se va con el que promete más.",
+      "insight": "Lo que estás diciendo es que mostrarte en redes no te hace vendehumo: vendehumo es el que vende una expectativa que su producto después no cumple. Muchas veces el cliente no se va por lo que le diste sino por la distancia con lo que le prometiste; si prometés siete y llegás a diez, esa distancia juega a favor. El límite: todavía lo estás afinando, y decirlo es lo que te cubre si aparece un ex cliente al que le prometiste de más.",
+      "objetivo": "Que el dueño deje de perder clientes por prometerles de más.",
       "puntos": [
-        "Se dice que el que se muestra en redes es un vendehumo.",
-        "Yo dejé de volar con mis clientes. Muchos se te van por lo que les prometiste.",
-        "No te voy a mentir: todavía lo estoy afinando."
+        "Yo dejé de volar con mis clientes. ¿Por qué? Porque muchos se te van por lo que les prometiste.",
+        "No te voy a mentir: todavía lo estoy afinando.",
+        "Se dice que el que se muestra en redes es un vendehumo. Para mí, es otra cosa."
       ],
-      "cierre": "Vendehumo es el que te vende lo que su producto después no cumple. Y eso me lo aplico a mí primero.",
+      "cierre": "Vendehumo es el que te vende lo que su producto no cumple; me lo aplico primero a mí.",
       "a_quien": "Un empresario amigo, en un café.",
       "si_hay_tiempo": false
     },
     {
-      "id": "mi-propio-audio",
       "planilla": 67,
+      "id": "mi-propio-audio",
       "tema": "Mi propio audio",
+      "angulo": "",
       "gancho": "Les dije «yo no pedí esto» y me pusieron mi propio audio.",
+      "polemica": "Si alguien de tu equipo entendió mal, la culpa es tuya: te comunicaste mal. Te lo discute el dueño que cree que cada uno es responsable de preguntar lo que no entendió.",
+      "insight": "Lo que estás diciendo es que, cuando alguien entendió mal, el error casi nunca es del que ejecuta sino del pedido: si la tarea no estaba bajada a tierra, cada uno la completa con lo que supone. Por eso, antes de culpar o de echar, revisás tu pedido, y si el error es tuyo, pedís perdón y te quedás a arreglarlo. El límite: no vale para el que entendió bien y no lo hizo; eso ya no es un problema de comunicación.",
+      "objetivo": "Que el dueño deje de perder gente y horas por pedidos mal hechos, empezando por los suyos.",
       "puntos": [
         "El equipo de sistemas me entrega algo. «Yo no pedí esto.» Y me ponen un audio mío pidiendo exactamente eso.",
         "Lo tengo como ley: si alguien entendió mal, la culpa es mía. Me comuniqué mal.",
@@ -367,45 +471,1317 @@
       "si_hay_tiempo": false
     },
     {
-      "id": "al-pie-de-la-letra",
       "planilla": 96,
-      "tema": "Al pie de la letra",
+      "id": "al-pie-de-la-letra",
+      "tema": "Hice otra cosa",
+      "angulo": "",
       "gancho": "Si hiciste todo lo que te pedí, tenemos un problema.",
+      "polemica": "Al que le pagás bien no le pagás para seguir procesos sino para mejorarlos, aunque eso signifique hacer otra cosa de la que pediste. Te lo discute el dueño que exige que se cumpla lo que pidió y no quiere perder el control.",
+      "insight": "Lo que estás diciendo es que, en los puestos que tienen que crecer, cumplir al pie de la letra no alcanza: si en un año todo sigue igual, ese sueldo pagó obediencia y no mejoras. El que propone otra cosa y la cumple te trae lo que vos no ves desde arriba. El límite: es fuerte y hay que decirlo con cuidado; no vale para los puestos donde seguir el proceso es la garantía, y el que se aparta tiene que traer resultados.",
+      "objetivo": "Que el dueño deje de pagar sueldos altos por obediencia y empiece a pagarlos por mejoras.",
       "puntos": [
-        "Si dentro de un año hiciste todo al pie de la letra y todo sigue igual, tenemos un problema.",
-        "Si te pago bien, no te pago para que sigas procesos. Te pago para que los mejores.",
-        "Busco al que un día me diga: «Alan, me pediste esto, hice otra cosa y conseguí más». Buenísimo."
+        "Busco al que un día me diga: «Alan, me pediste esto, hice otra cosa y conseguí más». Buenísimo, vamos para adelante.",
+        "En los puestos que tienen que crecer, si te pago bien, no te pago para que sigas procesos: te pago para que los mejores.",
+        "Es fuerte, y hay que decirlo con cuidado: avanza el que propone, y cumple lo que propuso."
       ],
       "cierre": "¿A tu sueldo más alto le pagás para seguir procesos o para mejorarlos?",
       "a_quien": "Un empresario amigo, en un café.",
       "si_hay_tiempo": true
     },
     {
-      "id": "la-app-del-boliche",
       "planilla": 46,
+      "id": "la-app-del-boliche",
       "tema": "La app del boliche",
+      "angulo": "Desde la historia completa y lo que cambió: hoy vende antes de construir.",
       "gancho": "Pasé dos años con una app que nadie quiso comprar.",
+      "polemica": "Hay que vender antes de construir, porque lo difícil nunca fue el producto sino que alguien lo quiera. Te lo discute el que cree que nadie compra lo que no puede ver funcionando.",
+      "insight": "Lo que estás diciendo es que construir da la sensación de avanzar, pero la única prueba de que algo sirve es que alguien lo quiera comprar. Con la app del boliche te enteraste al final, cuando saliste a venderla, y ya tenías dos años puestos. Por eso hoy hacés al revés: salís a vender antes de escribir una línea de código. El límite: vender antes no es prometer algo que no existe; es mostrar la idea y conseguir el sí antes de gastar.",
+      "objetivo": "Que el empresario no pague dos años de desarrollo para enterarse al final de que nadie lo quiere comprar.",
       "puntos": [
         "Era para pedir tragos en el boliche sin hacer la fila. Me parecía genial.",
         "Salimos a venderla y no le gustó a nadie: los boliches no querían cobrar online. Y yo seguía, buscándole la vuelta.",
-        "Fueron dos años tristes."
+        "Fueron dos años tristes, pagando de más. Ahí aprendí dónde estaba lo difícil."
       ],
       "cierre": "Lo difícil no es construirlo: es venderlo. Hoy vendo antes de construir.",
       "a_quien": "Un empresario amigo, en un café.",
       "si_hay_tiempo": true
     },
     {
-      "id": "los-repasadores",
       "planilla": 45,
+      "id": "los-repasadores",
       "tema": "Los repasadores",
+      "angulo": "Desde el entorno: lo que lo sacó de la calle fue moverse, y una empresa sale igual.",
       "gancho": "Eso de que si soñás, todo se puede, es mentira.",
+      "polemica": "Una empresa no sale de donde está porque el dueño sueñe más grande: sale cuando cambia de entorno. Te lo discute el dueño que cree que todo depende de las ganas que le pone.",
+      "insight": "Lo que estás diciendo es que el que sale de abajo no lo hace por desearlo más fuerte, sino porque cambia lo que tiene alrededor. Con una empresa pasa igual: si sigue con los mismos clientes y la misma gente, el sueño del dueño no la mueve. El límite: cambiar de entorno no es tirar todo lo que tenés; es sumar lo que hoy no tenés cerca.",
+      "objetivo": "Que el dueño de una pyme estancada deje de pedirle más ganas al equipo y cambie a quién le vende y con quién trabaja.",
       "puntos": [
         "De chico vendía repasadores en la calle. «Doña, ¿me compra un repasador?» Muerto de vergüenza.",
         "No salí de ahí por soñar. Salí porque me moví y cambié de entorno.",
-        "Soñá, pero con los pies en la tierra: sabiendo que podés fracasar y que lo tenés que dar todo."
+        "Para una empresa, cambiar de entorno es venderle a otro tipo de cliente o sumar gente que sepa lo que vos no."
       ],
       "cierre": "Tu empresa tampoco sale de donde está por soñar. Sale cuando cambia de entorno.",
+      "a_quien": "El dueño de una pyme de cuarenta empleados.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 4,
+      "id": "zapatillas-y-casa",
+      "tema": "Zapatillas y casa",
+      "angulo": "",
+      "gancho": "Las zapatillas te las financian en cuotas. La casa, al contado.",
+      "polemica": "Prestar fácil para lo que se gasta y difícil para lo que queda es armar el crédito al revés. Te lo discute el de riesgos, que prefiere muchos préstamos chicos a uno grande porque reparte el riesgo.",
+      "insight": "Lo que estás diciendo es que el crédito está armado al revés: es fácil para lo que se gasta y difícil para lo que queda. La creencia que discutís es que el préstamo chico y rápido es el seguro; el mecanismo es que se aprueba en el acto y no deja nada detrás que lo respalde, y para vos parte de la mora que mide el Banco Central sale de ahí. El límite, dicho por vos: la mora tiene muchas causas y una casa no se presta como una zapatilla; lo tuyo es una lectura sobre cómo se arma el crédito, no sobre la economía. Ojo: sin número de cuotas, sin «tenemos un problema» y sin hablar de gobierno ni de tasas.",
+      "objetivo": "Que el que presta vea que el crédito fácil para lo que se gasta también es su riesgo de mora.",
+      "puntos": [
+        "Banco Central, febrero de este año: uno de cada cuatro pesos que tenían prestados las fintech no bancarias, en mora de más de noventa días.",
+        "[Contá un caso tuyo, como dueño de empresa, de crédito fácil para algo que se gastaba y difícil para algo que iba a quedar.]",
+        "Para mí, parte de eso viene de acá: es más fácil aprobar algo chico que se gasta que algo grande que queda."
+      ],
+      "cierre": "Prestar para lo que se gasta es fácil. Lo que vale es prestar para lo que queda.",
+      "a_quien": "El que decide los préstamos de un banco o una fintech.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 1,
+      "id": "invertir-a-tiempo",
+      "tema": "Invertir a tiempo",
+      "angulo": "",
+      "gancho": "Las empresas no innovan cuando venden bien. Innovan cuando no tienen plata.",
+      "polemica": "Para mí, la tecnología se invierte cuando sobra la plata, no cuando falta: cuando falta ya es tarde, porque devuelve con tiempo. Te lo discute el dueño que dice que si las ventas andan bien no hay que tocar nada.",
+      "insight": "Lo que estás diciendo es que el dueño posterga la tecnología mientras vende bien y la busca cuando las ventas caen, esperando un resultado extraordinario con la plata que le queda. El mecanismo: un sistema tarda en devolver, entre ponerlo en marcha, que el equipo lo use y que se vea en los números, y en la mala ese tiempo no está. El límite: no decís que en las buenas haya que comprar cualquier cosa; decís que lo que vas a necesitar se compra antes de necesitarlo.",
+      "objetivo": "Que el dueño de una pyme invierta en tecnología mientras vende bien, y no con la plata que le queda cuando las ventas caen.",
+      "puntos": [
+        "[Contá una empresa que buscó tecnología recién cuando las ventas cayeron, y qué le pasó.]",
+        "Cuando venden bien, no tocan nada. Innovan cuando no tienen fondos y quieren resultados extraordinarios con la plata de su fracaso.",
+        "¿Qué quiere decir eso? La tecnología devuelve con tiempo, y cuando falta la plata, lo que no tenés es tiempo."
+      ],
+      "cierre": "La tecnología se paga con la plata de las buenas. Con la de las malas, llega tarde.",
+      "a_quien": "El dueño de una pyme de cuarenta empleados que viene vendiendo bien.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 2,
+      "id": "datos-sin-accion",
+      "tema": "Datos sin acción",
+      "angulo": "Desde el dueño que cree que le faltan datos para decidir.",
+      "gancho": "Tus datos no valen nada si no terminan en una acción.",
+      "polemica": "Para mí, pedir más datos antes de decidir suele ser una forma elegante de no decidir. Te lo discute el dueño que dice que sin el número completo no se mueve.",
+      "insight": "Lo que estás diciendo es que el dato solo no vale nada: vale cuando alguien lo convierte en información, o sea en algo que explica qué pasa, y eso termina en una acción concreta con un responsable. El mecanismo es que juntar datos es barato y se siente como trabajo, pero decidir cuesta, entonces la empresa se queda en el primer paso. El límite: no estás en contra de medir; hay números que se miran para saber que todo sigue bien, y está perfecto mientras alguien sepa qué hace si se mueven.",
+      "objetivo": "Que el dueño deje de pagar reportes que nadie usa y pida sólo los números que le cambian una decisión.",
+      "puntos": [
+        "[Contá un reporte que te mostraron con orgullo en una empresa y que no cambió ninguna decisión.]",
+        "Para mí es una cadena: del dato a la información, y de la información a la acción. Si se corta, no sirvió.",
+        "Pensalo así: antes de pedir un número nuevo, preguntá qué vas a hacer distinto si sube o si baja."
+      ],
+      "cierre": "Si un número no te cambia una decisión, no es información: es decoración.",
+      "a_quien": "El dueño de una pyme de cuarenta empleados que pide un reporte nuevo cada mes.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 77,
+      "id": "cientos-de-metricas",
+      "tema": "Cientos de métricas",
+      "angulo": "Desde la empresa llena de métricas, frente a una sola que sí mueve algo.",
+      "gancho": "Las empresas miran cientos de métricas y no hacen nada con ninguna.",
+      "polemica": "Para mí, sumar métricas no es control: es la forma de no hacerse cargo de ninguna. Te lo discute el gerente que dice que lo que no se mide no se mejora.",
+      "insight": "Lo que estás diciendo es que las empresas creen que medir más es gestionar mejor, y meten métricas sin preguntarse qué harían si se mueven. El mecanismo: agregar un número es fácil y nadie se anima a sacar uno, entonces el tablero crece, la atención se reparte y nadie actúa sobre ninguno. El límite: no decís que haya que medir poco; decís que cada métrica tiene que tener una acción atada, como que el que viene una vez venga dos.",
+      "objetivo": "Que el dueño deje de pagar tableros llenos y se quede con las métricas que le dicen qué hacer mañana.",
+      "puntos": [
+        "[Contá una métrica que viste mirar todas las semanas en una empresa sin que moviera nada.]",
+        "Ahora mirá esta otra: que el que viene una vez venga dos. Esa sí te dice qué hacer mañana.",
+        "El problema es que meten y meten métricas sin sentido. Y es cansador ver cómo las miran y no hacen nada."
+      ],
+      "cierre": "Una estadística que no dispara una acción no sirve para nada.",
+      "a_quien": "El dueño de una cadena gastronómica de treinta locales.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 3,
+      "id": "saber-de-memoria",
+      "tema": "Saber de memoria",
+      "angulo": "Desde el empleado que cumple procesos escritos y teme por su puesto.",
+      "gancho": "Saber tu trabajo de memoria ya no te protege de la IA.",
+      "polemica": "Para mí, años de experiencia en un procedimiento ya no son un seguro: lo que cuenta es la parte de tu trabajo que pide pensar. Te lo discute el empleado con años en el puesto que dice que lo suyo no se aprende en un manual.",
+      "insight": "Lo que estás diciendo es que la seguridad no la da saber hacer el trabajo de memoria, sino la parte del trabajo que no se puede escribir. El mecanismo: lo que se hace en automático se puede poner en un procedimiento, y lo que está en un procedimiento la IA lo hace en minutos, como la descripción de puesto de la consultora. El límite: no estás diciendo que vayan a echar a nadie ni le ponés plazo; estás diciendo que esa parte compite, y que casi todo trabajo tiene otra parte, la de pensar, que se puede agrandar.",
+      "objetivo": "Que el empleado sepa qué parte de su trabajo ya compite con la IA y cuál es la que tiene que agrandar.",
+      "puntos": [
+        "Lo vi en una consultora de recursos humanos: hacer la descripción de un puesto les llevaba horas; con IA, minutos.",
+        "Es verdad que da miedo. Pero lo que compite no sos vos: es la parte de tu trabajo que entra en un manual.",
+        "La parte que no compite es la otra: resolver lo que el procedimiento no prevé. Esa se puede agrandar."
+      ],
+      "cierre": "El empleado que cumple procesos escritos y no tiene que pensar ya compite con la inteligencia artificial.",
+      "a_quien": "Un empleado de una pyme que cumple procedimientos escritos y teme por su puesto.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 26,
+      "id": "el-primer-trabajo",
+      "tema": "El primer trabajo",
+      "angulo": "Desde el joven que busca su primer trabajo y antes entraba por las tareas de manual.",
+      "gancho": "Si tu primer trabajo es seguir un proceso escrito, ya tenés competencia.",
+      "polemica": "Para mí, el primer trabajo ya no se gana sabiendo seguir el procedimiento, sino mostrando que podés pensar lo que el procedimiento no dice. Te lo discute el que dice que todos empezamos haciendo tareas de manual y que así se aprende el oficio.",
+      "insight": "Lo que estás diciendo es que las tareas de manual eran la puerta de entrada al primer trabajo, y esa puerta se achica. El mecanismo: lo que se puede escribir en un procedimiento ya lo hace la IA, y un estudio de Stanford midió en Estados Unidos que en los trabajos más expuestos a la IA a los de 22 a 25 años los contratan bastante menos; no los echan: los toman menos. El límite: el estudio es de Estados Unidos y no dice qué pasa acá, así que lo del manual decilo como lectura tuya, y sin ponerle plazo a nada.",
+      "objetivo": "Que el que busca su primer trabajo deje de venderse por lo que sabe seguir y muestre lo que sabe resolver.",
+      "puntos": [
+        "[Contá qué le mirás hoy a alguien joven que te pide su primer trabajo, y qué le mirabas antes.]",
+        "Stanford midió en Estados Unidos que en los trabajos más expuestos a la IA, a los de 22 a 25 años los contratan bastante menos.",
+        "No los echaron: los toman menos. Para mí, la tarea de manual con la que se entraba ya compite con la IA."
+      ],
+      "cierre": "Tu primer trabajo ya no lo ganás por saber seguir pasos. Lo ganás por pensar.",
+      "a_quien": "Alguien joven que está buscando su primer trabajo.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 27,
+      "id": "lo-operativo",
+      "tema": "Lo operativo",
+      "angulo": "Desde la tarea concreta: qué parte de tu día es operativa y cuál no.",
+      "gancho": "Si tu día es operativo, la IA ya se lo come.",
+      "polemica": "Para mí, la IA no se come puestos enteros: se come las tareas operativas que hay adentro de cada puesto. Te lo discute el que cree que su tarea es demasiado particular para que la haga una máquina.",
+      "insight": "Lo que estás diciendo es que operativo y estratégico no son puestos sino tareas, y que casi todo puesto tiene de las dos. El mecanismo: lo que se repite igual y se puede escribir como procedimiento, completar una planilla o pasar datos de un lado a otro, es lo que la IA hace bien; decidir qué hacer con eso, no. El límite: no estás diciendo que la persona sobre; estás diciendo que la parte operativa de su día ya tiene competencia, y que se mira tarea por tarea.",
+      "objetivo": "Que el que mira separe en su propia semana qué tareas ya compiten con la IA y cuáles le piden decidir.",
+      "puntos": [
+        "[Contá otra tarea operativa que viste pasar a la IA, que no sea la descripción de puestos.]",
+        "Lo operativo tiene nombre: seguir un procedimiento, completar planillas, pasar datos de un lado a otro.",
+        "Pensalo con tu semana: separá lo que hacés siguiendo pasos de lo que tenés que decidir vos."
+      ],
+      "cierre": "La IA se come lo operativo, no lo estratégico.",
+      "a_quien": "Alguien con un trabajo de oficina, que pasa el día entre planillas y sistemas.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 42,
+      "id": "no-echaron-a-nadie",
+      "tema": "No echaron a nadie",
+      "angulo": "Desde el gerente que decide qué hace la persona cuando la IA le ahorra horas.",
+      "gancho": "La IA le ahorró horas a una persona. No la echaron.",
+      "polemica": "Para mí, si la IA te ahorra horas de una persona, lo que conviene es ponerla a pensar, no echarla. Te lo discute el gerente que tiene que mostrar ahorro y ve en esas horas un sueldo menos.",
+      "insight": "Lo que estás diciendo es que la IA no decide sola qué pasa con la gente: lo decide el que reparte el trabajo. El mecanismo es que la IA se lleva la parte del puesto que se puede escribir y deja horas libres; si esas horas van a pensar, la empresa gana a alguien que mira lo que antes nadie miraba. El límite: no todo puesto tiene una parte de pensar esperando, y no decís que nunca haya que achicar; decís que echar es la primera idea y no siempre la mejor.",
+      "objetivo": "Que el gerente que ve horas liberadas por la IA no las convierta en un despido antes de preguntarse qué podría pensar esa persona.",
+      "puntos": [
+        "Lo vi en una consultora de recursos humanos: hacer una descripción de cargo les llevaba horas; con IA, minutos.",
+        "Y no echaron a nadie: a esa persona la pusieron a pensar. Esa es la diferencia.",
+        "Te confieso algo: el que sólo reacciona nunca ascendió. Ahora, además, compite con la IA."
+      ],
+      "cierre": "La pregunta no es a quién echás. Es a quién ponés a pensar.",
+      "a_quien": "El gerente de una empresa de cuarenta empleados que tiene que mostrar ahorro.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 43,
+      "id": "pensar-o-seguir-pasos",
+      "tema": "Pensar o seguir pasos",
+      "angulo": "Desde la pregunta al que mira: que ubique su propio trabajo.",
+      "gancho": "¿Tu trabajo es de pensar o de seguir pasos?",
+      "polemica": "Para mí, lo que define tu lugar frente a la IA no es el puesto ni el sector: es cuánto de tu trabajo es de pensar. Te lo discute el que dice que eso no lo elige el empleado, lo decide la empresa.",
+      "insight": "Lo que estás diciendo es que hay una sola pregunta que ordena todo el miedo a la IA: si tu trabajo es de pensar o de seguir pasos. El mecanismo: los pasos se pueden escribir, y lo que está escrito lo puede seguir cualquiera, también una máquina; lo que hay que pensar cada vez, no. El límite: casi ningún trabajo es puro, y no estás diciendo que al que sigue pasos lo vayan a echar ni cuándo; estás diciendo que conviene saber la respuesta.",
+      "objetivo": "Que el que mira se haga una pregunta concreta sobre su propio trabajo en lugar de tenerle miedo a la IA en general.",
+      "puntos": [
+        "[Contá una vez que le hiciste esta pregunta a alguien de tu equipo y qué te contestó.]",
+        "La prueba es simple: si lo que hacés se puede escribir en un manual, otro lo puede seguir. La IA también.",
+        "Y casi ningún trabajo es todo una cosa. La pregunta es cuánto del tuyo es de pensar."
+      ],
+      "cierre": "Pensar o seguir pasos: esa respuesta cambia toda la ecuación.",
+      "a_quien": "El que está mirando, sea empleado o dueño.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 13,
+      "id": "adoptar-la-ia",
+      "tema": "Adoptar la IA",
+      "angulo": "",
+      "gancho": "La IA puede hacerlo. Meterla en tus procesos es otra historia.",
+      "polemica": "Para mí, lo difícil de la IA no es la herramienta: es meterla en los procesos, y eso en una pyme va despacio. Te lo discute el dueño que siente que si no la tiene funcionando ya, se quedó atrás.",
+      "insight": "Lo que estás diciendo es que todos creen que la IA ya está, que es cuestión de pedirla, y lo difícil no es saber que se puede sino adoptarla en cómo trabaja la empresa. El mecanismo: una herramienta nueva obliga a cambiar el proceso, enseñarle a la gente y sostenerlo hasta que se vuelva costumbre, y eso no se compra. El límite: no estás diciendo que no haya que empezar ni le ponés fecha a nada; estás diciendo que el tiempo está en la adopción, no en la herramienta.",
+      "objetivo": "Que el dueño que va a sumar IA calcule el tiempo de meterla en sus procesos, no sólo el precio de la herramienta.",
+      "puntos": [
+        "No alcanza con entender que se puede. Adoptar la herramienta en tus procesos no es sencillo: lleva todo un procedimiento.",
+        "[Contá un caso tuyo de una empresa que tenía la herramienta y se trabó al meterla en cómo trabaja.]",
+        "No es que yo diga quiero ir y listo: hay que cambiar el proceso, enseñarle a la gente y medirlo."
+      ],
+      "cierre": "La herramienta se compra en un día. Meterla en cómo trabaja tu gente, no.",
+      "a_quien": "El dueño de una pyme de cuarenta empleados que está por sumar IA.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 73,
+      "id": "productividad-no-es-ganancia",
+      "tema": "Productividad no es ganancia",
+      "angulo": "",
+      "gancho": "Ocho de cada diez rinden más con IA. En la ganancia, sólo el 37%.",
+      "polemica": "Para mí, pagar IA sin cambiar cómo trabajás es gasto, no inversión. Te lo discute el dueño que ya compró licencias para todos y ve a su gente más rápida.",
+      "insight": "Lo que estás diciendo es que sentirse más productivo con IA y ganar más plata son dos cosas distintas, y McKinsey lo muestra este año: ocho de cada diez dicen que la IA los hizo más productivos, pero sólo el 37% ve que le movió algo la ganancia a su empresa. El mecanismo, para vos: si cada uno hace lo mismo pero más rápido y el proceso no cambia, el tiempo ahorrado se diluye en el día y no llega al resultado. El límite: el 37% son personas encuestadas, no empresas, y dicen «algo» de ganancia, no un impacto grande; por qué unas ganan y otras no, decilo como lectura tuya.",
+      "objetivo": "Que el dueño que paga licencias de IA se pregunte dónde aparece eso en la ganancia antes de renovarlas.",
+      "puntos": [
+        "McKinsey lo midió este año: ocho de cada diez dicen que la IA los hizo más productivos.",
+        "Pero sólo el 37% ve que le movió algo la ganancia a su empresa. Sentirse más rápido no es ganar plata.",
+        "Para mí, si el proceso sigue igual, la hora que ahorraste no llega a la caja. Se pierde en el día."
+      ],
+      "cierre": "Pagar IA sin cambiar cómo trabajás es gasto, no inversión.",
+      "a_quien": "El dueño de una pyme de cuarenta empleados que ya paga licencias de IA.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 5,
+      "id": "programar-es-barato",
+      "tema": "Programar es barato",
+      "angulo": "",
+      "gancho": "Programar ya es barato. Lo caro es entender el problema.",
+      "polemica": "Para mí, armarte tu propio sistema con IA sale barato hasta que aparece el problema que no entendiste. Te lo discute el dueño que se armó algo con IA en un fin de semana y le funciona.",
+      "insight": "Lo que estás diciendo es que la IA bajó el costo de escribir software, pero no el de entender qué problema hay que resolver. El mecanismo: el que vende un sistema ya pasó por la etapa de descubrimiento, los errores, los casos raros, lo que el cliente pide y no necesita, y eso es lo que cobra. El límite: si el problema es simple y lo conocés bien, armarlo vos puede tener sentido; esto vale para el sistema que toca cómo opera la empresa.",
+      "objetivo": "Que el dueño que piensa armarse su sistema con IA calcule el costo de descubrir el problema, no sólo el de programarlo.",
+      "puntos": [
+        "[Contá un cliente que llegó pidiendo un sistema y, cuando entendieron su problema, necesitaba otra cosa.]",
+        "Hoy es fácil pedir un sistema de gestión o un sistema contable. Pocos entienden el problema de raíz.",
+        "Toda esa etapa de descubrimiento, entender qué pasa por detrás, ya la hizo una empresa que lo resolvió antes."
+      ],
+      "cierre": "Lo que pagás no es el código. Es el descubrimiento, y por eso tiene precio.",
+      "a_quien": "El dueño de una pyme de cuarenta empleados que piensa armarse su propio sistema con IA.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 7,
+      "id": "ordenar-antes-de-construir",
+      "tema": "Ordenar antes de construir",
+      "angulo": "",
+      "gancho": "Un sistema nuevo no ordena tu empresa. La desordena más rápido.",
+      "polemica": "Para mí, comprarle tecnología a quien no te asesoró ni te ordenó antes es comprar a ciegas. Te lo discute el que vende software llave en mano y dice que el sistema ya trae el orden adentro.",
+      "insight": "Lo que estás diciendo es que el dueño cree que el sistema le va a ordenar la empresa, y es al revés: el sistema copia el orden que hay, y si no hay, automatiza el desorden. El mecanismo: para construir algo útil primero hay que entender cómo trabaja la empresa, quién hace qué y dónde se traba, y eso es asesorar y ordenar antes de escribir una línea. El límite: hay herramientas estándar que traen un proceso armado y sirven; esto vale cuando lo que comprás tiene que encajar en cómo opera tu empresa. Decilo como lo que ves en el mercado, no como aviso de tu empresa.",
+      "objetivo": "Que el dueño que está por comprar un sistema no pague por automatizar un desorden.",
+      "puntos": [
+        "[Contá un caso tuyo de un cliente al que primero tuviste que ordenar antes de construirle algo.]",
+        "Antes de crear tecnología, asesoro y ordeno. Y recién con todo eso, construyo.",
+        "Pensalo: si nadie te preguntó cómo trabaja tu gente, ¿sobre qué te construyeron el sistema?"
+      ],
+      "cierre": "Comprarle tecnología a quien no te ordenó primero es comprar a ciegas.",
+      "a_quien": "El dueño de una pyme de cuarenta empleados que está por comprar un sistema.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 8,
+      "id": "acelera-el-desorden",
+      "tema": "Acelera el desorden",
+      "angulo": "Desde el crecimiento: más consultas y más sistemas sobre el mismo desorden, con la escena del taller.",
+      "gancho": "La tecnología no ordena tu empresa: acelera el desorden que ya tiene.",
+      "polemica": "Antes de sumar tecnología hay que ordenar los procesos, porque la tecnología acelera lo que encuentra. Te lo discute el dueño que compra un sistema justamente para ordenarse.",
+      "insight": "Lo que estás diciendo es que la tecnología no ordena: acelera lo que ya hay. Si el proceso está desordenado y la empresa crece, con más consultas y más sistemas, lo que crece es el desorden. El límite: a veces un sistema nuevo te obliga a ordenarte, pero sólo si alguien define antes cómo se trabaja.",
+      "objetivo": "Que el dueño no pague un sistema nuevo para terminar con el mismo desorden, pero más rápido.",
+      "puntos": [
+        "Un cliente con un taller tenía órdenes cargadas en dos sistemas. Un técnico terminó firmando una orden que no era suya.",
+        "Crecés, sí: más consultas, más tecnología. Pero si el proceso está desordenado, lo único que crece es el desorden.",
+        "Es cierto que a veces un sistema nuevo te obliga a ordenarte. Pero el proceso lo tiene que definir alguien antes."
+      ],
+      "cierre": "Primero ordená los procesos; la tecnología viene después, a acelerar lo que ya funciona.",
+      "a_quien": "El dueño de una pyme de cuarenta empleados que está por comprar un sistema.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 28,
+      "id": "ia-en-el-desorden",
+      "tema": "IA en el desorden",
+      "angulo": "Desde la IA: el dueño que quiere meterla ya, con el dato de cuántas empresas la ven en la ganancia.",
+      "gancho": "Si tu empresa está desordenada, la IA es lo último que necesitás.",
+      "polemica": "Meter IA en una empresa desordenada es gasto, no inversión: primero se ordena cómo se trabaja. Te lo discute el dueño que ya compró licencias para todos y espera que la herramienta ordene sola.",
+      "insight": "Lo que estás diciendo es que la IA no arregla el desorden: aprende de lo que encuentra y lo repite más rápido. Si cada uno trabaja a su manera y los datos están desparramados, eso es lo que la IA multiplica. McKinsey lo vio este año: entre los que más ganancia le sacan a la IA, tres de cada cuatro rediseñaron cómo trabajan; en el resto, uno de cada cuatro. Ojo: eso muestra que van juntas, no que una cause la otra. El límite: para tareas sueltas la IA ayuda igual; el desastre es meterla en el proceso central.",
+      "objetivo": "Que el dueño no tire plata en IA antes de ordenar cómo trabaja su empresa.",
+      "puntos": [
+        "McKinsey lo midió este año: entre los que más ganancia le sacan a la IA, tres de cada cuatro cambiaron cómo trabajan. En el resto, uno de cada cuatro.",
+        "Si cada uno trabaja a su manera y los datos están desparramados, la IA aprende ese desorden y lo repite más rápido.",
+        "Para tareas sueltas, la IA te ayuda igual. El desastre es meterla en un proceso que nadie ordenó."
+      ],
+      "cierre": "Meter IA en una empresa desordenada sólo multiplica el desastre.",
+      "a_quien": "El dueño de una pyme que quiere meter IA ya, antes de ordenar nada.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 61,
+      "id": "primero-el-manual",
+      "tema": "Primero el manual",
+      "angulo": "Desde el remedio: escribir el manual antes de sumar un sistema.",
+      "gancho": "Comprar un sistema sin manual es pagar para multiplicar tu desorden.",
+      "polemica": "El manual va antes que el sistema: sumar sistemas sobre un proceso que nadie escribió multiplica el desorden. Te lo discute el dueño que dice que no tiene tiempo para manuales y que el sistema ya trae el proceso armado.",
+      "insight": "Lo que estás diciendo es que un sistema no inventa el proceso: copia el que hay, y si no hay uno escrito, copia el de cada empleado. Por eso sumar sistemas sobre un proceso sin escribir multiplica las maneras de hacer lo mismo. El límite: muchos sistemas traen un proceso armado y sirve, pero alguien tiene que decidir adoptarlo y escribirlo para su equipo.",
+      "objetivo": "Que el dueño escriba cómo se trabaja antes de pagar un sistema, y no después de que cada local lo use a su manera.",
+      "puntos": [
+        "[Contá un caso tuyo de un cliente que sumó un sistema sin el proceso escrito, y qué se rompió.]",
+        "Sin el proceso escrito, cada uno lo hace a su manera. Y la tecnología multiplica el desorden.",
+        "Muchos sistemas traen el proceso armado, sí. Pero alguien tiene que decidir cuál y escribirlo para tu equipo."
+      ],
+      "cierre": "Antes de sumar sistemas, ordená el proceso y escribí el manual.",
+      "a_quien": "El dueño de una cadena gastronómica de treinta locales.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 9,
+      "id": "el-desorden-normal",
+      "tema": "El desorden normal",
+      "angulo": "",
+      "gancho": "Le cambié la plataforma al equipo: el desorden ya era normal.",
+      "polemica": "A veces hay que cambiar la herramienta de siempre, porque en ella el desorden ya no se ve. Te lo discute el que dice que cambiar de plataforma es mudar el problema de lugar, y que el desorden se arregla con disciplina.",
+      "insight": "Lo que estás diciendo es que en la herramienta de siempre el desorden se vuelve invisible: te acostumbrás a cómo está y dejás de ver que lo hacés mal. Empezar de cero en otro lado te obliga a decidir de nuevo cada paso, y ahí el desorden aparece. El límite: la plataforma nueva no ordena sola; sirve si la usás para rearmar el proceso, no para mudar el mismo desorden.",
+      "objetivo": "Que el que lidera un equipo encuentre el desorden que dejó de ver de tanto convivir con él.",
+      "puntos": [
+        "El otro día le cambié a todo el equipo la plataforma donde nos ordenábamos, y armamos algo desde cero.",
+        "Mi intuición: donde siempre lo hicimos, el desorden estaba tan normalizado que ya no veíamos que lo hacíamos mal.",
+        "[Contá qué desorden empezaron a ver en la plataforma nueva que en la vieja ya no veían.]"
+      ],
+      "cierre": "El desorden que normalizaste no lo ves; para verlo, a veces hay que empezar de cero.",
       "a_quien": "Un empresario amigo, en un café.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 10,
+      "id": "rubros-con-excel",
+      "tema": "Rubros con Excel",
+      "angulo": "",
+      "gancho": "Seguir con el Excel no es atraso. Es que nadie te escuchó.",
+      "polemica": "Que un rubro siga con el Excel no es atraso: es que nadie lo escuchó. Te lo discute el que culpa al dueño por no querer cambiar.",
+      "insight": "Lo que estás diciendo es que, cuando un rubro sigue con el Excel, el problema no es el dueño: nadie le hizo una herramienta para cómo trabaja él. Lo que suele pasar es que el software se hace para los rubros fáciles de vender, y los demás se arreglan con la planilla, que se adapta a cualquier cosa. El límite: hay dueños que no cambian aunque les lleves la herramienta justa, y ahí escuchar no alcanza.",
+      "objetivo": "Que el dueño que sigue con el Excel deje de sentirse atrasado y pida una herramienta hecha para cómo trabaja su rubro.",
+      "puntos": [
+        "[Contá un rubro donde entraste con tu equipo y encontraste todo en el Excel: qué no había escuchado nadie.]",
+        "No me volví generalista. Uso la tecnología para entrar en mercados que nadie escuchaba.",
+        "Con mi equipo vamos a esos rubros a entender de verdad qué está pasando."
+      ],
+      "cierre": "Donde todavía hay Excel, hay un rubro que nadie se sentó a escuchar.",
+      "a_quien": "El dueño de una pyme de cuarenta empleados que todavía lleva todo en el Excel.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 34,
+      "id": "la-dark-kitchen",
+      "tema": "La dark kitchen",
+      "angulo": "Desde la amenaza: el chico con una dark kitchen o una web que compite con toda tu estructura.",
+      "gancho": "Tu estructura no te protege de un chico con una dark kitchen.",
+      "polemica": "Para una pyme con estructura, lo que la sostiene hoy no es su tamaño sino asociarse con talento joven. Te lo discute el dueño que cree que sus años de clientes y su estructura no se copian con una web.",
+      "insight": "Lo que estás diciendo es que la estructura ya no es una muralla: el que llega con una dark kitchen o una web pelea por los mismos clientes sin cargar con tus costos. La pyme tiene el negocio y la plata, pero no siempre la velocidad ni la tecnología, y eso se consigue asociándose con gente joven, no sumando un proveedor más. El límite: no hablás de quiebras ni de pronósticos, hablás de quién se queda hoy con el cliente, y hay rubros donde la estructura todavía pesa.",
+      "objetivo": "Que el dueño de una cadena deje de confiar en su tamaño para cuidar sus clientes y piense con quién asociarse.",
+      "puntos": [
+        "[Contá un caso tuyo de una empresa con mucha estructura a la que un competidor chico le sacó clientes.]",
+        "Hoy el mercado se pelea todos los días. Y el chico que arranca no carga con toda tu estructura.",
+        "Para mí, la respuesta no es más estructura: es asociarte con talento joven, que trae lo que la tuya no tiene."
+      ],
+      "cierre": "La estructura ya la tenés; te falta un socio que piense como el chico.",
+      "a_quien": "El dueño de una cadena gastronómica de treinta locales.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 66,
+      "id": "el-adorno",
+      "tema": "El adorno",
+      "angulo": "",
+      "gancho": "Jamás nos contrataron por una función del sistema.",
+      "polemica": "Al dueño no se le venden funciones: se le muestra, con sus números, lo que hoy pierde. Te lo discute el que vende software con una demo de funciones, convencido de que un buen producto se vende solo.",
+      "insight": "Lo que estás diciendo es que el empresario de cualquier rubro decide con tres preguntas: cómo gano más, cómo vendo más, cómo bajo los costos. Una función nueva o una web más linda no contesta ninguna; ver con sus números lo que hoy pierde, sí. Ahí deja de escucharte como a un vendedor y te escucha como a otro empresario. El límite: las funciones importan cuando ya decidió comprar y compara opciones; para decidir, no.",
+      "objetivo": "Que el que le vende tecnología a un dueño deje de mostrar funciones y le muestre, con sus números, lo que hoy pierde.",
+      "puntos": [
+        "[Contá, sin nombrar al cliente, qué número le mostraste a un dueño que lo hizo decidir, y en qué rubro.]",
+        "Que tu sistema tenga esto y aquello, o que la web quede más linda, al dueño le da igual. Eso es un adorno.",
+        "El empresario de cualquier rubro piensa igual: cómo gano más, cómo vendo más, cómo bajo los costos."
+      ],
+      "cierre": "Cuando ve con sus números lo que pierde, te escucha como a otro empresario.",
+      "a_quien": "Un empresario amigo, en un café, que le vende tecnología a otras empresas.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 6,
+      "id": "la-tienda-generica",
+      "tema": "La tienda genérica",
+      "angulo": "",
+      "gancho": "Tu marca tiene fábrica y vende online como el que recién arranca.",
+      "polemica": "Una marca con fábrica y cientos de empleados no puede vender online con la misma tienda que el que arranca. Te lo discute el dueño que prefiere la tienda estándar porque es barata, anda y no le da trabajo.",
+      "insight": "Lo que estás diciendo es que la tienda online de una marca grande no es una vidriera aparte: tiene que funcionar con su fábrica, sus locales y su gente, y una tienda pensada para el que arranca no está hecha para eso. Discutís la idea de que una tienda es una tienda y que lo que vende es el producto. El límite lo ponés vos: para el que tiene un local y recién empieza, la tienda estándar es la decisión correcta.",
+      "objetivo": "Que el dueño de una cadena con fábrica deje de vender online con una herramienta pensada para un negocio que no se parece al suyo.",
+      "puntos": [
+        "Hice la app propia de varias marcas de franquicias. Ahí vi que la grande no puede vender como el que arranca.",
+        "[Contá, sin nombrar la marca, el momento en que lo viste: qué necesitaba esa marca que la tienda estándar no le daba.]",
+        "A ver, si tenés un local y recién empezás, la tienda estándar es lo correcto. El problema es seguir con ella cuando ya tenés fábrica."
+      ],
+      "cierre": "La misma tienda para el que arranca y para el que tiene fábrica no tiene sentido.",
+      "a_quien": "El dueño de una marca de franquicias con fábrica propia.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 11,
+      "id": "sabana-corta",
+      "tema": "Sábana corta",
+      "angulo": "Desde la charla con un franquiciante que quedó en sábana corta, y tomando partido.",
+      "gancho": "Un franquiciante me dijo: «crecí rápido y ahora estoy en sábana corta».",
+      "polemica": "La fábrica se agranda por los locales que ya firmaste, no por los que esperás vender. Te lo discute el franquiciante que dice «primero la capacidad», porque si un franquiciado se queda sin producto, la que paga es la marca.",
+      "insight": "Lo que estás diciendo es que crecer rápido en franquicias te deja en sábana corta: si la fábrica queda chica, tus franquiciados se quedan sin producto, y si la hacés grande antes de tiempo, inmovilizás plata en capacidad que no usás. Discutís a los que dicen que primero va la capacidad: para vos, la fábrica sigue a los locales firmados, no a los esperados. El límite: si los locales ya están firmados y la fábrica no llega, agrandar no es una apuesta, es una obligación.",
+      "objetivo": "Que el franquiciante no hunda en una fábrica la plata de locales que todavía no vendió.",
+      "puntos": [
+        "Me dejó pensando. Si sigue vendiendo franquicias y la fábrica no da, sus franquiciados se quedan sin producto.",
+        "Pero si arma una fábrica para todos los locales que espera tener, paga hoy capacidad que capaz nunca usa.",
+        "A ver, si los locales ya están firmados y no llegás con el producto, agrandar no es apuesta: es obligación."
+      ],
+      "cierre": "Agrandá la fábrica con lo que vendiste, no con lo que esperás vender.",
+      "a_quien": "El franquiciante que está por decidir si agranda la fábrica.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 51,
+      "id": "vendo-software",
+      "tema": "Vendo software",
+      "angulo": "Desde el que vende software, con la prueba del mostrador: un cajero que dejó de despachar y empezó a vender.",
+      "gancho": "Vendo software y te digo: a tu restaurante no le falta software.",
+      "polemica": "Lo que le falta a un restaurante no es otro programa sino procesos y alguien que los haga cumplir. Te lo discute el dueño que cree que con el sistema correcto el equipo se ordena solo.",
+      "insight": "Lo que estás diciendo, y lo decís vendiendo software, es que el dueño compra un sistema esperando que le ordene el local, y el sistema sólo ejecuta lo que ya está definido. El mecanismo: los números se mueven cuando cambia lo que hace la gente, y eso lo cambia un proceso con alguien que lo empuja, no una pantalla. El límite: cuando el proceso ya funciona y lo que traba es hacerlo a mano, ahí el sistema sí es la respuesta.",
+      "objetivo": "Que el dueño de un restaurante no gaste en un sistema para arreglar algo que se arregla con un proceso y alguien que lo lidere.",
+      "puntos": [
+        "[Contá un restaurante que compró un sistema esperando que le ordene el local, y qué pasó después.]",
+        "Un sistema registra lo que hace tu gente. Lo que hace tu gente lo define un proceso y alguien que lo lidera.",
+        "A ver, es verdad que hay momentos para comprar un sistema: cuando el proceso ya funciona y hacerlo a mano te frena."
+      ],
+      "cierre": "Si nadie lidera el mostrador, ningún sistema te va a vender más.",
+      "a_quien": "El dueño de un restaurante que está por comprar un sistema.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 60,
+      "id": "falta-un-manual",
+      "tema": "Falta un manual",
+      "angulo": "Desde el sistema que se compró y casi nadie usa: lo que falta es el manual.",
+      "gancho": "Tu sistema nuevo no sirve si nadie escribió cómo se trabaja.",
+      "polemica": "Un sistema sin manual y sin alguien que lo haga cumplir no se usa, por bueno que sea. Te lo discute el dueño que dice que un buen sistema es intuitivo y que la gente lo aprende sola.",
+      "insight": "Lo que estás diciendo es que el software no reemplaza al manual: ejecuta lo que el manual ya definió. El mecanismo: si nadie escribió cómo se hace cada cosa ni hay alguien que lo pida, el sistema nuevo queda instalado y la gente sigue trabajando como antes. El límite: no decís que el sistema sobre; decís que se compra después de saber cómo querés que se trabaje.",
+      "objetivo": "Que el dueño de un restaurante no pague un sistema que nadie va a usar porque antes nadie escribió cómo se trabaja.",
+      "puntos": [
+        "[Contá un local que compró un sistema y siguió trabajando como antes, porque nadie escribió cómo se usaba.]",
+        "¿Qué quiere decir eso? Que el sistema solo no alcanza: alguien tiene que decir cómo se usa y hacerlo cumplir.",
+        "En un restaurante es igual: si no está escrito cómo se arma un pedido, cada turno lo hace a su manera."
+      ],
+      "cierre": "Al restaurante no le falta software: le faltan manuales, procesos y un líder.",
+      "a_quien": "El dueño de un restaurante que ya compró un sistema.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 52,
+      "id": "la-demora",
+      "tema": "La demora",
+      "angulo": "",
+      "gancho": "Las apps acostumbraron a tu cliente a recibir en minutos. ¿Y vos?",
+      "polemica": "El canal propio no puede ser más lento que una app: si lo es, el cliente vuelve a pedir por la app. Te lo discute el dueño que cree que el cliente que le pide directo es fiel y le banca esperar un poco más.",
+      "insight": "Lo que estás diciendo es que la vara de la velocidad ya no la pone la marca: la pusieron las apps, y el cliente mide el canal propio con esa vara aunque no lo diga. El mecanismo: si el pedido directo llega más tarde, la próxima vez el cliente pide por la app, y el canal propio pierde por comodidad, no por producto. El límite: no prometés un tiempo; tu objetivo es que el canal propio no sea más lento, y eso depende también de cómo opera cada local.",
+      "objetivo": "Que el dueño de una cadena no pierda por la demora el pedido que ya consiguió por su canal propio.",
+      "puntos": [
+        "[Contá un pedido real por canal propio: cuánto tardó y qué lo frenó.]",
+        "Tu cliente no te compara con cómo era antes. Te compara con lo que tardó la app la última vez.",
+        "A ver, es verdad que el que te elige te banca una demora. Pero no te la banca siempre."
+      ],
+      "cierre": "Mi objetivo es que el canal propio no sea más lento que una app.",
+      "a_quien": "El dueño de una cadena gastronómica que vende mucho por apps de delivery.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 54,
+      "id": "el-cliente-invisible",
+      "tema": "El cliente invisible",
+      "angulo": "Desde el mostrador: el cliente que paga y se va sin que nadie sepa quién es.",
+      "gancho": "Tu cliente come, paga y se va. Y no sabés quién fue.",
+      "polemica": "Conocer a tus clientes de vista no es conocerlos: si no queda registrado, no sabés quién vuelve ni quién dejó de venir. Te lo discute el dueño de toda la vida que saluda a sus clientes por el nombre y dice que no necesita más.",
+      "insight": "Lo que estás diciendo es que el restaurante le vende todos los días a gente que, para el negocio, no existe: paga y se va sin dejar rastro. Discutís la idea de que el dueño conoce a sus clientes porque los ve; el mecanismo es que lo que no queda registrado no se puede medir ni usar, y lo que sabe el mozo se va con el mozo. El límite: en un local chico con el dueño en el salón, esa memoria funciona; deja de funcionar cuando hay turnos, encargados y más locales.",
+      "objetivo": "Que el dueño de un restaurante deje de venderle a desconocidos y empiece a saber quién vuelve y quién no.",
+      "puntos": [
+        "Nadie en el local sabe cuántas veces vino ni qué pide. Se va y es un desconocido.",
+        "Pensá en tu mejor cliente de este mes. ¿Sabés cómo se llama? ¿Sabés si este mes volvió?",
+        "A ver, que el mozo lo conozca de vista no es saber quién es. Eso se va con el mozo."
+      ],
+      "cierre": "Si no sabés quién te compra, no sabés a quién estás perdiendo.",
+      "a_quien": "El dueño de un restaurante que dice que a sus clientes los conoce de vista.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 57,
+      "id": "diez-empresas-adentro",
+      "tema": "Diez empresas adentro",
+      "angulo": "",
+      "gancho": "Una empresa gastronómica no es una empresa: son como diez.",
+      "polemica": "A una empresa que son diez no le sirve un solo sistema para todo. Te lo discute el que vende todo integrado, y el dueño que se lo compró para tener un solo proveedor.",
+      "insight": "Lo que estás diciendo es que una empresa gastronómica grande tiene adentro negocios que no se parecen: planta, logística, envasado, corte, cocina y mostrador. Discutís la idea de que lo más ordenado es un solo sistema para todo, porque lo que está pensado para la planta no está pensado para el mostrador. El límite: no decís que haya que tener diez sistemas sueltos; decís que cada parte necesita su herramienta y que se hablen entre ellas.",
+      "objetivo": "Que el dueño de una empresa gastronómica grande no fuerce un solo sistema sobre negocios que se manejan distinto.",
+      "puntos": [
+        "Mirá: planta, logística, envasado, corte, cocina, mostrador. Y sigo. Cada una es una empresa.",
+        "La planta piensa en kilos y en turnos. El mostrador piensa en el cliente que tiene enfrente. Son negocios distintos.",
+        "A ver, no digo diez sistemas sueltos. Digo que cada parte use lo suyo y que se hablen."
+      ],
+      "cierre": "A una empresa que son diez no le sirve un solo sistema para todo.",
+      "a_quien": "El dueño de una empresa gastronómica con fábrica propia.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 58,
+      "id": "el-menu-barato",
+      "tema": "El menú barato",
+      "angulo": "",
+      "gancho": "Hasta el menú más barato necesita marketing.",
+      "polemica": "Hasta el menú más barato necesita marketing: el precio bajo no alcanza para que el cliente vuelva. Te lo discute el dueño de un local económico que dice que su marketing es el precio y que gastar en marca es para los caros.",
+      "insight": "Lo que estás diciendo es que el precio bajo no reemplaza al marketing: el cliente igual tiene que acordarse de vos y tener un motivo para volver. Discutís la idea de que lo barato se vende solo, y la prueba es que McDonald's, la cadena del menú barato, en 2025 le vendió a socios de su programa más de un cuarto de todo lo que vende. El límite: no decís que un local económico tenga que gastar como uno caro; decís que hasta el más barato necesita que lo elijan por algo más que el precio.",
+      "objetivo": "Que el dueño de un local de menú económico deje de creer que el precio bajo le alcanza para que el cliente vuelva.",
+      "puntos": [
+        "En 2025, más de un cuarto de lo que vendió McDonald's fue a socios de su programa.",
+        "¿Qué quiere decir eso? Que ni la cadena del menú barato confía sólo en el precio.",
+        "A ver, no te digo que gastes como un restaurante caro. Te digo que le des al cliente un motivo para volver."
+      ],
+      "cierre": "El precio te trae al cliente una vez, pero no es lo que lo hace volver.",
+      "a_quien": "El dueño de una cadena de comida económica.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 59,
+      "id": "marketing-contra-tamano",
+      "tema": "Marketing contra tamaño",
+      "angulo": "",
+      "gancho": "Tu competencia más chica te puede estar ganando en pedidos.",
+      "polemica": "Una marca chica que hace buen marketing le puede ganar en pedidos a una mucho más grande. Te lo discute el dueño de la cadena grande que cree que, con abrir locales, los pedidos llegan solos.",
+      "insight": "Lo que estás diciendo es que el tamaño no gana solo: el dueño grande cree que más locales es más pedidos, y no siempre es así. El pedido lo gana la marca que el cliente tiene en la cabeza cuando decide qué comer, y eso se construye con marketing, no abriendo locales. El límite decilo vos: el marketing trae al cliente, pero si el producto o la entrega fallan, no vuelve. Decilo como opinión, sin números ni nombres.",
+      "objetivo": "Que el dueño de una cadena grande deje de dar por ganados los pedidos sólo por tener más locales.",
+      "puntos": [
+        "[Contá qué hacía distinto la marca chica que viste ganarle en pedidos a una mucho más grande, sin nombres ni cantidad de locales]",
+        "El pedido no lo gana el que tiene más locales. Lo gana la marca que el cliente tiene en la cabeza.",
+        "A ver, es verdad que el marketing no salva un mal producto. Pero el tamaño tampoco."
+      ],
+      "cierre": "Abrir locales te hace más grande. No te hace más elegido.",
+      "a_quien": "El dueño de una cadena gastronómica grande que cree que el tamaño le alcanza.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 62,
+      "id": "ni-el-bano",
+      "tema": "Ni el baño",
+      "angulo": "Desde la operación: el baño y el personal que el dueño deja de ver cuando crece.",
+      "gancho": "A los quince locales ya no llegás a controlar ni el baño.",
+      "polemica": "Pasados los quince locales, la presencia del dueño deja de ser control: hace falta algo que mire por él. Te lo discute el que cree que el ojo del amo engorda el ganado y recorre todos sus locales.",
+      "insight": "Lo que estás diciendo es que el control del dueño no crece con la cadena: con cinco locales alcanza con pasar, mirar y corregir; con quince, ya no te da el día. El mecanismo es que lo que antes corregías en el momento ahora nadie lo ve hasta que es un problema, porque no está escrito ni medido. El límite decilo vos: no decís que el dueño deje de ir a los locales, sino que su visita ya no puede ser todo el control.",
+      "objetivo": "Que el dueño que está sumando locales sepa qué se le va a escapar antes de que se le escape.",
+      "puntos": [
+        "[Contá un caso tuyo de un dueño que pasó de cinco a quince locales y qué se le escapó primero]",
+        "Con cinco locales lo ves vos. Pasás, mirás y corregís en el momento.",
+        "A los quince, tus ojos no alcanzan. Lo que no está escrito y medido, no lo mira nadie."
+      ],
+      "cierre": "Con quince locales, si todavía controlás con tus ojos, ya no controlás nada.",
+      "a_quien": "El dueño de una cadena gastronómica que está pasando de cinco a quince locales.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 84,
+      "id": "la-venta-invisible",
+      "tema": "La venta invisible",
+      "angulo": "Desde la venta: lo que pasa en el mostrador y no aparece en el cierre de caja.",
+      "gancho": "Sabés cuánto vendió cada local. No sabés cómo vendió.",
+      "polemica": "A los quince locales, el dueño que mira el total del día cree que controla la venta, y no la controla. Te lo discute el que dice que con el sistema de caja ya tiene todo medido.",
+      "insight": "Lo que estás diciendo es que el número del día no es la venta, es el resultado: lo que pasó adentro no lo ves. Si a los quince locales ya no llegás a controlar el baño ni al personal, menos vas a ver si al cliente le ofrecieron algo, quién era o si vuelve. El límite decilo vos: el total sirve para saber si vas bien, no para saber por qué. Cortá lo de que trabajás enfocado en cadenas: este video es del dueño, no tuyo.",
+      "objetivo": "Que el dueño de una cadena deje de creer que controla la venta porque mira el total del día.",
+      "puntos": [
+        "[Contá un caso tuyo de un dueño de quince locales que no veía lo que pasaba en la venta]",
+        "Si a los quince ya no llegás a controlar el baño ni al personal, imaginate la venta.",
+        "El total te dice si vas bien. No te dice quién compró, qué no le ofrecieron ni si vuelve."
+      ],
+      "cierre": "A los quince locales, la venta que no medís es una venta que no controlás.",
+      "a_quien": "El dueño de una cadena gastronómica de quince locales que controla la venta mirando el total del día.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 63,
+      "id": "despachante-o-vendedor",
+      "tema": "Despachante o vendedor",
+      "angulo": "",
+      "gancho": "El cajero que no vende es el que vos armaste.",
+      "polemica": "Si el cajero no vende, el problema no es el cajero: es que lo elegiste, lo entrenaste y lo medís para despachar. Te lo discute el dueño que dice que en el mostrador lo único que importa es que la fila avance.",
+      "insight": "Lo que estás diciendo es que el que no vende no es un mal cajero: hace lo que el local le pide, y casi siempre le pide despachar rápido, sin errores, que la fila avance. Si lo elegís, lo entrenás y lo medís así, no le pidas que venda: lo primero que tiene que cambiar es cómo lo mira el dueño. El límite decilo vos: vender no es demorar la fila ni empujar productos, es ofrecer lo justo. No hables de resultados ni de métricas.",
+      "objetivo": "Que el dueño deje de culpar al cajero que no vende y revise para qué lo eligió, lo entrenó y lo mide.",
+      "puntos": [
+        "[Contá el local donde cambió esa mirada y qué empezó a hacer el cajero. Sin métricas, salvo que tengas número y permiso]",
+        "Si lo medís por lo rápido que avanza la fila, va a hacer avanzar la fila. Nada más.",
+        "Con fila, nadie quiere un cajero charlatán. Vender no es demorar: es ofrecer lo justo."
+      ],
+      "cierre": "El cajero no es un despachante. Es un vendedor, si lo tratás como uno.",
+      "a_quien": "El dueño de una cadena con mostrador que mide al cajero por lo rápido que avanza la fila.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 75,
+      "id": "el-cliente-con-nombre",
+      "tema": "El cliente con nombre",
+      "angulo": "Desde la caja: el cliente con nombre como centro del negocio, contra el dueño que no pide un dato.",
+      "gancho": "Casi 60% de lo que facturan los Starbucks propios en Estados Unidos tiene nombre.",
+      "polemica": "El cliente registrado no es un extra: es el negocio. Te lo discute el dueño que no pide un dato en caja para no demorar la fila.",
+      "insight": "Lo que estás diciendo es que en Starbucks el cliente con nombre no es un extra: casi el 60% de lo que facturan sus locales propios en Estados Unidos viene de los socios de su programa de puntos. El mecanismo es que al que tiene nombre le podés hablar, darle una razón para volver y ver si vuelve; al anónimo, no. El límite decilo vos: es lo que la empresa les contó a sus inversores, no una medición de afuera, y vos no tenés su escala; lo que se lleva tu cadena no es el porcentaje, es saber quién te compra.",
+      "objetivo": "Que el dueño de una cadena vea cuánta plata pasa por su caja sin que sepa de quién es.",
+      "puntos": [
+        "Lo dice la propia empresa: se lo contó a sus inversores en enero. Esa plata viene de los socios de su programa de puntos.",
+        "Para ellos, el cliente con nombre no es un extra. Es el negocio.",
+        "Pedir un dato en caja demora la fila, sí. Pero sin dato, ese cliente no tiene nombre."
+      ],
+      "cierre": "Si en tu caja nadie pide un dato, tu mejor cliente es un desconocido.",
+      "a_quien": "El dueño de una cadena de cafeterías de treinta locales que no pide datos en caja.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 76,
+      "id": "los-puntos-venden",
+      "tema": "Los puntos venden",
+      "angulo": "Desde el margen: el programa de puntos como venta, no como descuento.",
+      "gancho": "El programa de puntos no es gasto de marketing. Es venta.",
+      "polemica": "El programa de puntos no es gasto de marketing: es venta. Te lo discute el que lo ve como un descuento que le come el margen.",
+      "insight": "Lo que estás diciendo es que el programa de puntos se mira mal: se lo pone en la columna del gasto y se lo discute como un descuento. McDonald's dice en sus resultados que en 2025 le vendió casi 37 mil millones de dólares a socios de su programa, más de un cuarto de lo que vende la cadena. El mecanismo es que el punto le deja al cliente algo guardado en tu marca, y la gente vuelve adonde tiene algo suyo. El límite decilo vos: no toda esa venta la creó el programa, muchos ya eran clientes, y un punto que se regala sin pedir nada a cambio sí es un descuento.",
+      "objetivo": "Que el que cuida el margen de una cadena deje de mirar los puntos sólo como un costo.",
+      "puntos": [
+        "McDonald's vendió en 2025 casi 37 mil millones de dólares a socios de su programa. Lo dice la propia cadena en sus resultados.",
+        "Es más de un cuarto de lo que vende. ¿Eso es gasto de marketing o es venta?",
+        "Ojo: un punto mal dado sí es un descuento que te come el margen. Bien dado, es una razón para volver."
+      ],
+      "cierre": "El programa de puntos no se mide por lo que cuesta, sino por lo que vende.",
+      "a_quien": "El gerente financiero de una cadena gastronómica de treinta locales.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 78,
+      "id": "igual-a-trescientas",
+      "tema": "Igual a trescientas",
+      "angulo": "",
+      "gancho": "El dueño de una marca gastronómica me dijo: tu app es igual a trescientas.",
+      "polemica": "Admitir que tu producto es igual a los demás no te obliga a regalarlo. Te lo discute el que, si son todos iguales, compra el más barato.",
+      "insight": "Lo que estás diciendo es que ese dueño tenía razón y aun así se equivocaba: como app, la tuya se parece a las otras, pero eso no la hace valer cero. La creencia que discutís es que si un producto es igual a otros, gana el más barato; el mecanismo es que el cliente no paga la app, paga lo que pasa en su negocio cuando la usa. El límite decilo vos: si no podés mostrar esa diferencia, el que compra la más barata tiene razón. Sostené las dos cosas a la vez y no te defiendas de lo que admitiste.",
+      "objetivo": "Que el que vende algo parecido a lo de la competencia no regale su precio cuando le dicen que vale cero.",
+      "puntos": [
+        "Y tenía razón: como app, es igual a las otras.",
+        "Pero me dijo que valía cero, y te confieso que me lo tomé personal: nos había costado llegar hasta ahí.",
+        "[Contá qué hiciste después para que el mercado viera que tu valor era mayor que cero]"
+      ],
+      "cierre": "Mi app es igual a las trescientas que hay, y aun así no vale cero.",
+      "a_quien": "Un empresario amigo que vende algo parecido a lo de su competencia, en un café.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 80,
+      "id": "dos-veces-por-mes",
+      "tema": "Dos veces por mes",
+      "angulo": "",
+      "gancho": "Tu cadena no necesita otro canal de venta. Necesita que vuelvan.",
+      "polemica": "Para una cadena, que el cliente de una vez por mes venga dos vale más que abrir otro canal de venta. Te lo discute el dueño que mide el crecimiento en canales y clientes nuevos.",
+      "insight": "Lo que estás diciendo es que el dueño de cadena busca crecer sumando canales y clientes nuevos, y se olvida del que ya tiene. El mecanismo es la cuenta: si el que viene una vez por mes viene dos, con los mismos locales y sin pagar por un cliente nuevo, a escala de cadena es una locura. El límite decilo vos: sin clientes nuevos una cadena se achica, y que vuelvan no sale solo, hace falta saber quiénes son y darles una razón. No pongas tu nombre como el cliente del ejemplo: distrae.",
+      "objetivo": "Que el dueño de una cadena deje de pagar por clientes nuevos sin hacer volver a los que ya tiene.",
+      "puntos": [
+        "Mi objetivo no es darte un canal de venta más: es que tu cliente vuelva a comer a tu local.",
+        "Si el que viene una vez por mes viene dos, sin un cliente nuevo, a escala de cadena es una locura.",
+        "Sin clientes nuevos no crecés, es verdad. Pero el nuevo que no vuelve lo pagaste para verlo una vez."
+      ],
+      "cierre": "Crecer no es sumar canales. Es que el mismo cliente vuelva una vez más por mes.",
+      "a_quien": "El dueño de una cadena gastronómica de treinta locales que crece abriendo canales.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 81,
+      "id": "una-sola-app",
+      "tema": "Una sola app",
+      "angulo": "",
+      "gancho": "Conozco una cadena enorme que sólo vende por una app de delivery.",
+      "polemica": "Depender de una sola app de delivery es dejar la cadena en manos de un proveedor que no controlás. Te lo discute el dueño que dice que, si la app le trae los pedidos, no necesita nada más.",
+      "insight": "Lo que estás diciendo es que la cadena que vende sólo por una app cree que tiene un canal de venta, y lo que tiene es un proveedor del que depende: el pedido, el dato y el cliente quedan del otro lado. Si esa app cambia las condiciones o se va, la cadena no tiene a quién avisarle ni por dónde venderle. El límite decilo vos: la app trae pedidos que por tu cuenta no tendrías, y el problema no es estar sino no tener nada propio. No la nombres, no hables de quiebras y no aclares que es poco probable: le quita peso.",
+      "objetivo": "Que el dueño de una cadena vea cuánto de su venta depende de un proveedor que no controla.",
+      "puntos": [
+        "Si la app se va, ¿qué le queda? Ni el pedido ni el dato del cliente son suyos.",
+        "Otra cadena hizo lo contrario: obligó a pedir por su canal propio. Perdió algunos clientes, sí, pero los que quedan son suyos.",
+        "La app te trae pedidos que por tu cuenta no tendrías. El problema no es estar: es depender."
+      ],
+      "cierre": "Si vendés por un solo canal que no es tuyo, tu cadena tampoco es del todo tuya.",
+      "a_quien": "El dueño de una cadena gastronómica que vende delivery por una sola app.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 82,
+      "id": "un-solo-local",
+      "tema": "Un solo local",
+      "angulo": "",
+      "gancho": "Si tenés un solo local, una app propia te queda grande.",
+      "polemica": "A un restaurante de un solo local, una app propia le queda grande. Te lo discute el que le vende apps a todos, y el dueño que cree que sin app propia se queda afuera.",
+      "insight": "Lo que estás diciendo es que la app propia se vende como si cualquier restaurante la necesitara, y a un local solo le queda grande. El mecanismo es operativo: una app hay que cargarla, atenderla y lograr que la descarguen, y un local solo no tiene ni la gente ni el volumen para que eso rinda. El límite decilo vos: un local también necesita clientes que vuelvan, sólo que la app propia no es por dónde empezar. No digas desde cuántos locales trabajás.",
+      "objetivo": "Que el dueño de un restaurante de un solo local no pague una app propia que no va a poder sostener.",
+      "puntos": [
+        "[Contá cómo te diste cuenta de que a un local solo todo tu producto le quedaba grande]",
+        "Una app propia hay que operarla: la carta, los pedidos, que la descarguen. Para un local solo es mucho sacrificio operativo.",
+        "Por eso hoy me enfoco en cadenas. Un local también necesita clientes que vuelvan, pero la app propia no es por dónde empezar."
+      ],
+      "cierre": "Que te vendan una app propia no quiere decir que la necesites.",
+      "a_quien": "El dueño de un restaurante de un solo local al que le ofrecen una app propia.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 12,
+      "id": "fallar-y-levantarse",
+      "tema": "Fallar y levantarse",
+      "angulo": "Desde el tamaño de la apuesta: que ninguna falla le cueste la empresa.",
+      "gancho": "Equivocarte mucho no sirve si un solo error te cuesta la empresa.",
+      "polemica": "Lo que separa al que crece no es acertar más, sino poder equivocarse muchas veces sin que ninguna falla le cueste la empresa. Te lo discute el que cree que para ganar en serio hay que jugarse todo.",
+      "insight": "Lo que estás diciendo es que la diferencia no está en acertar, sino en aguantar muchas caídas: para levantarte tantas veces, cada prueba tiene que costar algo que puedas perder. Ojo: fallar más no te hace más exitoso; no lo vendas como medalla. El límite lo decís vos: fallar no suma solo, suma lo que cambiás después de cada caída.",
+      "objetivo": "Que el dueño arme sus apuestas de un tamaño que pueda perder, para equivocarse muchas veces sin poner en juego la empresa.",
+      "puntos": [
+        "[Contá una vez que te equivocaste en algo de tu empresa y te levantaste porque la apuesta era chica: qué probaste y qué cambiaste.]",
+        "Para levantarte muchas veces, ninguna caída te puede costar la empresa. Por eso cada apuesta tiene que ser del tamaño de lo que podés perder.",
+        "Ojo, fallar más no te hace mejor. Te hace mejor lo que cambiás después de cada caída."
+      ],
+      "cierre": "No gana el que se equivoca menos. Gana el que puede pagar sus errores.",
+      "a_quien": "Un empresario amigo, en un café.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 23,
+      "id": "el-dia-sin-errores",
+      "tema": "El día sin errores",
+      "angulo": "Desde el equipo: cero errores es la señal de que nadie probó nada.",
+      "gancho": "Si hoy no fallaste en nada, tenés un problema.",
+      "polemica": "Un día sin errores no es un buen día: es un día en que nadie en tu empresa probó nada nuevo. Te lo discute el dueño que mide a su equipo por cero errores.",
+      "insight": "Lo que estás diciendo es que el error es la señal de que alguien intentó algo que todavía no sabía hacer. Si en una empresa nadie se equivoca, o nadie prueba nada o nadie cuenta lo que salió mal, y las dos cosas son peores que el error. El límite: no hablás del error repetido en lo que ya se sabe hacer, como cobrar mal o entregar tarde; ése es desorden y se corrige. Hablás del error de probar algo nuevo.",
+      "objetivo": "Que el dueño deje de medir a su equipo por cero errores y empiece a preguntar qué probó cada uno.",
+      "puntos": [
+        "[Contá algo que probaste en estos días y salió mal: qué era, qué pasó y qué cambiaste al otro día.]",
+        "Fallar y aprender. En una empresa, cero errores suele querer decir que nadie probó nada, o que nadie te avisa.",
+        "A ver, es verdad que no todo error suma: equivocarte en lo que ya sabés hacer es desorden, no aprendizaje."
+      ],
+      "cierre": "Si nadie en tu empresa se equivocó hoy, nadie probó nada nuevo.",
+      "a_quien": "El dueño de una pyme de cuarenta empleados.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 17,
+      "id": "el-viento-perfecto",
+      "tema": "El viento perfecto",
+      "angulo": "Desde el lanzamiento: salir antes de tener todo listo, pero chico.",
+      "gancho": "Si esperás el viento perfecto para salir a navegar, no salís nunca.",
+      "polemica": "Esperar el momento ideal para lanzar algo es la forma más cara de no decidir: hay que salir chico y medir. Te lo discute el dueño que cree que lanzar algo a medias le quema la marca.",
+      "insight": "Lo que estás diciendo es que las condiciones perfectas no llegan, y que mientras las esperás no aprendés nada, porque lo que enseña es el cliente, no el plan. Por eso conviene salir antes, pero chico: una prueba que puedas medir y frenar. El límite lo tenés en tu propia historia: salir sin viento no es quedarte remando, y con la app del boliche remaste dos años con el mercado en contra.",
+      "objetivo": "Que el dueño de la cadena pruebe lo nuevo en un local en vez de esperar a tenerlo perfecto para los treinta.",
+      "puntos": [
+        "[Contá algo que sacaste sin tenerlo perfecto y qué te enseñaron los primeros clientes que no habías visto en el plan.]",
+        "Mientras vos esperás el momento justo, otro sale con algo peor y aprende de los clientes antes que vos.",
+        "Ojo: salir sin viento no es quedarte remando. Yo, con una app para boliches, remé dos años."
+      ],
+      "cierre": "Lanzar chico y temprano sale más barato que esperar el momento perfecto.",
+      "a_quien": "El dueño de una cadena gastronómica de treinta locales.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 24,
+      "id": "la-rutina-perfecta",
+      "tema": "La rutina perfecta",
+      "angulo": "Desde su rutina de entrenamiento, llevada al sistema de la empresa.",
+      "gancho": "Hace meses busco la rutina perfecta. Mientras tanto, nunca dejé de entrenar.",
+      "polemica": "No esperes el sistema perfecto para arrancar: arrancá con el que tenés y mejoralo andando. Te lo discute el que planifica todo antes de moverse.",
+      "insight": "Lo que estás diciendo es que buscar el sistema perfecto se vuelve la excusa para no arrancar, y que lo que corrige un sistema es usarlo, no pensarlo. Con el entrenamiento ya lo hacés: la rutina ideal no está, y entrenás igual. El límite: no estás en contra de planificar; estás en contra de que el plan frene lo que ya se puede hacer con lo que hay.",
+      "objetivo": "Que el dueño deje de postergar ordenar su empresa esperando el sistema ideal y arranque con el que ya tiene.",
+      "puntos": [
+        "La perfecta todavía no la armé. Si esperaba a tenerla, todavía no habría entrenado ni un día.",
+        "En la empresa es igual: el sistema perfecto no existe. Arrancá con el que tenés y mejoralo andando.",
+        "A ver, planificar está bien. Lo que no está bien es que el plan te frene lo que ya podés hacer."
+      ],
+      "cierre": "La rutina perfecta no llega nunca. El entrenamiento de hoy, sí.",
+      "a_quien": "El dueño de una pyme de cuarenta empleados.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 18,
+      "id": "el-mercado-en-contra",
+      "tema": "El mercado en contra",
+      "angulo": "Desde la pregunta de si fue perseverancia o error: para él, fue error.",
+      "gancho": "Teníamos el mercado en contra, y seguimos dos años igual.",
+      "polemica": "Seguir dos años con el mercado en contra no fue perseverancia, fue un error. Te lo discute el que cree que toda idea grande se bancó años de que nadie la quisiera.",
+      "insight": "Lo que estás diciendo es que perseverar sirve cuando del otro lado hay alguien que lo quiere, aunque sean pocos. Con la app del boliche no había nadie: ni la gente quería pedir así, ni el boliche quería cobrar por internet. El límite: no decís que haya que abandonar al primer no; decís que cuando los dos lados te dicen que no, insistir es pagar para no ver.",
+      "objetivo": "Que el dueño distinga a tiempo entre algo que tarda en arrancar y algo que nadie quiere, antes de pagarlo dos años.",
+      "puntos": [
+        "Armamos una app para pedir un trago en el boliche sin hacer la fila. La gente no quería.",
+        "El boliche tampoco: no quería cobrar por internet. Teníamos el mercado en contra. Y seguíamos.",
+        "¿Fue perseverancia? Para mí, no. Fue un error: perseverar es insistir cuando del otro lado alguien te dice que sí."
+      ],
+      "cierre": "Insistir con el mercado en contra no es perseverancia. Es pagar caro no querer ver.",
+      "a_quien": "El dueño de una pyme que insiste con un producto que no se vende.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 31,
+      "id": "lo-dificil-es-vender",
+      "tema": "Lo difícil es vender",
+      "angulo": "Desde el que construye: construir es cómodo, vender es lo que cuesta.",
+      "gancho": "Estuve dos años construyendo una app que nadie quería usar.",
+      "polemica": "Seguir construyendo cuando todavía no vendiste es esconderte del no. Te lo discute el que cree que si el producto es bueno, se vende solo.",
+      "insight": "Lo que estás diciendo es que construir es la parte cómoda: depende de vos, ves el avance todos los días y nadie te dice que no. Vender te expone al no, y por eso se posterga, aunque sea lo único que prueba que el producto sirve. El límite: no decís que el producto no importe; decís que un producto que nadie compró todavía es un gasto.",
+      "objetivo": "Que el fundador mida su producto por lo que vendió y no por lo que construyó, antes de seguir poniéndole plata.",
+      "puntos": [
+        "[Contá en qué se te fueron esos dos años de construir y por qué no saliste antes a venderla.]",
+        "Construir es cómodo: depende de vos y ves el avance. Vender depende de que otro te diga que sí.",
+        "Lo difícil es venderlo. Y si no lo estás vendiendo, no estás avanzando, aunque el producto crezca."
+      ],
+      "cierre": "Mientras no vendas, todo lo que construís es un gasto.",
+      "a_quien": "El dueño de una pyme que está construyendo su propio producto.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 36,
+      "id": "la-idea-adelantada",
+      "tema": "La idea adelantada",
+      "angulo": "Desde el momento: una idea buena que llegó antes que su mercado.",
+      "gancho": "Perdí dos años por no soltar algo que no funcionaba.",
+      "polemica": "Una idea que llega antes que su mercado es, en ese momento, una mala idea, y hay que soltarla. Te lo discute el que cree que al mercado se lo educa.",
+      "insight": "Lo que estás diciendo es que tener razón antes de tiempo no paga: la app necesitaba que la gente quisiera pedir con el teléfono y que el boliche quisiera cobrar con tarjeta, y no pasaba ninguna de las dos. Esperar a que el mercado cambie es apostar a algo que no controlás, y mientras tanto pagás. El límite: no decís que la idea fuera mala; decís que era mala para ese momento, y que el error fue no soltarla.",
+      "objetivo": "Que el que lanza un producto digital sepa soltarlo a tiempo cuando ni el comercio ni la gente lo quieren todavía, en vez de pagar años de espera.",
+      "puntos": [
+        "Era una app para pedir en el boliche desde el teléfono. Y el boliche no quería cobrar por internet.",
+        "La gente tampoco quería usar el teléfono para pedir. Y yo no la solté: dos años.",
+        "Una idea que llega antes que su mercado es, en ese momento, una mala idea. Soltarla a tiempo es dejar de pagar la espera."
+      ],
+      "cierre": "Hace unos años era una idea estúpida. Hoy es una idea brillante.",
+      "a_quien": "El fundador de una fintech.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 35,
+      "id": "respaldar-el-sueno",
+      "tema": "Respaldar el sueño",
+      "angulo": "Desde el respaldo: un sueño se sostiene con algo concreto, y en una empresa eso es una venta.",
+      "gancho": "Estaba en un grupo de emprendedores que repetía una mentira.",
+      "polemica": "Un proyecto sin una venta que lo respalde es un deseo, no un plan. Te lo discute el que cree que primero se vende la visión y después llega el cliente.",
+      "insight": "Lo que estás diciendo no es que soñar esté mal: es que el sueño solo no mueve nada si no hay algo concreto que lo respalde. Lo tuyo de chico no era un sueño loco: querías ser empresario y empezaste por lo primero, aprender a vender. En una empresa, el respaldo es que alguien pague, y eso te dice si el sueño tiene piso. El límite: no decís que haya que achicar el sueño, sino ponerle una prueba antes de largarse con todo.",
+      "objetivo": "Que el dueño que tiene un proyecto grande en la cabeza consiga la primera venta antes de poner la plata.",
+      "puntos": [
+        "La frase era: si soñás, todo se puede. Yo de chico vendía en la calle: «Doña, ¿me compra un repasador?»",
+        "No era un sueño loco: quería ser empresario, y sabía que lo primero era aprender a vender.",
+        "Soñá, sí. Pero hacé algo que lo respalde. En una empresa, lo que respalda un sueño es que alguien pague."
+      ],
+      "cierre": "Soñá todo lo que quieras. Pero hasta que alguien te pague, es un deseo.",
+      "a_quien": "Un empresario amigo, en un café.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 70,
+      "id": "el-empujon",
+      "tema": "El empujón",
+      "angulo": "Desde el empujón: nadie sale solo, ni una persona ni una empresa.",
+      "gancho": "Yo, de chico, vendía repasadores en la calle.",
+      "polemica": "Nadie sale solo, ni una persona ni una empresa: el que dice que se hizo solo se olvidó de quién lo empujó. Te lo discute el empresario que dice que se hizo solo.",
+      "insight": "Lo que estás diciendo es que la historia del que se hizo solo deja afuera el empujón: alguien que abrió una puerta, un cambio de lugar, un cliente exigente. Vos lo decís de tu vida: no saliste de vender repasadores por soñar, saliste porque te moviste y tuviste un empujón. El límite: el empujón no hace el trabajo por vos; te abre la puerta, y lo demás lo tenés que dar todo vos.",
+      "objetivo": "Que el dueño deje de esperar crecer solo y salga a buscar quién empuje a su empresa.",
+      "puntos": [
+        "«Doña, ¿me compra un repasador?», muerto de vergüenza. No salí de ahí por soñar: me moví y tuve un empujón.",
+        "[Contá cuál fue ese empujón, sin nombres ni lugares: quién te dio una mano o qué cambió.]",
+        "Con una empresa es igual: ninguna crece sola. Alguien de afuera la empuja: un cliente que exige, un socio, alguien que sabe más."
+      ],
+      "cierre": "Ninguna empresa se hizo sola. El que dice que sí, se olvidó de quién lo empujó.",
+      "a_quien": "Un empresario amigo que dice que se hizo solo, en un café.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 37,
+      "id": "lo-que-no-importaba",
+      "tema": "Lo que no importaba",
+      "angulo": "",
+      "gancho": "Lo que más tiempo me llevó construir, al cliente no le importaba.",
+      "polemica": "Lo que más horas te lleva construir suele ser lo que a vos te parece importante, no lo que le importa al cliente. Te lo discute el fundador que cree que el cliente no sabe lo que quiere hasta que lo ve.",
+      "insight": "Lo que estás diciendo es que, cuando no escuchás bien al mercado, el tiempo se va en lo que a vos te parece importante y no en lo que el cliente necesita. Te pasó muchas veces. El límite: hay cosas que el cliente no ve y hay que hacerlas igual; el problema no es hacerlas, es que se coman el tiempo de lo que él sí pide.",
+      "objetivo": "Que el fundador deje de gastar meses de desarrollo en lo que a él le parece importante y pregunte qué le importa al que paga.",
+      "puntos": [
+        "[Contá una vez que le construiste a un cliente algo que no necesitaba: qué era, cuánto tiempo te llevó y cómo te diste cuenta.]",
+        "Me pasó mil veces, y siempre por lo mismo: no escuchar como se debe al mercado.",
+        "El tiempo se va en lo que a vos te parece importante. El cliente paga por lo que le importa a él."
+      ],
+      "cierre": "Lo que más tiempo te lleva construir suele ser lo que al cliente no le importa.",
+      "a_quien": "El fundador de una fintech.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 38,
+      "id": "el-coworking",
+      "tema": "El coworking",
+      "angulo": "",
+      "gancho": "Casi abro un coworking. Lo frenamos justo antes de salir.",
+      "polemica": "Lo mejor de ese proyecto fue no abrirlo: frenar porque los números no daban no es fracasar, es la decisión más barata. Te lo discute el que cree que no hacerlo es fracasar.",
+      "insight": "Lo que estás diciendo es que la decisión más barata de un proyecto es no abrirlo, y que se toma con los números antes de salir, no con el local abierto. Cuando hicieron los números vieron el riesgo, que los sacaba de foco y que no era rentable para ninguno. El límite: no decís que haya que frenar todo; decís que el render hecho no es razón para seguir si los números no dan.",
+      "objetivo": "Que el dueño que está por abrir otro local haga los números antes de firmar, y se anime a frenar aunque ya haya gastado en el proyecto.",
+      "puntos": [
+        "Era un coworking con un concepto distinto. Teníamos el render hecho con un experto y estábamos por salir.",
+        "Cuando hicimos los números, entendimos que no era rentable para ninguno. Y encima nos sacaba de foco.",
+        "No lo abrimos, y no lo cuento como fracaso. Frenar con el render hecho fue la decisión más barata."
+      ],
+      "cierre": "Lo mejor de ese proyecto fue no abrirlo.",
+      "a_quien": "El dueño de una cadena gastronómica que está por abrir otro local.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 29,
+      "id": "la-prueba-del-pago",
+      "tema": "La prueba del pago",
+      "angulo": "Desde la prueba: qué valida de verdad algo nuevo antes de lanzarlo.",
+      "gancho": "Si te pagan sin ver el producto, no tenés una idea.",
+      "polemica": "Lo único que valida algo nuevo es que te lo paguen antes de verlo: una encuesta o un «me encanta» no validan nada. Te lo discute el dueño que no lanza nada sin un estudio de mercado.",
+      "insight": "Lo que estás diciendo es que una idea se convierte en necesidad el día que alguien pone plata antes de verla funcionando. El mecanismo: opinar es gratis y pagar por adelantado tiene riesgo, y nadie corre ese riesgo si el problema no le duele de verdad. El límite: un pago valida a un cliente, no a un mercado, y hay productos que el cliente no se imagina hasta que los ve; ahí te toca mostrar algo antes de cobrar.",
+      "objetivo": "Que el dueño que está por lanzar algo nuevo sepa distinguir una necesidad de una idea antes de poner plata.",
+      "puntos": [
+        "Mi primer cliente me pagó por adelantado una solución que todavía no había construido.",
+        "Una encuesta o un «me encanta» no le cuestan nada al que contesta. Pagar por adelantado sí: por eso vale.",
+        "Ojo: un pago valida a un cliente. Para que sea negocio, ese dolor lo tienen que tener otros."
+      ],
+      "cierre": "No tenés una idea: tenés una necesidad real. Y un cliente.",
+      "a_quien": "El dueño de una pyme de cuarenta empleados que está por lanzar un servicio nuevo.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 30,
+      "id": "el-primer-cliente",
+      "tema": "El primer cliente",
+      "angulo": "Desde lo que construís: el primer cliente que paga te marca qué hacer.",
+      "gancho": "Tu primer cliente sabe mejor que vos qué tenés que construir.",
+      "polemica": "Lo que vas a construir te lo marca el primer cliente que paga, no tu plan. Te lo discute el dueño que defiende su visión y no quiere que un cliente le diseñe el producto.",
+      "insight": "Lo que estás diciendo es que el primer cliente que paga te ordena el producto mejor que cualquier plan, porque él vive el problema todos los días y vos lo mirás desde afuera. El mecanismo: cuando pone plata deja de opinar y empieza a exigir lo que de verdad necesita, y eso te dice qué va primero y qué sobra. El límite: te marca la cancha, no cada jugada; si construís todo lo que pide un solo cliente, terminás con un desarrollo a medida y no con un producto.",
+      "objetivo": "Que el dueño que va a sacar un producto propio sepa qué construir antes de gastar en construirlo.",
+      "puntos": [
+        "Mi primer cliente me compró la solución antes de que la construyera. Y la cancha me la marcó él.",
+        "[Contá algo concreto que te pidió ese primer cliente y que vos no tenías pensado construir.]",
+        "Ojo: te marca la cancha, no cada jugada. Si le construís todo lo que pide, terminás haciéndole un traje a medida."
+      ],
+      "cierre": "Antes de construir nada, buscá un primer cliente que te marque la cancha.",
+      "a_quien": "El dueño de una empresa de servicios que quiere convertir lo que hace en un producto.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 44,
+      "id": "vender-antes-de-construir",
+      "tema": "Vender antes de construir",
+      "angulo": "Desde la historia: cómo le vendí a mi primer cliente algo que todavía no había construido.",
+      "gancho": "A mi primer cliente le vendí su app antes de construirla.",
+      "polemica": "Vender una solución antes de construirla no es vender humo: es la forma más honesta de saber si a alguien le duele. Te lo discute el que cree que sólo se vende lo que ya se puede mostrar funcionando.",
+      "insight": "Lo que estás diciendo es que la venta no arranca con un producto sino con un dolor bien entendido: si entendés qué le duele al otro lo suficiente como para que ponga plata, el producto se arma después alrededor de eso. El mecanismo: el cliente no compra un software, compra que se le termine un problema, y si ese problema le cuesta caro, paga por adelantado. El límite: cobrar antes te obliga a cumplir; si entendiste mal el dolor, lo que cobraste se te vuelve en contra, y ahí sí es humo.",
+      "objetivo": "Que el empresario sepa que puede cobrar una solución antes de construirla, si entendió bien qué le duele al cliente.",
+      "puntos": [
+        "No fui con un producto: fui con su problema, y entendí qué le dolía tanto como para pagar.",
+        "Y me pagó por adelantado. Cuando el problema duele de verdad, el riesgo de pagar antes pesa menos.",
+        "Ojo: cobrar antes te obliga a cumplir. Si entendiste mal el dolor, lo que cobraste se te vuelve en contra."
+      ],
+      "cierre": "Para mí, primero se vende la solución. El producto viene después.",
+      "a_quien": "Un empresario amigo, en un café.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 19,
+      "id": "arrancar-sin-plata",
+      "tema": "Arrancar sin plata",
+      "angulo": "",
+      "gancho": "A mí me gusta arrancar cosas sin plata.",
+      "polemica": "Arrancar algo nuevo sin plata es una ventaja: te obliga a escuchar al mercado antes de gastar. Te lo discute el dueño que cree que sin presupuesto nada arranca en serio.",
+      "insight": "Lo que estás diciendo es que la falta de plata, al arrancar algo, no es sólo un problema: es lo que te obliga a salir a buscar al cliente y escucharlo antes de construir. El mecanismo: con presupuesto podés armar sin preguntarle a nadie; sin presupuesto, lo único que te hace avanzar es que alguien te diga que sí. El límite: es una preferencia tuya, no una regla ni un dato de cuánto pusiste vos; hay proyectos que necesitan plata desde el primer día, y ahí lo que cuenta es no gastarla antes de escuchar.",
+      "objetivo": "Que el dueño que arranca algo nuevo use la falta de presupuesto para escuchar al mercado antes de gastar.",
+      "puntos": [
+        "¿Por qué? Porque sin plata escuchás más al mercado. Te obliga a buscar la forma.",
+        "Sin plata no te queda otra: te vas a un evento, tocás la puerta, escuchás.",
+        "No digo que la plata sobre. Digo que si la ponés antes de escuchar, la ponés en lo que a vos te parece."
+      ],
+      "cierre": "Sin plata escuchás al mercado. Con plata, eso no lo aprendés.",
+      "a_quien": "El dueño de una pyme que quiere arrancar un negocio nuevo al lado del que ya tiene.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 32,
+      "id": "primero-el-problema",
+      "tema": "Primero el problema",
+      "angulo": "",
+      "gancho": "Sin un problema de alguien, tu idea no es un negocio.",
+      "polemica": "Un negocio no nace de una buena idea: nace de un problema que a alguien le cuesta plata. Te lo discute el dueño convencido de que una buena idea crea su propia demanda.",
+      "insight": "Lo que estás diciendo es que la idea es lo más sobrevalorado de un negocio nuevo: no arranca por lo ingeniosa que sea, sino porque a alguien le duele algo y paga para que se le termine. El mecanismo: una idea sin problema te obliga a convencer al cliente de que le duele algo, y eso sale carísimo; un problema real ya trae al cliente buscando solución. El límite: hay productos que crean una costumbre nueva, pero hasta esos le resuelven algo a alguien; si no podés decir qué y a quién, todavía no tenés negocio.",
+      "objetivo": "Que el dueño no ponga plata en una idea nueva sin poder decir qué problema resuelve y a quién.",
+      "puntos": [
+        "[Contá un caso tuyo de un dueño que quería construir algo que le encantaba y no podía decir a quién le resolvía qué.]",
+        "Una idea sin problema te obliga a convencer al cliente de que le duele algo. Y eso sale carísimo.",
+        "Ojo: hay productos que inventan una costumbre nueva. Pero hasta esos le resuelven algo a alguien."
+      ],
+      "cierre": "La pregunta no es si tu idea es buena. Es a quién le duele.",
+      "a_quien": "El dueño de una pyme de cuarenta empleados enamorado de una idea nueva.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 33,
+      "id": "tu-idea-no-vale",
+      "tema": "Tu idea no vale",
+      "angulo": "",
+      "gancho": "Tu idea no vale nada: hay veinte personas pensándola ahora mismo.",
+      "polemica": "Una idea sola no vale nada: vale el que la ejecuta. Te lo discute el que hace firmar un acuerdo de confidencialidad antes de contar su idea.",
+      "insight": "Lo que estás diciendo es que una idea, sola, no es un activo: la misma idea la están pensando muchos a la vez, y lo que la convierte en plata es quién la ejecuta, con qué clientes y en cuánto tiempo. Por eso esconderla no te protege, te demora: mientras la cuidás, otro la está haciendo. El límite: lo que sí vale y conviene cuidar es lo que construiste haciéndola, como tus clientes, tus datos o tu forma de trabajar; eso no es la idea, es la ejecución.",
+      "objetivo": "Que el empresario deje de esconder su idea y gaste ese tiempo en hacerla andar.",
+      "puntos": [
+        "Mientras la cuidás, otro la está haciendo. Y el que llega primero al cliente no es el que la pensó.",
+        "Lo que los otros veinte no tienen es lo que vos hagas con ella: los clientes, el tiempo, la forma de hacerla andar.",
+        "Ojo: no digo que no cuides nada. Cuidá tus clientes y tu forma de trabajar. La idea, contala."
+      ],
+      "cierre": "Una idea escondida no te protege: te demora.",
+      "a_quien": "Un empresario amigo, en un café, que te cuenta su idea en voz baja.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 16,
+      "id": "la-app-de-fitness",
+      "tema": "La app de fitness",
+      "angulo": "",
+      "gancho": "Una app de fitness no se la vendés al deportista.",
+      "polemica": "En finanzas, tu cliente es el que quiere empezar, no el que ya sabe. Te lo discute el fundador que apunta al cliente rentable, el que ya invierte y mueve plata.",
+      "insight": "Lo que estás diciendo es que el que ya es lo que vendés no te necesita: el deportista ya tiene su rutina y el que ya invierte ya tiene su forma. El que compra es el que quiere llegar y no sabe cómo, porque en ese hueco está el problema que tu producto resuelve. El límite: ese cliente arranca con menos plata y se puede ir si no ve avances, así que el negocio está en acompañarlo hasta que sea el que ya sabe.",
+      "objetivo": "Que el fundador de una fintech deje de pelear por el cliente que ya sabe y mire al que quiere empezar.",
+      "puntos": [
+        "Yo entreno y te confieso: no uso ninguna app. Ya sé mi rutina.",
+        "¿Quién te compra siempre? El que quiere ser deportista. El que todavía no sabe cómo.",
+        "En finanzas, igual: el que ya invierte tiene su forma. Tu cliente es el que quiere empezar."
+      ],
+      "cierre": "Tu cliente no es el que ya llegó. Es el que quiere llegar.",
+      "a_quien": "El fundador de una fintech.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 39,
+      "id": "quedarse-quieto",
+      "tema": "Quedarse quieto",
+      "angulo": "",
+      "gancho": "Quedarte quieto en una crisis no es prudencia. Es perder despacio.",
+      "polemica": "En una crisis, quedarte quieto por miedo también te hace perder plata: no hacer nada es una decisión, y se paga. Te lo discute el dueño que se salvó frenando todo hasta que pasara.",
+      "insight": "Lo que estás diciendo es que en una crisis no existe la opción gratis: frenar todo parece no arriesgar, pero mientras esperás perdés clientes y lugar frente al que sí se movió. El mecanismo: el miedo te hace comparar moverte contra no perder nada, cuando la comparación real es moverte contra perder igual, pero más despacio. El límite: no es moverse por moverse; cuidar la caja también es hacer algo, y hay dueños que se salvaron frenando; lo que no funciona es frenar por miedo, sin decidir nada.",
+      "objetivo": "Que el dueño que frenó todo por la crisis vea cuánto le está costando esperar.",
+      "puntos": [
+        "[Contá quién te lo dijo, en qué crisis y qué hizo después. La escena, sin política ni macro.]",
+        "Frenar todo parece no arriesgar nada. Pero mientras esperás, el que se movió se queda con tus clientes.",
+        "Ojo: cuidar la caja también es hacer algo. Lo que te sale caro es frenar por miedo, sin decidir nada."
+      ],
+      "cierre": "Si no hacés nada por miedo a perder plata, vas a perder igual.",
+      "a_quien": "El dueño de una pyme de cuarenta empleados que frenó todo por la crisis.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 49,
+      "id": "mil-horas",
+      "tema": "Mil horas",
+      "angulo": "",
+      "gancho": "Un campeón argentino de boxeo me dijo que nos separaban mil horas.",
+      "polemica": "Entre el talentoso sin horas y el que no paró nunca, contratá al segundo. Te lo discute el que paga lo que sea por el crack.",
+      "insight": "Lo que estás diciendo es que lo que parece talento, en general, son horas que no viste: el que te parece un genio empezó antes y no paró. Para el que contrata, eso cambia la pregunta: no es cuánto brilla en la entrevista sino cuántas horas puso y si las va a seguir poniendo. El límite: las horas no reemplazan todo, hay puestos que piden una base que no se entrena rápido, y horas sin nadie que te corrija pueden ser mil horas repitiendo el mismo error.",
+      "objetivo": "Que el dueño que contrata deje de pagar de más por el que brilla y mire quién no para.",
+      "puntos": [
+        "De chico entrenaba con él. Un día me preguntó: ¿sabés cuál es la diferencia entre vos y yo? Mil horas más de trabajo.",
+        "Nunca me lo olvidé. Hoy se lo repito a los que entran a mi equipo: no te falta talento, te faltan horas.",
+        "Mil horas de estudio, de práctica, de pifiarla. El que te parece un genio, en general, empezó antes y no paró."
+      ],
+      "cierre": "Entre el talentoso sin horas y el que no paró nunca, contratá al segundo.",
+      "a_quien": "El dueño de una pyme de cuarenta empleados que está por contratar.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 53,
+      "id": "lo-caro",
+      "tema": "Lo caro",
+      "angulo": "",
+      "gancho": "«Lo caro es no hacerlo», me dijo un gastronómico.",
+      "polemica": "Invertir en la experiencia del local rinde más que la promo. Te lo discute el dueño que compite por precio y llena el salón con descuentos.",
+      "insight": "Lo que estás diciendo es que la experiencia no es un gasto que se puede postergar, sino lo que hace que el cliente vuelva sin que le regales nada. El mecanismo: la promo trae al que busca precio, y ese se va con el próximo descuento; la experiencia trae al que vuelve. El límite: la frase es del gastronómico y no la podés probar con números, y si tu negocio es ser el más barato, la promo es tu estrategia y no un error.",
+      "objetivo": "Que el dueño de una cadena deje de comprar visitas con promos y ponga esa plata en que el cliente quiera volver.",
+      "puntos": [
+        "Yo le había preguntado: ¿qué tan caro es invertir en buenas experiencias en tu local?",
+        "La promo te trae al que busca precio, y ese se va con el próximo descuento. La experiencia, al que vuelve.",
+        "Ojo: si tu negocio es ser el más barato, la promo es tu estrategia. Si no, es un parche."
+      ],
+      "cierre": "Lo caro no es invertir en la experiencia. Lo caro es no hacerlo.",
+      "a_quien": "El dueño de una cadena gastronómica de treinta locales.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 25,
+      "id": "fallarle-a-uno",
+      "tema": "Fallarle a uno",
+      "angulo": "",
+      "gancho": "En mi mercado, si le fallo a uno, le fallé a todos.",
+      "polemica": "En un mercado chico, al cliente que no podés hacer feliz no lo firmes. Te lo discute el que dice que todo cliente suma.",
+      "insight": "Lo que estás diciendo es que en un mercado chico cada cliente es la referencia que va a pedir el próximo: el que quedó mal no se pierde solo, te cierra puertas. Por eso la decisión que más pesa no es cómo atenderlo sino si firmarlo: si ya sabés que no lo vas a poder dejar contento, esa venta te sale más cara que perderla. El límite: no digas que no podés fallar, porque alguno te va a recordar una vez que fallaste; lo que sostenés es elegir bien a quién firmar y dar la cara cuando pasa.",
+      "objetivo": "Que el dueño que le vende a otras empresas deje de firmar clientes que ya sabe que no va a poder dejar contentos.",
+      "puntos": [
+        "Al cliente le digo: mi éxito está atado al tuyo. Si no te hago feliz, no tengo caso de éxito.",
+        "En mi mercado no son miles. El que queda mal no se va callado: se lo cuenta al resto.",
+        "No te voy a mentir: fallar, se falla. Pero firmar sabiendo que vas a fallar es otra cosa."
+      ],
+      "cierre": "En un mercado chico, al cliente que no podés hacer feliz, no lo firmes.",
+      "a_quien": "El dueño de una pyme que le vende a otras empresas.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 14,
+      "id": "mostrar-lo-que-haces",
+      "tema": "Mostrar lo que hacés",
+      "angulo": "",
+      "gancho": "No hace falta salir a vender. Hace falta mostrar lo que hacés.",
+      "polemica": "Mostrar lo que hacés te consigue más reuniones que salir a ofrecerte. Te lo discute el director comercial que mide a su equipo por cantidad de llamadas.",
+      "insight": "Lo que estás diciendo es que hay dos formas de llegar a un cliente: ofrecerle lo que vendés, o mostrarle cómo trabajás y dejar que te llame él. El mecanismo es la confianza: cuando el cliente ve tu criterio en acción deja de escucharte como vendedor y te empieza a escuchar como asesor. El límite, dicho antes de que te lo citen: mostrar te consigue la reunión; cerrar la venta y hacer el seguimiento siguen siendo trabajo tuyo.",
+      "objetivo": "Que el dueño que vende él mismo gaste menos tiempo ofreciéndose y más mostrando cómo trabaja.",
+      "puntos": [
+        "[Contá un cliente que te llamó porque vio algo que mostraste: una charla, un caso, un video.]",
+        "El que te ve trabajar ya sabe cómo pensás. Llega a la reunión con media decisión tomada.",
+        "A ver, mostrar no cierra solo. Te consigue la reunión; el seguimiento sigue siendo tuyo."
+      ],
+      "cierre": "Mostrar lo que hacés te consigue la reunión. Cerrar la venta sigue siendo trabajo tuyo.",
+      "a_quien": "El dueño de una pyme de cuarenta empleados que sigue vendiendo él mismo.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 21,
+      "id": "la-paciencia",
+      "tema": "La paciencia",
+      "angulo": "Desde la paciencia como excusa: la pregunta de cuántas llamadas y seguimientos hiciste hoy.",
+      "gancho": "Lo que llamás paciencia son las llamadas que no hiciste.",
+      "polemica": "La paciencia no vende: vende la llamada de hoy y el seguimiento de mañana. Te lo discute el dueño que cree que un buen producto se vende solo y que el cliente llega cuando tiene que llegar.",
+      "insight": "Lo que estás diciendo es que la paciencia se volvió la excusa para no llamar: se espera que el cliente aparezca en vez de ir a buscarlo. El mecanismo es simple: las ventas salen de las llamadas y los seguimientos, y eso se cuenta hoy, no a fin de mes. El límite lo decís vos: hay ventas que tardan y ahí la paciencia vale, pero empieza después de llamar, no antes.",
+      "objetivo": "Que el dueño de una pyme cambie la espera por una cuenta diaria: cuántas llamadas y cuántos seguimientos hizo hoy.",
+      "puntos": [
+        "Me encanta cuando alguien me dice que hay que tener paciencia, que las cosas llegan. Le pregunto: ¿cuántas llamadas hiciste hoy?",
+        "¿Y cuántos seguimientos? Querés más ventas, y las ventas no salen de esperar: salen de llamar y volver a llamar.",
+        "A ver, hay ventas que tardan. Ahí la paciencia vale, pero es esperar la respuesta de alguien que ya llamaste."
+      ],
+      "cierre": "La paciencia empieza después de la llamada, no antes.",
+      "a_quien": "El dueño de una pyme de cuarenta empleados que espera que las ventas lleguen solas.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 22,
+      "id": "tu-ritmo",
+      "tema": "Tu ritmo",
+      "angulo": "Desde tu propia impaciencia: no como defecto, sino como el ritmo que marca los tiempos.",
+      "gancho": "Estar impaciente no es un defecto: el tiempo lo marca tu ritmo.",
+      "polemica": "La impaciencia con lo que depende de vos es una ventaja, no un defecto. Te lo discute el empresario que dice que todo tiene su tiempo y que el apurado se equivoca.",
+      "insight": "Lo que estás diciendo es que todo tiene su tiempo, sí, pero no es un tiempo que se espera: lo acelera cuántas veces llamás, escribís y aparecés. La creencia que discutís es que la paciencia es una virtud y la impaciencia un defecto; el mecanismo es que cada llamada, mensaje o evento adelanta una conversación que, esperando, llegaba tarde o no llegaba. El límite lo decís vos: la impaciencia es con lo tuyo, no con el que tiene que decidir; al cliente no se lo apura.",
+      "objetivo": "Que el dueño use su impaciencia para llamar, escribir y aparecer más, en vez de esperar que el otro se mueva primero.",
+      "puntos": [
+        "[Contá una vez que no esperaste los tiempos de otro: llamaste, escribiste o fuiste a buscarlo, y eso movió un negocio.]",
+        "Todo tiene su tiempo, sí. Pero si estás impaciente, llamá, mandá mensajes, hacé contenido, andá a eventos.",
+        "Ojo: la impaciencia es con lo tuyo. Al cliente que tiene que decidir no lo apurás."
+      ],
+      "cierre": "Esperar es dejar que otro marque tu tiempo. A mí nunca me gustó.",
+      "a_quien": "Un empresario amigo, en un café.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 48,
+      "id": "la-suerte",
+      "tema": "La suerte",
+      "angulo": "Desde el dueño que cree que tuvo suerte con un cliente.",
+      "gancho": "No tuviste suerte con ese cliente: estuviste llamando.",
+      "polemica": "En ventas la suerte no existe: el cliente que aparece es la consecuencia de llamar todos los días. Te lo discute el dueño que consiguió su mejor cliente por una recomendación que nunca buscó.",
+      "insight": "Lo que estás diciendo es que lo que el dueño llama suerte es la consecuencia de sus llamadas: de todos los que llamó, alguno dijo que sí, y es el único que recuerda. El mecanismo es que las llamadas que no dieron nada no se ven, y por eso el cliente que llegó parece caído del cielo. El límite lo decís vos: hay clientes que llegan por recomendación sin que los busques, pero también son la consecuencia de un trabajo bien hecho antes.",
+      "objetivo": "Que el dueño deje de atribuirle sus clientes a la suerte y cuente cuántos llamó para conseguir cada uno.",
+      "puntos": [
+        "Cuando a alguien le sale un cliente y me dice «qué suerte que tuve», le contesto eso mismo.",
+        "Y a vos te pregunto: ¿cuántos llamaste para tenerlo? Ese que dijo que sí no apareció de la nada.",
+        "A ver, a veces un cliente llega solo, por una recomendación. Detrás hay un trabajo que hiciste bien antes."
+      ],
+      "cierre": "Producir suerte se llama llamar todos los días.",
+      "a_quien": "El dueño de una pyme que dice que tuvo suerte con un cliente.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 40,
+      "id": "el-dia-perdido",
+      "tema": "El día perdido",
+      "angulo": "",
+      "gancho": "De las mil cosas que hiciste hoy, ¿cuántas fueron para vender?",
+      "polemica": "Un día sin vender es un día perdido, por más cosas que hayas hecho. Te lo discute el dueño que dice que su trabajo es que la empresa funcione y que vender le toca al equipo comercial.",
+      "insight": "Lo que estás diciendo es que estar ocupado no es avanzar: el dueño puede llenar el día de cosas urgentes y no hacer la única que trae plata. El mecanismo es que lo operativo siempre grita y vender nunca parece urgente, hasta que falta. El límite lo decís vos antes de que te lo digan: no hace falta cerrar una venta por día, porque hay negocios donde una venta tarda meses; lo que no puede pasar es un día sin una llamada, una propuesta o un seguimiento.",
+      "objetivo": "Que el dueño deje de medir su día por lo ocupado que estuvo y lo mida por lo que hizo para vender.",
+      "puntos": [
+        "[Contá un día concreto tuyo de mil cosas sin vender nada, y qué cambiaste después de ese día.]",
+        "Lo operativo siempre es urgente. Vender nunca parece urgente, hasta que falta la plata.",
+        "A ver, hay negocios donde una venta tarda meses. Ahí vender hoy es la llamada, la propuesta o el seguimiento."
+      ],
+      "cierre": "Si hoy no vendiste, perdiste el día. Aunque hayas hecho mil cosas.",
+      "a_quien": "El dueño de una pyme de cuarenta empleados que se pasa el día apagando incendios.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 41,
+      "id": "comprometerse-a-hacer",
+      "tema": "Comprometerse a hacer",
+      "angulo": "",
+      "gancho": "Un proveedor que sólo promete hacer no te promete nada.",
+      "polemica": "El proveedor que sólo se compromete a hacer no se compromete a nada: lo que se compra es lo que le cambia al cliente. Te lo discute el proveedor prolijo que dice que sólo puede prometer lo que controla, porque el resultado también depende del cliente.",
+      "insight": "Lo que estás diciendo es que una propuesta que sólo enumera tareas, horas o funciones le deja al dueño el trabajo de adivinar qué gana. El mecanismo es que el dueño no compra lo que vas a hacer sino lo que espera ver distinto en sus números, y el proveedor que no se compromete con eso termina comparado por precio. El límite lo decís vos antes de que te lo digan: no es cobrar sólo si sale bien, el abono o el proyecto se pagan igual y lo que pase depende de los dos; lo que cambia es con qué te comprometés y qué vendés.",
+      "objetivo": "Que el dueño, antes de contratar un proveedor, le pida que se comprometa con lo que le va a cambiar y no sólo con lo que va a hacer.",
+      "puntos": [
+        "[Contá el caso de un dueño que te contrató por lo que vio que le cambiaba en sus números, no por las funciones.]",
+        "Prometer horas o tareas es fácil. Lo que el dueño quiere saber es qué va a ser distinto en su negocio.",
+        "A ver, no te hablo de pagar sólo si sale bien. Te hablo de a qué se compromete el que contratás."
+      ],
+      "cierre": "No vendo funcionalidades: vendo lo que le cambia al cliente.",
+      "a_quien": "El dueño de una pyme de cuarenta empleados que está por contratar un proveedor.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 15,
+      "id": "libro-y-bicicleta",
+      "tema": "Libro y bicicleta",
+      "angulo": "",
+      "gancho": "El que hoy te vendió un libro, mañana te vende una bicicleta.",
+      "polemica": "La gente no le compra al producto: le compra a la persona en la que confía, aunque después le venda otra cosa. Te lo discute el dueño que pone todo en mostrar las ventajas del producto porque cree que el cliente decide con la cabeza.",
+      "insight": "Lo que estás diciendo es que el cliente no decide por los beneficios del producto, aunque se los muestres bien: termina decidiendo por la persona. El mecanismo es que comprar es arriesgarse, y el que ya le cumplió una vez le baja ese riesgo para la próxima, aunque sea otro producto. El límite lo decís vos: la confianza no tapa un mal producto; si fallás, es lo primero que perdés.",
+      "objetivo": "Que el dueño cuide a cada cliente que ya tiene, porque es el que le va a comprar lo próximo, aunque sea otra cosa.",
+      "puntos": [
+        "[Contá una vez que le compraste algo nuevo a alguien sólo porque ya te había cumplido antes.]",
+        "Aunque le muestres los beneficios reales, la gente termina confiando en la persona, no en el producto.",
+        "A ver, la confianza no tapa un mal producto. Si fallaste, es lo primero que perdés."
+      ],
+      "cierre": "Lo que vendés cambia. Lo que te compran, siempre, sos vos.",
+      "a_quien": "El dueño de una pyme que vende con su nombre.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 20,
+      "id": "la-tienda-mas-cara",
+      "tema": "La tienda más cara",
+      "angulo": "",
+      "gancho": "La tienda más cara de la zona siempre estaba llena.",
+      "polemica": "Con los mismos productos, la tienda que hace marketing le gana a la más barata de al lado. Te lo discute el comerciante que baja precios para llenar el local, y el que jura que la diferencia es la atención.",
+      "insight": "Lo que estás diciendo es que el precio no es lo único que decide: con los mismos productos y una tienda al lado de la otra, la más cara estaba siempre llena, así que tampoco era la ubicación. El mecanismo es que el cliente entra donde algo lo llama y le dan ganas de comprar, y eso se trabaja; el precio pesa cuando todo lo demás es igual. El límite lo decís vos: si el producto es peor, el marketing no lo salva, y no decís que el precio no importe, sino que bajarlo no reemplaza que te elijan. Guardate la palabra marketing para la última frase.",
+      "objetivo": "Que el dueño de un comercio deje de bajar precios para llenar el local y piense qué hace para que lo elijan.",
+      "puntos": [
+        "Viví un mes a una cuadra. Al lado había otra con los mismos productos, mucho más barata.",
+        "[Contá qué veías ese mes en la tienda llena que la otra no hacía. Sin nombrarla ni decir marketing.]",
+        "A ver, no es que el precio no importe. Pero no es lo único que mira el que entra."
+      ],
+      "cierre": "¿La diferencia? Una hacía marketing.",
+      "a_quien": "El dueño de un comercio que baja precios para llenar el local.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 50,
+      "id": "el-acuerdo-que-dura",
+      "tema": "El acuerdo que dura",
+      "angulo": "Desde el acuerdo que se cae después, cuando uno salió sintiendo que perdió.",
+      "gancho": "Si el otro sale sintiendo que perdió, perdiste vos.",
+      "polemica": "Si el otro sale sintiendo que perdió, perdiste vos, porque ese acuerdo no dura. Te lo discute el que cree que negociar bien es sacarle al otro hasta el último peso.",
+      "insight": "Lo que estás diciendo es que ganar la negociación no es ganar el acuerdo: el que sale convencido de que perdió cumple a desgano, renegocia o se va en cuanto puede. El mecanismo es que un acuerdo vive mucho más que la reunión en la que se firma, y lo sostienen los dos; por eso se firma y se cumple cuando cada uno siente que se llevó la mejor parte. El límite lo decís vos: no es regalar ni negociar blando, es negociar fuerte y dejarle al otro algo que sienta que ganó.",
+      "objetivo": "Que el dueño deje de medir una negociación por cuánto le sacó al otro y la mida por cuánto le dura el acuerdo.",
+      "puntos": [
+        "[Contá un acuerdo tuyo que no duró porque una de las partes salió sintiendo que había perdido.]",
+        "Si uno sale convencido de que perdió, el acuerdo no dura. Si los dos sienten que se llevaron la mejor parte, firman.",
+        "Ojo, no es regalar ni ser blando. Es negociar fuerte y dejarle al otro algo que sienta que ganó."
+      ],
+      "cierre": "Ganar la negociación y perder el acuerdo es el peor negocio.",
+      "a_quien": "El dueño de una pyme de cuarenta empleados que está por cerrar un contrato.",
+      "si_hay_tiempo": true
+    },
+    {
+      "planilla": 74,
+      "id": "el-mejor-vendedor",
+      "tema": "El mejor vendedor",
+      "angulo": "Desde el que vende, con un dato: antes de firmar, el que compra le pregunta a un cliente tuyo.",
+      "gancho": "Tu mejor vendedor es un cliente que ya te usa.",
+      "polemica": "Tu mejor vendedor es un cliente que ya te usa, no tu equipo comercial. Te lo discute el dueño que pone toda la plata en sumar vendedores.",
+      "insight": "Lo que estás diciendo es que en una compra de tecnología entre empresas la confianza no la pone tu vendedor sino alguien que ya usa lo tuyo: según TrustRadius, el 53% de los que compran tecnología habló con un usuario antes de comprar, y en las compras grandes, el 65%. Ojo: lo mide un sitio de reseñas, al que le conviene ese resultado. El mecanismo es el mismo de no querer ser el primero: el que compra quiere saber qué le pasó a otro como él, y a un par le cree más que a un vendedor. El límite lo decís vos: tu equipo comercial sigue haciendo falta para abrir la puerta y llevar la venta; lo que no reemplaza es a un cliente contento que atiende el teléfono.",
+      "objetivo": "Que el dueño que vende tecnología cuide a los clientes que ya tiene como su mejor equipo de ventas, antes de sumar otro vendedor.",
+      "puntos": [
+        "TrustRadius encuestó este año a casi 1.900 compradores de tecnología: el 53% habló con alguien que ya usaba el producto antes de comprar. En las compras grandes, el 65%.",
+        "Pensalo: tu vendedor puede contar maravillas, pero el que compra le cree más a uno que ya lo usa.",
+        "A ver, el equipo comercial hace falta para abrir la puerta. Pero la confianza la pone alguien que ya te compró."
+      ],
+      "cierre": "Antes de sumar un vendedor, preguntate cuántos clientes hablarían bien de vos.",
+      "a_quien": "El dueño de una pyme que le vende tecnología a otras empresas.",
       "si_hay_tiempo": true
     }
   ]

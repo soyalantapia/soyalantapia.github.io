@@ -21,7 +21,11 @@
 </head>
 <body>
 <header class="top">
-  <span class="marca"><span class="dot" aria-hidden="true"></span>ESCALETA</span>
+  <span class="marca"><span class="dot" aria-hidden="true"></span><span class="marca-txt">ESCALETA</span></span>
+  <div class="modo" role="group" aria-label="Modo">
+    <button id="modo-entender" type="button" aria-pressed="true">ENTENDER</button>
+    <button id="modo-grabar" type="button" aria-pressed="false">GRABAR</button>
+  </div>
   <button id="contador" class="contador" type="button" aria-label="Ver todos los temas">&nbsp;</button>
 </header>
 
@@ -29,10 +33,23 @@
   <section class="campo">
     <p class="lbl">TEMA</p>
     <h1 id="tema" class="tema-titulo"></h1>
+    <p id="angulo" class="angulo prep"></p>
   </section>
   <section class="campo">
     <p class="lbl">GANCHO</p>
     <p id="gancho" class="gancho"></p>
+  </section>
+  <section class="campo prep" id="campo-polemica">
+    <p class="lbl">LA POLÉMICA</p>
+    <p id="polemica" class="polemica"></p>
+  </section>
+  <section class="campo prep" id="campo-insight">
+    <p class="lbl">DE QUÉ SE TRATA</p>
+    <p id="insight" class="insight"></p>
+  </section>
+  <section class="campo prep" id="campo-objetivo">
+    <p class="lbl">POR QUÉ TE ESCUCHA</p>
+    <p id="objetivo" class="objetivo"></p>
   </section>
   <section class="campo">
     <p class="lbl">PUNTOS A TOCAR</p>

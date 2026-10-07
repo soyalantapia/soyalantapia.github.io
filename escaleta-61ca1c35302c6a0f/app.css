@@ -36,7 +36,18 @@ button:focus-visible { outline: 3px solid var(--tally); outline-offset: 2px; }
 .top { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: calc(10px + env(safe-area-inset-top, 0px)) 16px 10px; background: var(--bg); border-bottom: 1px solid var(--line); }
 .marca { display: inline-flex; align-items: center; gap: 8px; font-family: var(--f-display); font-weight: 700; font-size: 1.3rem; letter-spacing: 0.05em; }
 .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--tally); flex: none; }
-.contador { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 7px 14px; font-weight: 700; font-variant-numeric: tabular-nums; cursor: pointer; min-width: 4.5em; }
+.contador { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 7px 12px; font-weight: 700; font-variant-numeric: tabular-nums; cursor: pointer; min-width: 4.5em; flex: none; }
+.modo { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; background: var(--surface); flex: none; }
+.modo button { border: 0; background: transparent; padding: 7px 12px; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em; color: var(--muted); cursor: pointer; }
+.modo button[aria-pressed="true"] { background: var(--btn); color: var(--btn-ink); }
+body.grabar .prep { display: none; }
+
+.angulo { margin: 0; color: var(--muted); font-size: 0.95rem; }
+.angulo:empty { display: none; }
+.polemica { margin: 0; font-weight: 700; font-size: clamp(1.08rem, 4vw, 1.28rem); line-height: 1.35; }
+.insight { margin: 0; font-size: clamp(1.02rem, 3.8vw, 1.18rem); line-height: 1.5; }
+.objetivo { margin: 0; font-size: clamp(1.02rem, 3.8vw, 1.18rem); line-height: 1.45; color: var(--ok); font-weight: 700; }
+@media (max-width: 479px) { .marca-txt { display: none; } }
 
 .vista { max-width: 720px; margin: 0 auto; padding: 18px 16px calc(116px + env(safe-area-inset-bottom, 0px)); display: grid; gap: 18px; }
 .campo { display: grid; gap: 6px; min-width: 0; }
@@ -52,6 +63,8 @@ button:focus-visible { outline: 3px solid var(--tally); outline-offset: 2px; }
 .gancho { margin: 0; font-family: var(--f-display); font-weight: 700; font-size: clamp(2rem, 8.2vw, 3.4rem); line-height: 1.03; text-wrap: balance; }
 .puntos { margin: 0; padding-left: 1.4em; display: grid; gap: 10px; font-size: clamp(1.1rem, 4.1vw, 1.35rem); line-height: 1.38; }
 .puntos li::marker { font-weight: 700; color: var(--muted); }
+.escena { color: var(--tally); font-style: italic; }
+.escena b { font-style: normal; letter-spacing: 0.02em; }
 .cierre { margin: 0; font-family: var(--f-display); font-weight: 600; font-size: clamp(1.5rem, 5.8vw, 2.1rem); line-height: 1.12; text-wrap: balance; }
 .aquien { margin: 0; font-weight: 700; font-size: clamp(1.1rem, 4.1vw, 1.3rem); }
 
@@ -79,5 +92,10 @@ button:focus-visible { outline: 3px solid var(--tally); outline-offset: 2px; }
 .item .e.ok { color: var(--ok); }
 .item .e.salto { color: var(--muted); }
 .pie { padding-top: 8px; }
+
+/* Modo entender: lo que es para preparar va en un recuadro, aparte del guion. */
+.vista .campo.prep { padding: 12px 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.vista .campo.prep + .campo.prep { margin-top: -8px; }
+body:not(.grabar) .vista .campo.prep + .campo:not(.prep) { border-top: 0; padding-top: 0; }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }

@@ -44,6 +44,24 @@
   function fecha(iso) { var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso || ''); return m ? m[3] + '/' + m[2] + '/' + m[1] : (iso || ''); }
   function arriba() { window.scrollTo(0, 0); }
   function vibrar() { try { if (navigator.vibrate) navigator.vibrate(12); } catch (e) { /* nada */ } }
+  // Lo que va entre corchetes es una escena que tiene que poner Alan: se muestra aparte.
+  function conEscenas(el, s) {
+    var partes = String(s == null ? '' : s).split(/\[([^\]]+)\]/);
+    partes.forEach(function (parte, k) {
+      if (!parte) return;
+      if (k % 2 === 1) {
+        var span = document.createElement('span');
+        span.className = 'escena';
+        var b = document.createElement('b');
+        b.textContent = 'Tu escena: ';
+        span.appendChild(b);
+        span.appendChild(document.createTextNode(parte));
+        el.appendChild(span);
+      } else {
+        el.appendChild(document.createTextNode(parte));
+      }
+    });
+  }
   function etiqueta(txt, cls) {
     var s = document.createElement('span');
     s.className = 'etiqueta ' + cls;
@@ -58,6 +76,28 @@
     $('acciones').hidden = v !== 'tema';
     $('contador').hidden = v === 'error';
   }
+
+  // ── Modo: entender (todo) o grabar (lo mínimo) ───────────────────────────
+  var CLAVE_MODO = 'escaleta:modo';
+  var modo = 'entender';
+  function leerModo() {
+    try {
+      var m = localStorage.getItem(CLAVE_MODO);
+      if (m === 'entender' || m === 'grabar') modo = m;
+    } catch (e) { /* nada */ }
+  }
+  function aplicarModo() {
+    document.body.classList.toggle('grabar', modo === 'grabar');
+    $('modo-entender').setAttribute('aria-pressed', String(modo === 'entender'));
+    $('modo-grabar').setAttribute('aria-pressed', String(modo === 'grabar'));
+  }
+  function cambiarModo(m) {
+    modo = m;
+    try { localStorage.setItem(CLAVE_MODO, m); } catch (e) { /* nada */ }
+    aplicarModo();
+  }
+  $('modo-entender').addEventListener('click', function () { cambiarModo('entender'); });
+  $('modo-grabar').addEventListener('click', function () { cambiarModo('grabar'); });
 
   function pintarTema() {
     var ts = lista();
@@ -83,11 +123,18 @@
     ol.textContent = '';
     (Array.isArray(t.puntos) ? t.puntos : []).forEach(function (p) {
       var li = document.createElement('li');
-      li.textContent = p;
+      conEscenas(li, p);
       ol.appendChild(li);
     });
     texto($('cierre'), t.cierre);
     texto($('aquien'), t.a_quien);
+    texto($('angulo'), t.angulo ? 'Ángulo: ' + t.angulo : '');
+    texto($('polemica'), t.polemica);
+    texto($('insight'), t.insight);
+    texto($('objetivo'), t.objetivo);
+    $('campo-polemica').hidden = !t.polemica;
+    $('campo-insight').hidden = !t.insight;
+    $('campo-objetivo').hidden = !t.objetivo;
 
     $('anterior').disabled = i === 0;
     texto($('contador'), (i + 1) + ' / ' + ts.length);
@@ -285,5 +332,7 @@
   }
 
   leerEstado();
+  leerModo();
+  aplicarModo();
   cargar();
 })();

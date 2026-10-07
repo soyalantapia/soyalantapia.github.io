@@ -2,11 +2,15 @@
 
 En línea: https://soyalantapia.github.io/escaleta-61ca1c35302c6a0f/
 
-Un tema por pantalla para grabar clips sin perder el hilo. Cada tema muestra cinco cosas:
-**tema, gancho, puntos a tocar, cierre y a quién le estás hablando**. Abajo, tres botones:
-**ANTERIOR**, **SALTAR** y **GRABADO**.
+Un tema por pantalla para grabar clips sin perder el hilo. Abajo, tres botones:
+**ANTERIOR**, **SALTAR** y **GRABADO**. Tocando el contador de arriba ves todos los temas y saltás
+a cualquiera.
 
-Tocando el contador de arriba (`5 / 29`) ves todos los temas y saltás a cualquiera.
+Arriba hay dos modos:
+
+- **ENTENDER**, para prepararte: el tema y su ángulo, el gancho, **la polémica**, **de qué se trata**,
+  **por qué te escucha**, los puntos a tocar, el cierre y a quién le estás hablando.
+- **GRABAR**, para el estudio: sólo tema, gancho, puntos a tocar, cierre y a quién le estás hablando.
 
 ## Instalarla en el celular
 
@@ -25,7 +29,11 @@ Todo el contenido está en [`guiones.json`](guiones.json). Cada tema es así:
   "id": "la-mora",
   "planilla": 89,
   "tema": "La mora",
+  "angulo": "",
   "gancho": "La primera frase, tal cual se dice.",
+  "polemica": "La postura, y quién te la va a discutir.",
+  "insight": "De qué se trata, explicado para entenderlo y poder improvisar.",
+  "objetivo": "Que el que te escucha se lleve algo concreto.",
   "puntos": ["Primer punto.", "Segundo punto.", "Tercer punto."],
   "cierre": "La última frase, tal cual se dice.",
   "a_quien": "El fundador de una fintech.",
@@ -36,6 +44,7 @@ Todo el contenido está en [`guiones.json`](guiones.json). Cada tema es así:
 - `id` no se cambia nunca: es lo que recuerda si un tema ya está grabado.
 - El orden de la lista es el orden de la grabación.
 - `planilla` es el número del guion en la planilla de evaluación.
+- `angulo` sólo se completa cuando la misma postura se graba desde varios ángulos.
 
 Cuando se sube un `guiones.json` nuevo, la app lo toma sola la próxima vez que se abre con internet.
 
