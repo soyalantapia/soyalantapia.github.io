@@ -106,4 +106,27 @@ body.grabar .prep { display: none; }
 .vista .campo.prep + .campo.prep { margin-top: -8px; }
 body:not(.grabar) .vista .campo.prep + .campo:not(.prep) { border-top: 0; padding-top: 0; }
 
+/* En el celular: el notch de costado no tapa nada y los botones de arriba se tocan fácil. */
+.top, .vista, .acciones { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.modo button, .contador { min-height: 40px; }
+
+/* Grabar: menos aire entre campos, así gancho, puntos y cierre entran de un vistazo. */
+body.grabar .top { position: static; padding-top: calc(6px + env(safe-area-inset-top, 0px)); padding-bottom: 6px; }
+body.grabar .vista { gap: 10px; padding-top: 12px; }
+body.grabar .campo { gap: 3px; }
+body.grabar .campo + .campo { padding-top: 8px; }
+body.grabar .tema-titulo { font-size: 1.35rem; }
+body.grabar .puntos { gap: 6px; }
+
+/* Celular acostado: barras más finas y letra a la medida de la altura. */
+@media (orientation: landscape) and (max-height: 500px) {
+  .top { position: static; padding-top: calc(6px + env(safe-area-inset-top, 0px)); padding-bottom: 6px; }
+  .vista { padding-bottom: calc(76px + env(safe-area-inset-bottom, 0px)); }
+  .acciones { padding-top: 6px; padding-bottom: calc(6px + env(safe-area-inset-bottom, 0px)); }
+  .acciones button { min-height: 46px; }
+  .tema-titulo { font-size: 1.3rem; }
+  .gancho { font-size: clamp(1.6rem, 4.2vw, 2.4rem); }
+  .cierre { font-size: clamp(1.3rem, 3.2vw, 1.8rem); }
+}
+
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
